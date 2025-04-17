@@ -1,12 +1,12 @@
 ![img.png](Assets/img.png)
 # Universidad Peruana de Ciencias Aplicadas
-## Carrera de Ingeniería de Software - Septimo ciclo
-## Curso: 1ASI0572 -  Desarrollo de Soluciones IOT
-## NRC: 15185
-## Profesor: Marco Antonio Leon Baca
+- Carrera de Ingeniería de Software - Septimo ciclo
+- Curso: 1ASI0572 -  Desarrollo de Soluciones IOT
+- NRC: 15185
+- Profesor: Marco Antonio Leon Baca
 # Informe del Trabajo Final
-## Nombre Startup: IoTech
-## Nombre Producto: SmartSign
+- Nombre Startup: IoTech
+- Nombre Producto: SmartSign
 ## Relación de integrantes:
 
 | Alumno                         | Código     |
@@ -17,7 +17,7 @@
 |                                |            |
 |                                |            |
 
-## Abril, 2025
+Abril, 2025
 
 # Registro de Versiones del Informe
 
