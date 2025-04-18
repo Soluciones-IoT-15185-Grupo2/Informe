@@ -89,7 +89,44 @@ Abril, 2025
 
 ## Capítulo IV: Solution Software Design
 ### 4.1. Strategic-Level Domain-Diven Design
-#### 4.1.1. EventStorming 
+
+#### 4.1.1. Event Storming 
+
+La herramienta Event Storming nos permite descubrir y describir el comportamiento del negoció evaluado, con la que se recopila información acerca de los procesos, actores y necesidades más importantes. Para realizar esta actividad se tuvo que realizar entrevistas a los sectores objetivo que nuestra aplicación atenderá, por lo cual es de suma importancia haber recopilado las necesidades expresadas por los usuarios. 
+
+Se realizaron en total nueve pasos para elaborar correctamente el Event Storming, la cual se desarrolló con la herramienta LucidSpark: 
+
+**Paso 1: Unstructured Exploration**
+
+En este paso se insertaron en desorden los eventos del dominio que pueden suceder dentro de la aplicación, con el objetivo de delimitar luego estas ideas en estructuras más organizadas. 
+
+![unstructured_exp.png](Assets/unstructured_exp.png)
+
+**Paso 2: Timelines** 
+
+En este paso se agruparon los eventos en subgrupos, los cuales tienen un evento principal como parte de su jerarquía. Se empieza a describir el flujo de eventos de las funcionalidades de la aplicación. 
+
+![unstructured_exp.png](Assets/paso2.png)
+
+**Paso 3: Pain Points**
+
+Se identifican los puntos de los flujos de eventos en los que el usuario final pueda tener dificultad interactuando y se indaga el cómo se podría solucionar ese problema. 
+
+![unstructured_exp.png](Assets/paso3.png) 
+
+**Paso 4: Pivotal Points**
+
+**Paso 5: Commands** 
+
+**Paso 6: Policies** 
+
+**Paso 7: Read Models** 
+
+**Paso 8: External Systems** 
+
+**Paso 9: Aggregates**
+
+
 
 4.1.1.1. Candidate Context Discovery
 
