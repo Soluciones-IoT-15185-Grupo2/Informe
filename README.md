@@ -157,9 +157,37 @@ Al final, se identificaron agregados que agruparán a todos los comandos y event
 ![paso9.png](Assets/paso9_ii.png)
 
 
-##### 4.1.1.1. Candidate Context Discovery**
+##### 4.1.1.1. Candidate Context Discovery
 
-##### 4.1.1.2. Domain Message Flows Modeling**
+En base del Event Storming anterior, se identificó 4 Boundend Context: 
+
+* Authentication 
+* Translation
+* Learning 
+* Record
+
+**Bounded Context: Authentication**
+
+![bc_auth.png](Assets/bc_auth.png)
+
+**Bounded Context: Translation**
+
+![bc_trans.png](Assets/bc_trans.png)
+
+**Bounded Context: Learning**
+
+![bc_learn.png](Assets/bc_learn.png)
+
+**Bounded Context: Record**
+
+![bc_rec.png](Assets/bc_rec.png)
+
+**Vista general de los Bounded Contexts**
+
+![bc_general.png](Assets/bc_general.png)
+
+
+##### 4.1.1.2. Domain Message Flows Modeling
 
 ##### 4.1.1.3. Bounded Context Canvases
 
