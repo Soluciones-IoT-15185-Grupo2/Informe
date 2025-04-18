@@ -189,6 +189,32 @@ En base del Event Storming anterior, se identificó 4 Boundend Context:
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
+En esta sección se describe cómo los bounded context interactúan entre sí para resolver una necesidad del negocio. Se utilizó la técnica de Domain Storytelling para representar gráficamente la interacción entre bounded contexts entre los demás componentes y actores del sistema. 
+
+**Escenario 1: Crear una cuenta**
+
+![escenario1.png](Assets/dmfs1.png)
+
+**Escenario 2: Iniciar Sesión** 
+
+![escenario2.png](Assets/dmfs2.png)
+
+**Escenario 3: Traducir Gestos**
+
+![escenario3.png](Assets/dmfs3.png)
+
+**Escenario 4: Traducir texto a gestos**
+
+![escenario4.png](Assets/dmfs4.png)
+
+**Escenario 5: Obtener material de aprendizaje**
+
+![escenario5.png](Assets/dmfs5.png)
+
+**Escenario 6: Consultar Historial de Traducciones**
+
+![escenario6.png](Assets/dmfs6.png)
+
 ##### 4.1.1.3. Bounded Context Canvases
 
 #### 4.1.2. Context Mapping
