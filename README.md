@@ -14,7 +14,7 @@
 | Alvaro Esteban Crispin Ccancce | u202020328 |
 | Jesús Andres Godoy Santillan   | u20251c350 |
 | Jorge David Orrego Noriega     | u201921734 |
-|                                |            |
+| Miguel Angel Huaman Cataño     | u202120615 |
 |                                |            |
 
 Abril, 2025
