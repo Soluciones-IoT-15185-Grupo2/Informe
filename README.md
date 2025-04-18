@@ -25,7 +25,15 @@ Abril, 2025
 |---------|-------|-------|----------------------------|
 |||||
 
+# Project Report Collaboration Insights
+
+**TB1:**
+
+**Colocar al final capturas de los commits**
+
 # Contenido
+
+## Tabla de Contenidos
 
 ## [Capítulo I: Introducción](#capitulo-i-introduccion)
 - [1.1. Startup Profile](#1.1-startup-profile)
@@ -63,17 +71,47 @@ Abril, 2025
 
 ## [Capítulo IV: Solution Software Design]()
 - [4.1. Strategic-Level Domain-Diven Design]()
-    - [4.1.1. EventStorming]() 
+    - [4.1.1. Event Storming]() 
         - [4.1.1.1. Candidate Context Discovery]()
         - [4.1.1.2. Domain Message Flows Modeling]()
         - [4.1.1.3. Bounded Context Canvases]()
-    - [4.1.2. EventStorming]()
-    - [4.1.3. EventStorming]()
+    - [4.1.2. Context Mapping]()
+    - [4.1.3. Software Achitecture]()
         - [4.1.3.1. Software Architecture System Landscape Diagram]()
         - [4.1.3.2. Software Architecture Context Level Diagrams]()
         - [4.1.3.3. Software Architecture Container Level Diagrams]()
         - [4.1.3.4. Software Architecture Deployment Diagrams]()
 
 
-
 # Student Outcome
+
+**Colocar la tabla del student outcome**
+
+## Capítulo IV: Solution Software Design
+### 4.1. Strategic-Level Domain-Diven Design
+#### 4.1.1. EventStorming 
+
+4.1.1.1. Candidate Context Discovery
+
+4.1.1.2. Domain Message Flows Modeling
+
+4.1.1.3. Bounded Context Canvases
+
+#### 4.1.2. Context Mapping
+
+#### 4.1.3. Software Achitecture
+
+4.1.3.1. Software Architecture System Landscape Diagram
+
+4.1.3.2. Software Architecture Context Level Diagrams
+
+4.1.3.3. Software Architecture Container Level Diagrams
+        
+4.1.3.4. Software Architecture Deployment Diagrams
+
+
+# Conclusiones 
+
+# Bibliografía 
+
+# Anexos
