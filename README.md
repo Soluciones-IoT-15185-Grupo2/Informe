@@ -96,6 +96,8 @@ La herramienta Event Storming nos permite descubrir y describir el comportamient
 
 Se realizaron en total nueve pasos para elaborar correctamente el Event Storming, la cual se desarrolló con la herramienta LucidSpark: 
 
+[Enlace al diagrama en LucidSpark](https://lucid.app/lucidspark/96218482-eb0b-4133-bbab-5d65836f3c77/edit?viewport_loc=-6667%2C-1729%2C21589%2C7733%2C0_0&invitationId=inv_5aa15ac8-83a1-4a10-a458-319a7ef0772a)
+
 **Paso 1: Unstructured Exploration**
 
 En este paso se insertaron en desorden los eventos del dominio que pueden suceder dentro de la aplicación, con el objetivo de delimitar luego estas ideas en estructuras más organizadas. 
@@ -106,33 +108,60 @@ En este paso se insertaron en desorden los eventos del dominio que pueden sucede
 
 En este paso se agruparon los eventos en subgrupos, los cuales tienen un evento principal como parte de su jerarquía. Se empieza a describir el flujo de eventos de las funcionalidades de la aplicación. 
 
-![unstructured_exp.png](Assets/paso2.png)
+![paso2.png](Assets/paso2.png)
 
 **Paso 3: Pain Points**
 
 Se identifican los puntos de los flujos de eventos en los que el usuario final pueda tener dificultad interactuando y se indaga el cómo se podría solucionar ese problema. 
 
-![unstructured_exp.png](Assets/paso3.png) 
+![paso3.png](Assets/paso3.png) 
 
 **Paso 4: Pivotal Points**
 
+Se identificaron los eventos que son claves para el desarrollo del negocio para luego priorizarlas durante el desarrollo de la solución. 
+
+![paso4.png](Assets/paso4.png)
+
 **Paso 5: Commands** 
+
+En este paso se identificaron los comandos o acciones que los actores del sistema (en este caso los usuario) pueden ejecutar. 
+
+![paso5.png](Assets/paso5.png)
 
 **Paso 6: Policies** 
 
+Se identificaron las reglas de negocio con las que ciertos flujos de eventos deberán que cumplir obligatoriamente para funcionar acorde con lo esperado. 
+
+![paso6.png](Assets/paso6_i.png)
+![paso6.png](Assets/paso6_ii.png)
+
 **Paso 7: Read Models** 
+
+Se definen los Read Models o vistas del sistema con las que los usuarios interactuarán en la aplicación. 
+
+![paso7.png](Assets/paso7_i.png)
+![paso7.png](Assets/paso7_ii.png)
 
 **Paso 8: External Systems** 
 
+Se definen los servicios externos de los cuales varios eventos dependerán para su funcionalidad. 
+
+![paso8.png](Assets/paso8_i.png)
+![paso8.png](Assets/paso8_ii.png)
+
 **Paso 9: Aggregates**
 
+Al final, se identificaron agregados que agruparán a todos los comandos y eventos que restén relacionados. 
+
+![paso9.png](Assets/paso9_i.png)
+![paso9.png](Assets/paso9_ii.png)
 
 
-4.1.1.1. Candidate Context Discovery
+##### 4.1.1.1. Candidate Context Discovery**
 
-4.1.1.2. Domain Message Flows Modeling
+##### 4.1.1.2. Domain Message Flows Modeling**
 
-4.1.1.3. Bounded Context Canvases
+##### 4.1.1.3. Bounded Context Canvases
 
 #### 4.1.2. Context Mapping
 
