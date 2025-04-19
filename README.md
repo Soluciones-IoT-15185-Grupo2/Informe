@@ -217,6 +217,25 @@ En esta sección se describe cómo los bounded context interactúan entre sí pa
 
 ##### 4.1.1.3. Bounded Context Canvases
 
+En este segmento se crearán los Bounded Context Canvases, los cuales detallan cómo estos funcionan dentro del proyecto, los elementos que interactúan con ellos y cómo interactúan entre sí. 
+
+
+**Bounded Context Canvas: Authentication**
+
+![bc_canvas_auth.png](Assets/bc_canvas_auth.png)
+
+**Bounded Context Canvas: Translation**
+
+![bc_canvas_trans.png](Assets/bc_canvas_trans.png)
+
+**Bounded Context Canvas: Learning**
+
+![bc_canvas_learn.png](Assets/bc_canvas_learn.png)
+
+**Bounded Context Canvas: Record**
+
+![bc_canvas_rec.png](Assets/bc_canvas_rec.png)
+
 #### 4.1.2. Context Mapping
 
 #### 4.1.3. Software Achitecture
