@@ -248,6 +248,10 @@ En este segmento se crearán los Bounded Context Canvases, los cuales detallan c
         
 4.1.3.4. Software Architecture Deployment Diagrams
 
+En esta sección se definen los diagramas del despliegue de la aplicación, en los que se ilustra cómo las instancias de los sistemas de software (bases de datos, aplicaciones web y móviles, etc.) se desplegarán en entornos físicos y/o en la nube. 
+
+![soft_deployment_diag.png](Assets/soft_deployment_diag.png)
+
 
 # Conclusiones 
 
