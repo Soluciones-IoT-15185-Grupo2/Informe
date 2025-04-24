@@ -63,11 +63,11 @@ Abril, 2025
     - [2.3.5. As-is Scenario Mapping]()
 - [2.4. Ubiquitous Language]()
 
-## [Capítulo III: Requirements Specification]()
-- [3.1. To-Be Scenario Mapping]()
-- [3.2. User Stories]()
-- [3.3. Impact Mapping]()
-- [3.4. Product Backlog]()
+## [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
 
 ## [Capítulo IV: Solution Software Design]()
 - [4.1. Strategic-Level Domain-Diven Design]()
@@ -86,6 +86,8 @@ Abril, 2025
 # Student Outcome
 
 **Colocar la tabla del student outcome**
+
+
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
 ### 3.2. User Stories
