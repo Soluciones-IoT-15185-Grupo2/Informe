@@ -1,4 +1,4 @@
-![4 1 3 3 - Software Architecture Container Level Diagrams](https://github.com/user-attachments/assets/0f6762c1-1efb-4e65-9c32-8426479f6df8)![img.png](Assets/img.png)
+![img.png](Assets/img.png)
 # Universidad Peruana de Ciencias Aplicadas
 - Carrera de Ingeniería de Software - Septimo ciclo
 - Curso: 1ASI0572 -  Desarrollo de Soluciones IOT
