@@ -87,6 +87,18 @@ Abril, 2025
 
 **Colocar la tabla del student outcome**
 
+## Capítulo I: Introduccion
+### 1.1. Startup Profile
+#### 1.1.1 Descripcion de la Startup
+#### 1.1.1 Perfiles de integrantes del equipo
+### 1.2. Solution Profile
+#### 1.2.1 Antecedentes y problematica
+#### 1.2.2 Lean UX Process
+##### 1.2.2.1 Lean UX Problem Statements
+##### 1.2.2.2 Lean UX Problem Assumptions
+##### 1.2.2.3 Lean UX Problem Hypothesis Statements
+##### 1.2.2.4 Lean UX Problem Canvas
+### 1.3. Segmento Objetivo
 
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
