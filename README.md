@@ -9,13 +9,13 @@
 - Nombre Producto: SmartSign
 ## Relación de integrantes:
 
-| Alumno                         | Código     |
-|--------------------------------|------------|
-| Alvaro Esteban Crispin Ccancce | u202020328 |
-| Jesús Andres Godoy Santillan   | u20251c350 |
-| Jorge David Orrego Noriega     | u201921734 |
-| Miguel Angel Huaman Cataño     | u202120615 |
-|                                |            |
+| Alumno                           | Código     |
+|----------------------------------|------------|
+| Alvaro Esteban Crispin Ccancce   | u202020328 |
+| Jesús Andres Godoy Santillan     | u20251c350 |
+| Jorge David Orrego Noriega       | u201921734 |
+| Miguel Angel Huaman Cataño       | u202120615 |
+| Frank Junior Salazar Saldarriaga | u20181h103 |
 
 Abril, 2025
 
@@ -36,8 +36,7 @@ Abril, 2025
 ## Tabla de Contenidos
 
 ## [Capítulo I: Introducción](#capitulo-i-introduccion)
-- [1.1. Startup Profile](#1.1-startup-profile)
-- SmartSign fue creada con el principal objetivo de facilitar la vida a aquellas personas las cuales cuentan con la discapacidad del habla o discapacidad auditiva, ya que se les dificulta un factor importante para poder vivir en sociedad, la comunicación. Buscamos solucionar este problema mediante la implementación de tecnologías de IoT para la creación de un guante con sensores que pueda traducir el lenguaje de señas en forma de audio y así poder facilitar su comunicación. La solución propuesta por SmartSign permitirá facilitar la comunicación y por la tanto sentirse incluidas socialmente a las personas con discapacidad auditiva, pero también facilitará la enseñanza a aquellas instituciones derivadas a brindar conocimientos a las personas con esta discapacidad.
+- [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup]()
     - [1.1.2. Perfiles de integrantes del equipo]()
 - [1.2. Solution Profile]()
@@ -90,6 +89,7 @@ Abril, 2025
 
 ## Capítulo I: Introduccion
 ### 1.1. Startup Profile
+SmartSign fue creada con el principal objetivo de facilitar la vida a aquellas personas las cuales cuentan con la discapacidad del habla o discapacidad auditiva, ya que se les dificulta un factor importante para poder vivir en sociedad, la comunicación. Buscamos solucionar este problema mediante la implementación de tecnologías de IoT para la creación de un guante con sensores que pueda traducir el lenguaje de señas en forma de audio y así poder facilitar su comunicación. La solución propuesta por SmartSign permitirá facilitar la comunicación y por la tanto sentirse incluidas socialmente a las personas con discapacidad auditiva, pero también facilitará la enseñanza a aquellas instituciones derivadas a brindar conocimientos a las personas con esta discapacidad.  
 #### 1.1.1 Descripcion de la Startup
 #### 1.1.1 Perfiles de integrantes del equipo
 ### 1.2. Solution Profile
