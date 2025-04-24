@@ -1,4 +1,4 @@
-![img.png](Assets/img.png)
+![4 1 3 3 - Software Architecture Container Level Diagrams](https://github.com/user-attachments/assets/0f6762c1-1efb-4e65-9c32-8426479f6df8)![img.png](Assets/img.png)
 # Universidad Peruana de Ciencias Aplicadas
 - Carrera de Ingeniería de Software - Septimo ciclo
 - Curso: 1ASI0572 -  Desarrollo de Soluciones IOT
@@ -464,6 +464,35 @@ En este segmento se crearán los Bounded Context Canvases, los cuales detallan c
 ![bc_canvas_rec.png](Assets/bc_canvas_rec.png)
 
 #### 4.1.2. Context Mapping
+En esta sección, se analizan las relaciones entre los bounded contexts identificados en el sistema SmartSign y se asignan los patrones de context mapping adecuados para cada uno, asegurando una arquitectura bien delimitada, desacoplada y flexible frente a cambios tecnológicos o funcionales.
+Customer/Supplier
+Descripción: En esta relación, un contexto actúa como Cliente (Customer) y otro como Proveedor (Supplier). El contexto Cliente necesita servicios o datos del contexto Proveedor. Esta relación establece una dependencia directa donde el proveedor suministra información o servicios necesarios para el correcto funcionamiento del cliente.
+Mobile App es Cliente de Wearable Context. El guante inteligente proporciona los datos sensoriales en tiempo real para su posterior procesamiento.
+
+
+Mobile App es Cliente de Translation Context. Este último traduce los movimientos en lenguaje de señas a texto o audio.
+
+
+Monitoring Context es Cliente de Translation Context, ya que se alimenta de los resultados traducidos para generar reportes y métricas de uso.
+
+
+
+Open/Host Service (OHS)
+Descripción: En este patrón, un contexto expone un servicio bien definido que otros contextos pueden consumir sin tener que interactuar con su lógica interna. Es ideal para servicios compartidos como autenticación, permisos o envío de notificaciones.
+El contexto Authentication Context actúa como Host, ofreciendo servicios de autenticación y autorización para los usuarios del sistema.
+
+
+El contexto Notification Context también actúa como Host, permitiendo que otros módulos generen retroalimentación auditiva o visual al usuario final.
+
+
+Anticorruption Layer (ACL)
+Descripción: Este patrón se utiliza cuando un contexto necesita proteger su propio modelo de dominio frente a la influencia de otro contexto externo. Se emplea una capa de traducción o adaptación para evitar un acoplamiento directo con la lógica del contexto externo.
+Mobile App Context implementa un ACL para interactuar con el Wearable Context, aislando posibles cambios en el protocolo de comunicación del guante sin afectar su lógica interna.
+
+
+Monitoring Context utiliza un ACL frente a los datos generados por el Translation Context, garantizando que su modelo de dominio estadístico se mantenga independiente de los cambios en el sistema de reconocimiento basado en IA.
+![4 1 2 - Context Mapping](https://github.com/user-attachments/assets/ea447fdd-e654-44b8-9e9b-ef31ff12eb95)
+
 
 #### 4.1.3. Software Achitecture
 
@@ -472,6 +501,9 @@ En este segmento se crearán los Bounded Context Canvases, los cuales detallan c
 4.1.3.2. Software Architecture Context Level Diagrams
 
 4.1.3.3. Software Architecture Container Level Diagrams
+Este diagrama sirve para incrementar el sistema del software mostrando los contenedores (aplicaciones, microservicios, base de datos, entre otros) de los cuales está compuesto el sistema del software. Además, se puede visualizar todas las relaciones de las entidades externas con las entidades propias del software.
+![4 1 3 3 - Software Architecture Container Level Diagrams](https://github.com/user-attachments/assets/690ce6aa-5ac4-41bd-9aaf-f48e3403edfc)
+
         
 4.1.3.4. Software Architecture Deployment Diagrams
 
