@@ -136,7 +136,68 @@ En conclusión, mediante el análisis con las 5W's y 2H's, se ha identificado cl
 
 #### 1.2.2 Lean UX Process
 ##### 1.2.2.1 Lean UX Problem Statements
+**Problem Statement:**
+En SmartSign, reconocemos que en el Perú existe una importante población con discapacidad auditiva y del habla, para quienes la comunicación representa una barrera significativa en su vida diaria, limitando su integración social, educativa y laboral.
+
+**Problema:** Muchas personas con discapacidad auditiva o del habla enfrentan dificultades en su comunicación diaria debido a que el entorno social generalmente no domina la lengua de señas, lo que ocasiona exclusión social, aislamiento y dificultades en el aprendizaje.
+
+**Impacto:** Esta solución genera un impacto social altamente positivo al facilitar la inclusión social, educativa y laboral, permitiendo que las personas con discapacidad auditiva y del habla puedan comunicarse de manera efectiva y autónoma en diversos contextos.
+
 ##### 1.2.2.2 Lean UX Problem Assumptions
+###### Business Outcomes:
+- Incremento del 40% en la efectividad de comunicación de los usuarios durante interacciones cotidianas.
+- Reducción del 50% en el tiempo requerido para establecer comunicación efectiva en entornos laborales y educativos.
+- Aumento del 30% en la inclusión laboral de personas con discapacidad auditiva y del habla en organizaciones que adopten SmartSign.
+- Disminución del 40% en la dependencia de intérpretes especializados durante situaciones cotidianas.
+- Aumento del 60% en la satisfacción percibida en las interacciones sociales por parte de los usuarios.
+
+###### Users:
+- Personas con discapacidad auditiva y del habla.
+- Familiares y cuidadores.
+- Instituciones educativas especializadas.
+- Centros de rehabilitación y salud.
+
+###### User Outcomes & Benefits:
+- Usuarios con discapacidad auditiva y del habla: Mayor autonomía e independencia comunicativa, integración social efectiva y acceso mejorado a oportunidades educativas y laborales.
+- Instituciones educativas y centros de rehabilitación: Acceso a una herramienta tecnológica efectiva para mejorar los procesos educativos, comunicativos y terapéuticos. 
+###### Feature Assumptions:
+- Traducción en tiempo real del lenguaje de señas a audio.
+- Interfaz de usuario intuitiva y accesible.
+- Funcionalidades adicionales como almacenamiento y análisis de datos para monitorear el progreso comunicativo.
+- Alertas personalizadas que indican claridad en la traducción y precisión de movimientos.
+###### Business Assumptions:
+- Creemos que los usuarios necesitan una solución tecnológica innovadora que les permita comunicarse de forma autónoma y efectiva en situaciones cotidianas, educativas y laborales.
+- Nuestros clientes serán personas con discapacidad auditiva y del habla, sus familias y centros especializados que busquen facilitar la inclusión social.
+- El valor más importante para nuestros usuarios es la independencia en la comunicación y la reducción de barreras sociales.
+- Obtendremos a nuestros clientes mediante campañas en redes sociales, convenios con instituciones educativas y de rehabilitación, y participación en eventos enfocados en inclusión social.
+- Generaremos ingresos mediante la venta directa del dispositivo y suscripciones mensuales al servicio de soporte técnico y mantenimiento.
+- Nuestra ventaja frente a la competencia es la precisión y rapidez en la traducción del lenguaje de señas, combinada con una interfaz amigable y soporte continuo.
+- El mayor riesgo del servicio es la resistencia inicial en la adopción tecnológica por parte de usuarios o instituciones. Esto lo resolveremos mediante demostraciones prácticas, testimonios y soporte personalizado constante.
+###### User Assumptions:
+**¿Quién es el usuario?**
+
+Los usuarios principales son personas con discapacidad auditiva y del habla, además de instituciones especializadas en educación y rehabilitación.
+
+**¿Qué problemas resuelve nuestro producto?**
+
+El producto resuelve la barrera comunicativa entre usuarios que utilizan lenguaje de señas y aquellos que no lo dominan.
+
+**¿Qué características son importantes?**
+
+Las características clave son la traducción precisa en tiempo real, facilidad de uso, portabilidad, alertas de precisión en el movimiento y soporte constante para los usuarios.
+
+**¿Dónde encaja nuestro producto en su vida diaria?**
+
+Encaja en cualquier situación cotidiana, laboral o educativa que requiera comunicación inmediata y efectiva.
+
+**¿Cuándo y cómo es usado nuestro producto?**
+
+El producto será utilizado constantemente en entornos sociales, laborales y educativos durante cualquier interacción comunicativa necesaria.
+
+**¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+
+Debe tener una interfaz visual sencilla, accesible, intuitiva, precisa en su traducción y con tiempos de respuesta rápidos, siendo práctico y portátil.
+
 ##### 1.2.2.3 Lean UX Problem Hypothesis Statements
 ##### 1.2.2.4 Lean UX Problem Canvas
 ### 1.3. Segmento Objetivo
