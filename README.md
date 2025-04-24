@@ -244,6 +244,17 @@ Debe tener una interfaz visual sencilla, accesible, intuitiva, precisa en su tra
 
 ##### 1.2.2.4 Lean UX Problem Canvas
 ### 1.3. Segmento Objetivo
+Según datos del Instituto Nacional de Estadística e Informática (INEI, 2017), en el Perú existen alrededor de 232,000 personas con discapacidad auditiva, enfrentando diariamente desafíos significativos en su comunicación e integración social debido a la falta de herramientas adecuadas para facilitar la interacción efectiva.
+
+Nuestros principales segmentos objetivo son:
+
+**Personas con discapacidad auditiva y del habla:**
+
+Este segmento es clave para nuestra solución, ya que representa a los usuarios directos del dispositivo SmartSign. Estas personas requieren soluciones innovadoras y accesibles que les permitan comunicarse de forma clara y efectiva en cualquier contexto, facilitando su inclusión social, educativa y laboral.
+
+**Instituciones educativas especializadas y centros de rehabilitación:**
+
+Las instituciones educativas especializadas y los centros de rehabilitación constituyen otro segmento objetivo esencial, dado que necesitan herramientas tecnológicas eficientes para mejorar sus procesos educativos y terapéuticos. La implementación del dispositivo SmartSign permitirá realizar evaluaciones en tiempo real, facilitar el aprendizaje del lenguaje de señas y mejorar significativamente la comunicación en entornos educativos y de rehabilitación.
 
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
