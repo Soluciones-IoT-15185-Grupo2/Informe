@@ -31,6 +31,16 @@ Abril, 2025
 
 **Colocar al final capturas de los commits**
 
+# Student Outcome
+
+**ABET – EAC - Student Outcome 5:** Capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+|Criterio Especifico|Acciones Realizadas|Conclusiones|
+|-|-|-|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | | |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|  | |
+
+
 # Contenido
 
 ## Tabla de Contenidos
@@ -82,10 +92,6 @@ Abril, 2025
         - [4.1.3.3. Software Architecture Container Level Diagrams]()
         - [4.1.3.4. Software Architecture Deployment Diagrams]()
 
-
-# Student Outcome
-
-**Colocar la tabla del student outcome**
 
 ## Capítulo I: Introduccion
 ### 1.1. Startup Profile
