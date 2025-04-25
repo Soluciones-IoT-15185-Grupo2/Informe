@@ -773,6 +773,8 @@ En la capa de infraestructura se manejarán las clases que accedan a servicios e
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
+![AuthBC_ComponentDiagram.png](Assets/AuthBC_ComponentDiagram.png)
+
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
