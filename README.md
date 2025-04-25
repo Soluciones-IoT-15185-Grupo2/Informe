@@ -657,6 +657,70 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 
 En la capa de aplicación se definirán las clases que manejarán los flujos de procesos de la funcionalidad de Autenticación. 
 
+**Service UserService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserService | Service | Servicio para el manejo de la gestión de usuarios |
+
+**Atributos de UserService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| userRepository | UserRepository | Private | Repositorio encargado de las operaciones CRUD de los usuarios.  |
+
+**Métodos de UserService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
+| registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
+| getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
+| getAllUsers | List | Public | Método para obtener todos los usuarios registrados en la aplicación. |
+| updateUser | User | Public | Método para modificar datos de un usuario en específico. |
+| deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
+
+**Service PermissionService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionService | Service | Servicio para el manejo de los permisos de usuario dentro de la aplicación. |
+
+**Atributos de PermissionService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| permissionRepository | PermissionRepository | Private | Repositorio encargado de las operaciones CRUD de los permisos.  |
+
+**Métodos de PermissionService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
+| removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
+| getAllPermissions | List | Public | Método para obtener todos los permisos válidos en la aplicación. |
+
+
+**Service RoleService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleService | Service | Servicio para el manejo de los roles de usuario dentro de la aplicación. |
+
+**Atributos de RoleService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| roleRepository | RoleRepository | Private | Repositorio encargado de las operaciones CRUD de los roles.  |
+
+**Métodos de RoleService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignRoleToUser | ResponseEntity | Public | Método para asignar un rol a un usuario en específico.  |
+| removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
+| getAllRoles | List | Public | Método para obtener todos los roles válidos en la aplicación. |
+
 ##### 4.2.1.4. Infrastructure Layer.
 
 En la capa de infraestructura se manejarán las clases que accedan a servicios externos de la aplicación como la base de datos, con el objetivo de validad las credenciales y permisos del usuario. 
