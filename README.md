@@ -800,6 +800,10 @@ En la capa de infraestructura se manejarán las clases que accedan a servicios e
 
 # Conclusiones 
 
+## Conclusiones TB1
+
+* Durante el desarrollo del TB1 pudimos analizar e investigar acerca de cómo la solución que estamos proponiendo puede adecuarse a las demandas de nuestros usuarios objetivos. Además, hemos desarrollado las bases del diseño estructural de nuestra solución, las cuales nos van a servir cuando entremos a la fase de desarrollo. 
+
 # Bibliografía 
 
 # Anexos
