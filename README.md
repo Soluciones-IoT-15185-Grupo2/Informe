@@ -779,6 +779,8 @@ En la capa de infraestructura se manejarán las clases que accedan a servicios e
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![BCAuth_ClassDiagram.png](Assets/BCAuth_ClassDiagram.png)
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
 
