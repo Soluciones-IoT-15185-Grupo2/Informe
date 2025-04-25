@@ -535,14 +535,12 @@ Se identificó en la capa del dominio tres entidades/aggregates necesarias para 
 | password | String | Private | Contraseña del usuario |
 | createdAt | LocalDateTime | Private | Fecha de creación del usuario |
 
-
 **Métodos de User:** 
 
 | Nombre | Tipo de retorno | Visibilidad |  Propósito |
 |-|-|-|- |
 | Constructor | Void | Public | Constructor de la clase User.  |
 | authenticateUser | Boolean | Public | Autentica al usuario utilizando su correo y contraseña |
-
 
 #### Aggregate Permission: 
 
@@ -563,7 +561,6 @@ Se identificó en la capa del dominio tres entidades/aggregates necesarias para 
 |-|-|-|-|
 | Constructor | Void | Public | Constructor de la clase User.  |
 | definePermission | Void | Public | Define los permisos que se pueden otorgar a los usuarios. |
-
 
 #### Aggregate Role: 
 
@@ -608,7 +605,6 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 | authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
 | registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
 | getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
-| getAllUsers | ResponseEntity | Public | Método para obtener todos los usuarios registrados en la aplicación. |
 | updateUser | ResponseEntity | Public | Método para modificar datos de un usuario en específico. |
 | deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
 
@@ -631,7 +627,6 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 | assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
 | removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
 | getAllPermissions | ResponseEntity | Public | Método para obtener todos los permisos válidos en la aplicación. |
-
 
 **Controller RoleController:**
 
@@ -676,7 +671,6 @@ En la capa de aplicación se definirán las clases que manejarán los flujos de 
 | authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
 | registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
 | getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
-| getAllUsers | List | Public | Método para obtener todos los usuarios registrados en la aplicación. |
 | updateUser | User | Public | Método para modificar datos de un usuario en específico. |
 | deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
 
@@ -724,6 +718,58 @@ En la capa de aplicación se definirán las clases que manejarán los flujos de 
 ##### 4.2.1.4. Infrastructure Layer.
 
 En la capa de infraestructura se manejarán las clases que accedan a servicios externos de la aplicación como la base de datos, con el objetivo de validad las credenciales y permisos del usuario. 
+
+**Repository UserRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserRepository | Service | Repositorio que maneja la persistencia y recuperación de datos de la enitidad User de la base de datos.|
+
+**Métodos de UserRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findById | Optional | Public | Método para encontrar a un usuario según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un usuario según su Id. |
+| findByEmail | Optional | Public | Método para encontrar a un usuario según su correo  |
+| existsByEmail | Boolean | Public | Método para verificar la existencia de un usuario según su correo.  |
+| save | User | Public | Método para guardar los datos de un nuevo usuario. |
+| deleteById | Void | Public | Método para borrar un usuario según su Id. |
+
+**Repository PermissionRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionRepository | Repository | Repositorio que maneja la persistencia y recuperación de datos de la enitidad Permission de la base de datos. |
+
+**Métodos de PermissionRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findByPermissionName | Optional | Public | Método para encontrar a un servicio según su nombre.  |
+| existsByPermissionName | Boolean | Public | Método para verificar la existencia de un permiso según su Id. |
+| findById | Optional | Public | Método para encontrar a un servicio según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un permiso según su Id. |
+| save | Permission | Public | Método para guardar los datos de un nuevo permiso. |
+| deleteById | Void | Public | Método para borrar un permiso según su Id. |
+
+
+**Repository RoleRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleRepository | Repository | Repositorio que maneja la persistencia y recuperación de datos de la enitidad Role de la base de datos. |
+
+**Métodos de RoleRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findByRoleName | Optional | Public | Método para encontrar a un rol según su nombre.  |
+| existsByRoleName | Boolean | Public | Método para verificar la existencia de un rol según su Id. |
+| findById | Optional | Public | Método para encontrar a un rol según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un rol según su Id. |
+| save | Role | Public | Método para guardar los datos de un nuevo rol. |
+| deleteById | Void | Public | Método para borrar un rol según su Id. |
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
