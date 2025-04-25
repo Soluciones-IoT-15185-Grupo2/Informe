@@ -591,9 +591,67 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 
 **Controller UserController:**
 
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserController | Controller | Controlador de los métodos CRUD de la clase User. |
+
+**Atributos de UserController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| userService | UserService | Private | Servicio encargado de manejar la lógica de la autenticación.  |
+
+**Métodos de UserController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
+| registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
+| getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
+| getAllUsers | ResponseEntity | Public | Método para obtener todos los usuarios registrados en la aplicación. |
+| updateUser | ResponseEntity | Public | Método para modificar datos de un usuario en específico. |
+| deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
+
 **Controller PermissionController:**
 
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionController | Controller | Controlador para el manejo de los permisos de usuario dentro de la aplicación. |
+
+**Atributos de PermissionController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| permissionService | PermissionService | Private | Servicio encargado de manejar la lógica del manejo de permisos.  |
+
+**Métodos de PermissionController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
+| removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
+| getAllPermissions | ResponseEntity | Public | Método para obtener todos los permisos válidos en la aplicación. |
+
+
 **Controller RoleController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleController | Controller | Controlador para el manejo de los roles de usuario dentro de la aplicación. |
+
+**Atributos de RoleController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| roleService | RoleService | Private | Servicio encargado de manejar la lógica del manejo de roles.  |
+
+**Métodos de RoleController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignRoleToUser | ResponseEntity | Public | Método para asignar un rol a un usuario en específico.  |
+| removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
+| getAllRoles | ResponseEntity | Public | Método para obtener todos los roles válidos en la aplicación. |
 
 ##### 4.2.1.3. Application Layer.
 
