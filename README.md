@@ -23,7 +23,8 @@ Abril, 2025
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|----------------------------|
-|||||
+| 1.0 | 17/04/2025 | Grupo IoTech | Se creó el documento de desarrollo del informe |
+| 2.0 | 26/04/2025 | Grupo IoTech | Se terminó el desarrollo de la TB1 |
 
 # Project Report Collaboration Insights
 
@@ -37,8 +38,8 @@ Abril, 2025
 
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | | |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|  | |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1:** <br> Jorge Orrego: <br> He trabajado con mis compañeros de manera cercana en el desarrollo del diseño de desarrollo de software, en el cual pudimos delegar equitativamente la carga de trabajo. | **TB1:** <br> Se logró implementar drinámicas para que todos en el equipo tuvieran la oportunidad de liderar y aportar con lo que más sepan. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:** <br> Jorge Orrego: <br> Junto a mis compañeros pude definir objetivos y fechas límite de entrega de las partes que les tocaba a cada uno, con el objetivo de poder revisar con más detenimiento lo que hemos avanzado antes de la entrega oficial.  | **TB1:** <br> Se pudo realizar dinámicas entre el equipo (reuniones en discord) para planificar y mostrar nuestro progreso en lo que cada uno esté avanzando. |
 
 
 # Contenido
