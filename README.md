@@ -512,6 +512,119 @@ En esta sección se definen los diagramas del despliegue de la aplicación, en l
 ![soft_deployment_diag.png](Assets/soft_deployment_diag.png)
 
 
+### 4.2. Tactical-Level Domain-Driven Design (Cuatro Bounded Contexts) 
+
+#### 4.2.1. Bounded Context: Authorization 
+#### 4.2.1.1. Domain Layer.
+Se identificó en la capa del dominio tres entidades/aggregates necesarias para el control de acceso a información confidencial y autenticación de los usuarios: User, Permission y Role. 
+
+#### Aggregate User: 
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| User | Aggregate/Entity | Define los datos esenciales del usuario dentro de la plataforma | 
+
+**Atributos de User:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del usuario dentro de la plataforma.  |
+| name | String | Private | Nombre del usuario |
+| lastName | String | Private | Apellido del usuario |
+| email | String | Private | Correo electrónico del usuario| 
+| password | String | Private | Contraseña del usuario |
+| createdAt | LocalDateTime | Private | Fecha de creación del usuario |
+
+
+**Métodos de User:** 
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|- |
+| Constructor | Void | Public | Constructor de la clase User.  |
+| authenticateUser | Boolean | Public | Autentica al usuario utilizando su correo y contraseña |
+
+
+#### Aggregate Permission: 
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Permission | Aggregate/Entity | Define los permisos que puede tener un usuario dentro del sistema. |
+
+**Atributos de Permission:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del permiso asignado.  |
+| permissionName | String | Private | Nombre del permiso a asignar (ej. Ver Historial de Traducciones, Crear Nueva Traducción) |
+
+**Métodos de Permission:**
+
+ Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| Constructor | Void | Public | Constructor de la clase User.  |
+| definePermission | Void | Public | Define los permisos que se pueden otorgar a los usuarios. |
+
+
+#### Aggregate Role: 
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Role | Aggregate/Entity | Define los roles que los usuarios pueden tener dentro de la aplicación. |
+
+**Atributos de Permission:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del rol asignado.  |
+| roleName | String | Private | Nombre del rol del usuario a asignar (usuario común, administrador, etc.) |
+
+**Métodos de Permission:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| Constructor | Void | Public | Constructor de la clase User.  |
+| defineRole | Void | Public | Se define el rol que toma un usuario en el sistema. |
+
+##### 4.2.1.2. Interface Layer.
+
+En la capa de interfaces se definen los controladores que se comunicarán con la interfaz de usuario con el objetivo de manejar los permisos y la autenticación del usuario. 
+
+**Controller UserController:**
+
+**Controller PermissionController:**
+
+**Controller RoleController:**
+
+##### 4.2.1.3. Application Layer.
+
+En la capa de aplicación se definirán las clases que manejarán los flujos de procesos de la funcionalidad de Autenticación. 
+
+##### 4.2.1.4. Infrastructure Layer.
+
+En la capa de infraestructura se manejarán las clases que accedan a servicios externos de la aplicación como la base de datos, con el objetivo de validad las credenciales y permisos del usuario. 
+
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
+
+
+#### 4.2.2. Bounded Context: Learning 
+##### 4.2.2.1. Domain Layer.
+##### 4.2.2.2. Interface Layer.
+##### 4.2.2.3. Application Layer.
+##### 4.2.2.4. Infrastructure Layer.
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+
+
 # Conclusiones 
 
 # Bibliografía 
