@@ -496,14 +496,15 @@ Monitoring Context utiliza un ACL frente a los datos generados por el Translatio
 
 #### 4.1.3. Software Achitecture
 
-4.1.3.1. Software Architecture System Landscape Diagram
-
-4.1.3.2. Software Architecture Context Level Diagrams
-
-4.1.3.3. Software Architecture Container Level Diagrams
+##### 4.1.3.1. Software Architecture System Landscape Diagram
+En este nivel de diseño podemos ver el panorama general del sistema SmartSign y su relación con otros sistemas externos. Aquí podemos identificar la plataforma central (SmartSign) que traduce el lenguaje de señas a audio en tiempo real y está está conectada con sistemas externos que ayudan a la interacción de los usuarios. Tenemos los sistemas de servicio de Email y el sistema de servicio de plataforma cloud. Ambos trabajan de manera independiente, el primero envía notificaciones a usuarios y administradores. El último gestiona los modelos de aprendizaje y datos de configuración.
+![img.png](Assets/landscape.png)
+##### 4.1.3.2. Software Architecture Context Level Diagrams
+Este diagrama descompone SmartSign en las partes técnicas principales que realizan diferentes procesos dentro de la solución. Primero, tenemos el dispositivo IoT (Guante Inteligente) que captura todos los movimientos de señas. Luego, encontramos la aplicación móvil que tiene una interfaz visual para los usuarios y administradores. Adicionalmente, tenemos el backend en donde tenemos el API Gateway que centraliza todas las solicitudes y servicios adicionales como autenticación, traducción (IA), monitoreo y notificaciones que ayudan a tener una mejor integración en todos los procesos. Finalmente, encontramos las bases de datos que almacenan la información de los usuarios y métricas.
+![img.png](Assets/context.png)
+##### 4.1.3.3. Software Architecture Container Level Diagrams
 Este diagrama sirve para incrementar el sistema del software mostrando los contenedores (aplicaciones, microservicios, base de datos, entre otros) de los cuales está compuesto el sistema del software. Además, se puede visualizar todas las relaciones de las entidades externas con las entidades propias del software.
-![4 1 3 3 - Software Architecture Container Level Diagrams](https://github.com/user-attachments/assets/690ce6aa-5ac4-41bd-9aaf-f48e3403edfc)
-
+![img.png](Assets/container.png)
         
 4.1.3.4. Software Architecture Deployment Diagrams
 
