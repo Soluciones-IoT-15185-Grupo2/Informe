@@ -36,10 +36,10 @@ Abril, 2025
 
 **ABET – EAC - Student Outcome 5:** Capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-|Criterio Especifico|Acciones Realizadas|Conclusiones|
-|-|-|-|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1:** <br> Jorge Orrego: <br> He trabajado con mis compañeros de manera cercana en el desarrollo del diseño de desarrollo de software, en el cual pudimos delegar equitativamente la carga de trabajo. | **TB1:** <br> Se logró implementar drinámicas para que todos en el equipo tuvieran la oportunidad de liderar y aportar con lo que más sepan. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:** <br> Jorge Orrego: <br> Junto a mis compañeros pude definir objetivos y fechas límite de entrega de las partes que les tocaba a cada uno, con el objetivo de poder revisar con más detenimiento lo que hemos avanzado antes de la entrega oficial.  | **TB1:** <br> Se pudo realizar dinámicas entre el equipo (reuniones en discord) para planificar y mostrar nuestro progreso en lo que cada uno esté avanzando. |
+|Criterio Especifico| Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                           |
+|-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1:** <br> Jorge Orrego: <br> He trabajado con mis compañeros de manera cercana en el desarrollo del diseño de desarrollo de software, en el cual pudimos delegar equitativamente la carga de trabajo. <br>**TB1:** <br> Frank Salazar: <br> Se trabajó con el equipo la estructura del proyecto para poder delegar funciones en el desarrollo del proyecto y mejorar el trabajo en equipo                                    | **TB1:** <br> Se logró implementar drinámicas para que todos en el equipo tuvieran la oportunidad de liderar y aportar con lo que más sepan. <br> **TB1:** <br> Frank Salazar <br>Se logró desarrollar la primera parte del proyecto, hablando del documentado, de manera satisfactoria, gracias a la correcta delegación de funciones que se realizó. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:** <br> Jorge Orrego: <br> Junto a mis compañeros pude definir objetivos y fechas límite de entrega de las partes que les tocaba a cada uno, con el objetivo de poder revisar con más detenimiento lo que hemos avanzado antes de la entrega oficial.  <br>  **TB1:** <br> Frank Salazar: <br> En trabajo con mis compañeros, pudimos establecer funciones, plazos y reuniones a realizar para el desarrollo del proyecto. | **TB1:** <br> Se pudo realizar dinámicas entre el equipo (reuniones en discord) para planificar y mostrar nuestro progreso en lo que cada uno esté avanzando. <br>  **TB1:** <br> Frank Salazar <br> La correcta delegación del proyecto, junto a las reuniones, plazos y funciones permitieron llevar un orden en el desarrollo del proyecto.         |
 
 
 # Contenido
@@ -120,7 +120,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
   </tr>
   <tr>
     <td rowspan="3"><img src="Assets/alvaroprofile.png" alt="Descripción" width="800"></td>
-    <td>Alvaro Esteban Crispin Ccancce</td>
+    <td>Alvaro Esteban Crispin Ccancce (u202020328)</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
@@ -130,7 +130,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
   </tr>
 <tr>
     <td rowspan="3"><img src="Assets/Perfil_Jorge.png" alt="Descripción" width="800"></td>
-    <td>Orrego Noriega, Jorge David</td>
+    <td>Orrego Noriega, Jorge David (u201921734)</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
@@ -140,13 +140,13 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
   </tr>
 <tr>
     <td rowspan="3">Foto</td>
-    <td>nombre</td>
+    <td>Jesús Andres Godoy Santillan (u20251c350)</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
   </tr>
     <tr>
-    <td>Dato 3</td>
+    <td>Miguel Angel Huaman Cataño (u202120615)</td>
   </tr>
 <tr>
     <td rowspan="3">Foto</td>
