@@ -540,7 +540,7 @@ Se identificó en la capa del dominio tres entidades/aggregates necesarias para 
 
 | Nombre | Tipo de retorno | Visibilidad |  Propósito |
 |-|-|-|- |
-| Constructor | Void | Public | Constructor de la clase User.  |
+| User | Void | Public | Constructor de la clase User.  |
 | authenticateUser | Boolean | Public | Autentica al usuario utilizando su correo y contraseña |
 
 #### Aggregate Permission: 
@@ -560,7 +560,7 @@ Se identificó en la capa del dominio tres entidades/aggregates necesarias para 
 
  Nombre | Tipo de retorno | Visibilidad |  Propósito |
 |-|-|-|-|
-| Constructor | Void | Public | Constructor de la clase User.  |
+| Permission | Void | Public | Constructor de la clase Permission.  |
 | definePermission | Void | Public | Define los permisos que se pueden otorgar a los usuarios. |
 
 #### Aggregate Role: 
@@ -580,7 +580,7 @@ Se identificó en la capa del dominio tres entidades/aggregates necesarias para 
 
 | Nombre | Tipo de retorno | Visibilidad |  Propósito |
 |-|-|-|-|
-| Constructor | Void | Public | Constructor de la clase User.  |
+| Role | Void | Public | Constructor de la clase Role.  |
 | defineRole | Void | Public | Se define el rol que toma un usuario en el sistema. |
 
 ##### 4.2.1.2. Interface Layer.
@@ -788,6 +788,16 @@ En la capa de infraestructura se manejarán las clases que accedan a servicios e
 
 #### 4.2.2. Bounded Context: Learning 
 ##### 4.2.2.1. Domain Layer.
+
+En la capa del dominio del bounded context Learning se ha identificado tres entidades/aggregates: Resource, Teacher y Course.
+
+**Aggregate Resources**
+
+**Aggregate Teacher**
+
+**Aggregate Course**
+
+
 ##### 4.2.2.2. Interface Layer.
 ##### 4.2.2.3. Application Layer.
 ##### 4.2.2.4. Infrastructure Layer.
