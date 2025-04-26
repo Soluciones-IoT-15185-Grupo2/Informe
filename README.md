@@ -1019,6 +1019,14 @@ Se definen los repositorios que permiten la persistencia de datos.
 | Nombre | Tipo | Propósito |
 | CourseRepository | Repository | Acceso a los datos de cursos. |
 
+TEST
+
+Nombre | Tipo de retorno | Visibilidad | Propósito
+createCourse | ResponseEntity | Public | Crear un nuevo curso.
+getCourseById | ResponseEntity | Public | Consultar un curso por su ID.
+assignTeacherToCourse | ResponseEntity | Public | Asignar un docente a un curso.
+deleteCourse | ResponseEntity | Public | Eliminar un curso existente.
+
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
