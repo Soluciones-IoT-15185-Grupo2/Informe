@@ -890,6 +890,7 @@ En la capa del dominio del bounded context Learning se ha identificado tres enti
 **Aggregate Resources**
 
 | Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
 | id | UUID | Private | Identificador único del recurso. |
 | title | String | Private | Título o nombre del recurso educativo. |
 | description | String | Private | Breve descripción del contenido del recurso. |
@@ -899,16 +900,19 @@ En la capa del dominio del bounded context Learning se ha identificado tres enti
 **Métodos de Resource:**
 
 | Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
 | Resource | Void | Public | Constructor de la clase Resource. |
 | updateResourceInfo | Void | Public | Permite actualizar los datos del recurso. |
 
 **Aggregate Teacher**
 |Nombre | Tipo | Propósito |
+|-|-|-|
 |Teacher | Aggregate/Entity | Representa a un docente o tutor encargado de impartir cursos de lengua de señas. |
 
 **Atributos de Teacher:**
 
 | Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
 | id | UUID | Private | Identificador único del docente. |
 | name | String | Private | Nombre completo del docente. |
 | email | String | Private | Correo electrónico del docente. |
@@ -917,16 +921,19 @@ En la capa del dominio del bounded context Learning se ha identificado tres enti
 **Métodos de Teacher:**
 
 | Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
 | Teacher | Void | Public | Constructor de la clase Teacher. |
 | updateProfile | Void | Public | Permite actualizar el perfil del docente. |
 
 **Aggregate Course**
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | Course | Aggregate/Entity | Representa un curso o programa de enseñanza de lengua de señas. |
 
 **Atributos de Course:**
 
 | Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
 | id | UUID | Private | Identificador único del curso. |
 | courseName | String | Private | Nombre del curso. |
 | description | String | Private | Breve resumen del contenido del curso. |
@@ -935,6 +942,7 @@ En la capa del dominio del bounded context Learning se ha identificado tres enti
 **Métodos de Course:**
 
 | Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
 | Course | Void | Public | Constructor de la clase Course. |
 | assignTeacher | Void | Public | Asigna un docente responsable al curso. |
 
@@ -945,11 +953,13 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 **Controller ResourceController:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | ResourceController | Controller | Controlador para la gestión de recursos educativos. |
 
 **Métodos de ResourceController:**
 
 | Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
 | createResource | ResponseEntity | Public | Crear un nuevo recurso educativo. |
 | getResourceById | ResponseEntity | Public | Consultar un recurso por su ID. |
 | updateResource | ResponseEntity | Public | Actualizar la información de un recurso. |
@@ -958,11 +968,13 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 **Controller TeacherController:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | TeacherController | Controller | Controlador para la gestión de docentes. |
 
 **Métodos de TeacherController:**
 
 | Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
 | registerTeacher | ResponseEntity | Public | Registrar un nuevo docente. |
 | getTeacherById | ResponseEntity | Public | Consultar un docente por su ID. |
 | updateTeacherProfile | ResponseEntity | Public | Actualizar los datos de un docente. |
@@ -971,11 +983,13 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 **Controller CourseController:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | CourseController | Controller | Controlador para la gestión de cursos de lengua de señas. |
 
 **Métodos de CourseController:**
 
 | Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
 | createCourse | ResponseEntity | Public | Crear un nuevo curso. |
 | getCourseById | ResponseEntity | Public | Consultar un curso por su ID. |
 | assignTeacherToCourse | ResponseEntity | Public | Asignar un docente a un curso. |
@@ -988,16 +1002,19 @@ Se definen los servicios de aplicación que manejan la lógica de negocio.
 **Service ResourceService:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | ResourceService | Service | Servicio que gestiona los recursos educativos. |
 
 **Service TeacherService:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | TeacherService | Service | Servicio que gestiona el registro y administración de docentes. |
 
 **Service CourseService:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | CourseService | Service | Servicio que gestiona la creación y organización de cursos. |
 
 ##### 4.2.2.4. Infrastructure Layer.
@@ -1007,25 +1024,21 @@ Se definen los repositorios que permiten la persistencia de datos.
 **Repository ResourceRepository:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | ResourceRepository | Repository | Acceso a los datos de recursos educativos. |
 
 **Repository TeacherRepository:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | TeacherRepository | Repository | Acceso a los datos de docentes. |
 
 **Repository CourseRepository:**
 
 | Nombre | Tipo | Propósito |
+|-|-|-|
 | CourseRepository | Repository | Acceso a los datos de cursos. |
 
-TEST
-
-Nombre | Tipo de retorno | Visibilidad | Propósito
-createCourse | ResponseEntity | Public | Crear un nuevo curso.
-getCourseById | ResponseEntity | Public | Consultar un curso por su ID.
-assignTeacherToCourse | ResponseEntity | Public | Asignar un docente a un curso.
-deleteCourse | ResponseEntity | Public | Eliminar un curso existente.
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
