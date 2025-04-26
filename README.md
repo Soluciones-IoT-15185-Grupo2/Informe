@@ -146,11 +146,11 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
         <td>Ingenieria de Software</td>
   </tr>
     <tr>
-    <td>Miguel Angel Huaman Cataño (u202120615)</td>
+    <td>Dato2</td>
   </tr>
 <tr>
     <td rowspan="3">Foto</td>
-    <td>nombre</td>
+    <td>Miguel Angel Huaman Cataño (u202120615)</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
