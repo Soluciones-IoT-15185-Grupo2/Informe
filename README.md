@@ -48,8 +48,8 @@ Abril, 2025
 
 ## [Capítulo I: Introducción](#capitulo-i-introduccion)
 - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup]()
-    - [1.1.2. Perfiles de integrantes del equipo]()
+    - [1.1.1. Descripción de la Startup](#1.1.1.descripcion-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#)
 - [1.2. Solution Profile]()
     - [1.2.1. Antecedentes y problemática]()
     - [1.2.2. Lean UX Process]()
@@ -1134,21 +1134,78 @@ Se definen los repositorios que permiten la persistencia de datos.
 | getTranslationStatus     | ResponseEntity     | Public          | Obteniene el estado de la traducción   |
 | getTranslationResult     | ResponseEntity     | Public          | Obteniene el historial de traducciones |
 ##### 4.2.3.3. Application Layer.
+###### App Service: TranslationAppService
 
+| Nombre                | Tipo            | Propósito                                 |
+|-----------------------|-----------------|-------------------------------------------|
+| TranslationAppService | App Service     | Maneja la lógica de traducción            |
+
+###### Atributos:
+| Nombre                 | Tipo de dato           | Visibilidad   | Propósito                                                  |
+|------------------------|------------------------|---------------|------------------------------------------------------------|
+| translationRepository  | TranslationRepository  | Private       | Repositorio para acceder a los datos de traducción         |
+| translationService     | TranslationService     | Private       | Servicio de dominio                                        |
+| eventPublisher         | DomeinEventPublisher   | Private       | Publicador de eventos de dominio                           |
+
+###### Métodos:
+| Nombre                    | Tipo de retorno          | Visibilidad      | Propósito                                    |
+|---------------------------|--------------------------|------------------|----------------------------------------------|
+| processGestureTranslation | TranslationResult        | Public           | Procesa la traducción de un gesto            |
+| processTextTranslation    | TranslationResult        | Public           | Procesa la traducción de un texto            |
+| getTranslationStatus      | TranslationRequest       | Public           | Obtiene el estado de la traducción           |
+| getTranslationHistory     | List<TranslationRequest> | Public           | Obtiene el historial de traducciones         |
+
+###### Event Handlers:
+| Nombre                           | Tipo         | Propósito                                     |
+|----------------------------------|--------------|-----------------------------------------------|
+| TranslationCompletedEventHandler | EventHandler | Maneja el evento de traducción completada     |
+| TranslationFailedEventHandler    | EventHandler | Maneja el evento de traducción fallida        |
 
 ##### 4.2.3.4. Infrastructure Layer.
+
+###### Repository: TranslationRepository
+| Nombre                | Tipo            | Propósito                                |
+|-----------------------|-----------------|------------------------------------------|
+| TranslationRepository | Repository      | Persistencia de solicitudes y resultados |
+
+###### Métodos:
+| Nombre                    | Tipo de retorno              | Visibilidad     | Propósito                                    |
+|---------------------------|------------------------------|-----------------|----------------------------------------------|
+| saveRequest               | TranslationRequest           | Public          | Guarda una solicitud de traducción           |
+| findRequestById           | Optional<TranslationRequest> | Public          | Encuentra una solicitud por su ID            |
+| saveResult                | TranslationResult            | Public          | Guarda el resultado de la traducción         |
+| findResulsByUserId        | List<TranslationResult>      | Public          | Encuentra resultados por ID de usuario       |
+| findRecentRequests        | List<TranslationRequest>     | Public          | Encuentra solicitudes recientes              |
+
+###### External Service: AIIntegrationService
+| Nombre                | Tipo            | Propósito                                |
+|-----------------------|-----------------|------------------------------------------|
+| AIIntegrationService  | External Service| Interactúa con el servicio de IA         |
+
+###### Métodos:
+| Nombre                 | Tipo de retorno  | Visibilidad   | Propósito                                     |
+|------------------------|------------------|---------------|-----------------------------------------------|
+| sendForTranslation     | String           | Public        | Envía datos para traducción a IA              |
+| getModelStatus         | String           | Public        | Obtiene el estado del modelo de IA             |
+
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+![img.png](Assets/Translation_Bounded_Context.png)
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+![img.png](Assets/Translation_BC.png)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
+![img.png](Assets/DB_translation.png)
 
 
 # Conclusiones 
 
 ## Conclusiones TB1
 
-* Durante el desarrollo del TB1 pudimos analizar e investigar acerca de cómo la solución que estamos proponiendo puede adecuarse a las demandas de nuestros usuarios objetivos. Además, hemos desarrollado las bases del diseño estructural de nuestra solución, las cuales nos van a servir cuando entremos a la fase de desarrollo. 
-
+* Durante el desarrollo del TB1 pudimos analizar e investigar acerca de cómo la solución que estamos proponiendo puede adecuarse a las demandas de nuestros usuarios objetivos. Además, hemos desarrollado las bases del diseño estructural de nuestra solución, las cuales nos van a servir cuando entremos a la fase de desarrollo.
+### Alvaro Crispin:
+* El diseño del Bounded Context: Translation aplica los principios de Domain-Driven Design (DDD) y una arquitectura por capas, logrando una clara separación de responsabilidades. Se modelaron con precisión las entidades, value objects y servicios necesarios para el proceso de traducción, además de integrarse eficientemente con servicios de IA externos para mejorar la precisión del sistema.
+* La estructura de base de datos relacional optimizada y la definición de diagramas de componentes y clases aseguran una implementación y mantenimiento ágil. Esta solución robusta y escalable refuerza el objetivo de SmartSign de facilitar la inclusión social al eliminar barreras comunicativas para personas con discapacidad auditiva.
 # Bibliografía 
 
 # Anexos
