@@ -109,7 +109,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
 
 <table>
   <tr>
-    <td rowspan="3"><img src="Assets/frankprofile.png" alt="Descripción" width="400"></td>
+    <td rowspan="3"><img src="Assets/frankprofile.png" alt="Descripción" width="800"></td>
     <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
   </tr>
   <tr>
@@ -119,7 +119,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
     <td>Soy Frank Salazar, tengo 24 años y tengo una gran devoción por la programación, desde los 8 años me gustó programar, iniciando por algoritmos sencillos, hasta la recreación de videojuegos. Hace unos años decidí centrarme mucho en el desarrollo Backend y frontend, pero también le he agarrado mucho gusto a la data science. Actualmente soy programador en Yape, BCP. Soy asistente desde el año pasado, pero comencé como practicando desde agosto del 2023.</td>
   </tr>
   <tr>
-    <td rowspan="3"><img src="Assets/alvaroprofile.png" alt="Descripción" width="400"></td>
+    <td rowspan="3"><img src="Assets/alvaroprofile.png" alt="Descripción" width="800"></td>
     <td>Alvaro Esteban Crispin Ccancce</td>
   </tr>
   <tr>
@@ -129,7 +129,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
     <td>Soy Alvaro Crispin, tengo 22 años y me encanta ser innovador, buscar nuevas ideas, crear soluciones y asumir retos. Desde pequeño me interesó mucho lo que son las computadoras a nivel hardware y sobre la ciberseguridad. Actualmente me encanta todo lo relacionado a soldar, crear, programar y manipular artefactos electrónicos como chips, sensores, redes, etc.</td>
   </tr>
 <tr>
-    <td rowspan="3"><img src="Assets/Perfil_Jorge.png" alt="Descripción" width="400"></td>
+    <td rowspan="3"><img src="Assets/Perfil_Jorge.png" alt="Descripción" width="800"></td>
     <td>Orrego Noriega, Jorge David</td>
   </tr>
   <tr>
