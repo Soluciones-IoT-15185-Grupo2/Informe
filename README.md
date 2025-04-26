@@ -109,7 +109,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
 
 <table>
   <tr>
-    <td rowspan="3"><img src="Assets/alvaroprofile.png" alt="Descripción" width="100"></td>
+    <td rowspan="3"><img src="Assets/frankprofile.png" alt="Descripción" width="100"></td>
     <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
   </tr>
   <tr>
@@ -129,7 +129,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
     <td>Soy Alvaro Crispin, tengo 22 años y me encanta ser innovador, buscar nuevas ideas, crear soluciones y asumir retos. Desde pequeño me interesó mucho lo que son las computadoras a nivel hardware y sobre la ciberseguridad. Actualmente me encanta todo lo relacionado a soldar, crear, programar y manipular artefactos electrónicos como chips, sensores, redes, etc.</td>
   </tr>
 <tr>
-    <td rowspan="3"><img src="Assets/Perfil_Jorge.png.png" alt="Descripción" width="100"></td>
+    <td rowspan="3"><img src="Assets/Perfil_Jorge.png" alt="Descripción" width="100"></td>
     <td>Orrego Noriega, Jorge David</td>
   </tr>
   <tr>
