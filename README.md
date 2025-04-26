@@ -156,7 +156,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
         <td>Ingenieria de Software</td>
   </tr>
     <tr>
-    <td>Dato 3</td>
+    <td>Soy Miguel Ángel Huamán Cataño, tengo 21 años y soy estudiante de ingeniería de software. Disfruto trabajar con empeño para alcanzar mis objetivos y nunca me rindo a pesar de los momentos difíciles. Haré todo lo posible para seguir mejorando en este largo camino de ser un buen profesional. |  </td>
   </tr>
 </table>
 
