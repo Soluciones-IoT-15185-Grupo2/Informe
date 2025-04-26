@@ -1198,6 +1198,156 @@ Se definen los repositorios que permiten la persistencia de datos.
 ![img.png](Assets/DB_translation.png)
 
 
+#### 4.2.4. Bounded Context: Record
+
+##### 4.2.4.1. Domain Layer
+
+En la capa del dominio del bounded context Record se han identificado tres entidades/aggregates principales: **History**, **Search**, y **Visualization**.
+
+**Aggregate History**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del historial de traducciones. |
+| userId | UUID | Private | Identificador del usuario dueño del historial. |
+| translations | List<TranslationRecord> | Private | Lista de traducciones realizadas y almacenadas. |
+
+**Métodos de History:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| History | Void | Public | Constructor de la clase History. |
+| addTranslation | Void | Public | Agrega una nueva traducción al historial. |
+| getTranslations | List | Public | Recupera todas las traducciones almacenadas. |
+
+**Aggregate Search**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| searchId | UUID | Private | Identificador único de la búsqueda realizada. |
+| userId | UUID | Private | Usuario que realiza la búsqueda. |
+| keyword | String | Private | Palabra o gesto buscado. |
+| searchDate | LocalDateTime | Private | Fecha y hora en que se realizó la búsqueda. |
+| success | Boolean | Private | Resultado de la búsqueda (éxito/fallo). |
+
+**Métodos de Search:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Search | Void | Public | Constructor de la clase Search. |
+| performSearch | List<TranslationRecord> | Public | Realiza una búsqueda en el historial del usuario. |
+
+**Aggregate Visualization**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| visualizationId | UUID | Private | Identificador único del gráfico generado. |
+| userId | UUID | Private | Usuario que solicita la visualización. |
+| topGestures | Map<String, Integer> | Private | Gráfico de los gestos más usados. |
+| generationDate | LocalDateTime | Private | Fecha y hora de generación del reporte. |
+
+**Métodos de Visualization:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Visualization | Void | Public | Constructor de la clase Visualization. |
+| generateReport | Map | Public | Genera un reporte con los gestos más frecuentes. |
+
+##### 4.2.4.2. Interface Layer
+
+**Controller HistoryController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| HistoryController | Controller | Gestiona el acceso al historial de traducciones del usuario. |
+
+**Métodos de HistoryController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| viewTranslationHistory | ResponseEntity | Public | Mostrar el historial completo de traducciones. |
+| registerTranslation | ResponseEntity | Public | Registrar una nueva traducción en el historial. |
+
+**Controller SearchController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| SearchController | Controller | Gestiona la búsqueda de traducciones anteriores. |
+
+**Métodos de SearchController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| searchInHistory | ResponseEntity | Public | Buscar palabras o gestos en el historial. |
+| searchFailedAttempts | ResponseEntity | Public | Listar búsquedas sin resultados. |
+
+**Controller VisualizationController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| VisualizationController | Controller | Gestiona la generación de reportes de gestos más usados. |
+
+**Métodos de VisualizationController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| generateUsageReport | ResponseEntity | Public | Mostrar gráficos de gestos más utilizados. |
+
+##### 4.2.4.3. Application Layer
+
+**Service HistoryService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| HistoryService | Service | Servicio para manejar registros de traducciones. |
+
+**Service SearchService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| SearchService | Service | Servicio para búsquedas y consultas en historiales. |
+
+**Service VisualizationService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| VisualizationService | Service | Servicio para construir y mostrar reportes estadísticos del historial. |
+
+##### 4.2.4.4. Infrastructure Layer
+
+**Repository HistoryRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| HistoryRepository | Repository | Persistencia de los historiales de traducción de usuarios. |
+
+**Repository SearchRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| SearchRepository | Repository | Persistencia de las búsquedas realizadas por los usuarios. |
+
+**Repository VisualizationRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| VisualizationRepository | Repository | Persistencia de los reportes de visualización generados. |
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+
+
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+
+
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+
 # Conclusiones 
 
 ## Conclusiones TB1
