@@ -359,6 +359,19 @@ Este segmento es clave para nuestra solución, ya que representa a los usuarios 
 Las instituciones educativas especializadas y los centros de rehabilitación constituyen otro segmento objetivo esencial, dado que necesitan herramientas tecnológicas eficientes para mejorar sus procesos educativos y terapéuticos. La implementación del dispositivo SmartSign permitirá realizar evaluaciones en tiempo real, facilitar el aprendizaje del lenguaje de señas y mejorar significativamente la comunicación en entornos educativos y de rehabilitación.
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
+Luego de realizar una investigación del mercado peruano e internacional de soluciones tecnológicas para personas con discapacidad auditiva, hemos identificado los siguientes competidores potenciales para SmartSign:
+<ul>
+    <li>
+        <b>SignAloud:  </b>Es un guante inteligente desarrollado por investigadores estadounidenses que traduce lenguaje de señas a texto y voz. Aunque no está específicamente adaptado al lenguaje de señas peruano, su tecnología basada en sensores de movimiento representa una competencia directa en el mercado global de dispositivos de traducción para personas con discapacidad auditiva. Su principal limitación en el contexto peruano es la falta de adaptación cultural y lingüística específica a las señas utilizadas en el país.
+    </li>
+    <li>
+        <b>Hand Talk: </b> Aplicación móvil brasileña que utiliza un avatar 3D para traducir texto y voz al lenguaje de señas. Aunque se enfoca principalmente en el mercado brasileño y utiliza LIBRAS (Lengua Brasileña de Señas), su presencia creciente en Latinoamérica y su modelo de negocio basado en suscripciones institucionales la convierten en un competidor relevante en el segmento de soluciones de comunicación para personas con discapacidad auditiva.
+    </li>
+    <li>
+        <b>IRIS Project: </b> Iniciativa peruana desarrollada por la Universidad Nacional de Ingeniería que consiste en un dispositivo wearable que traduce texto a lenguaje de señas peruano mediante un sistema de proyección holográfica. A diferencia de SmartSign, se enfoca en la dirección inversa de la comunicación (de oyentes a personas sordas), pero compite en el mismo espacio de mercado de tecnologías asistivas para la comunidad con discapacidad auditiva en Perú.
+    </li>
+</ul>
+
 #### 2.1.1. Análisis competivio
 #### 2.1.2. Estrategias y tácticas frente a competidores
 ### 2.2. Entrevistas
