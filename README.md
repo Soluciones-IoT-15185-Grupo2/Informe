@@ -902,6 +902,102 @@ En la capa del dominio del bounded context Learning se ha identificado tres enti
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
+#### 4.2.3. Bounded Context: Translation
+##### 4.2.3.1. Domain Layer.
+##### Aggregate: TranslationRequest
+| Nombre             | Tipo             | Propósito                                                                 |
+|--------------------|------------------|---------------------------------------------------------------------------|
+| TranslationRequest | Aggregate/Entity | Representa una solicitud de traducción de lenduaje de señas a texto/audio |
+
+###### Atributos:
+
+| Nombre              | Tipo de dato                   | Visibilidad  | Propósito                                                 |
+|---------------------|--------------------------------|--------------|-----------------------------------------------------------|
+| id                  | UUID                           | Private      | Identificador único de la solicitud de traducción         |
+| userId              | UUID                           | Private      | Identificador único del usuario que realiza la solicitud  |
+| inputType           | Enum(GESTURE,TEXT)             | Private      | Tipo de entrada de la solicitud (gesto o texto)           |
+| inputData           | String                         | Private      | Datos de entrada(JSON de gestos o texto)                  |
+| outputType          | Enum(TEXT,AUDIO)               | Private      | Tipo de salida de la solicitud (texto o audio)            |
+| status              | Enum(PENDING,COMPLETED,FAILED) | Private      | Estado de la solicitud (pendiente, completada o fallida)  |
+| createdAt           | LocalDateTime                  | Private      | Fecha de creación de la solicitud                         |
+| completedAt         | LocalDateTime                  | Private      | Fecha de finalización de la solicitud                     |
+
+###### Métodos:
+
+| Nombre               | Tipo de retorno   | Visibilidad   | Propósito                                   |
+|----------------------|-------------------|---------------|---------------------------------------------|
+| TranslationRequest   | Void              | Public        | Constructor de la clase TranslationRequest  |
+| startProcessing      | Void              | Public        | Marca el estado a PROCESSING                |
+| completeTranslation  | Void              | Public        | Marca el estado a COMPLETED                 |
+| failTranslation      | Void              | Public        | Marca el estado a FAILED                    |
+
+##### Aggregate: TranslationResulT
+
+| Nombre             | Tipo             | Propósito                                                                 |
+|--------------------|------------------|---------------------------------------------------------------------------|
+| TranslationResult | Aggregate/Entity | Representa el resultado de la traducción de lenduaje de señas a texto/audio |
+
+###### Atributos:
+| Nombre               | Tipo de dato                    | Visibilidad   | Propósito                                                  |
+|----------------------|---------------------------------|---------------|------------------------------------------------------------|
+| id                   | UUID                            | Private       | Identificador único del resultado de la traducción         |
+| requestId            | UUID                            | Private       | Identificador único de la solicitud de traducción          |
+| outputData           | String                          | Private       | Datos traducidos                                           |
+| accuracyScore        | Float                           | Private       | Puntuación de precisión de la traducción (0-1)             |
+| processingTimeMs     | Long                            | Private       | Tiempo de procesamiento de la traducción (en milisegundos) |
+
+##### Value Object: GestureData
+
+| Nombre             | Tipo             | Propósito                                 |
+|--------------------|------------------|-------------------------------------------|
+| GestureData       | Value Object      | Representa los datos de gestos capturados |
+
+###### Atributos:
+
+| Nombre         | Tipo de dato                  | Visibilidad  | Propósito            |
+|----------------|-------------------------------|--------------|----------------------|
+| handPosition   | String                        | Public       | Posición de la mano  |
+| fingerAngles   | List<Float>                   | Public       | Ángulos de los dedos |
+| movementVector | String                        | Public       | Vector de movimiento |
+
+##### Domain Service: TranslationService
+| Nombre             | Tipo           | Propósito                         |
+|--------------------|----------------|-----------------------------------|
+| TranslationService | Domain Service | Coordina el proceso de traducción |
+
+###### Métodos:
+| Nombre                  | Tipo de retorno    | Visibilidad    | Propósito                                   |
+|-------------------------|--------------------|----------------|---------------------------------------------|
+| translateGesture        | TranslationResult  | Public         | Traduce un gesto a texto/audio              |
+| translateTextToGestures | TranslationResult  | Public         | Traduce un texto a representación de gestos |
+| validateGesture         | Boolean            | Public         | Valida si los gestos son reconocibles       |
+
+##### 4.2.3.2. Interface Layer.
+###### Controller: TranslationController
+| Nombre                | Tipo            | Propósito                                  |
+|-----------------------|-----------------|--------------------------------------------|
+| TranslationController | Controller      | Maneja las solicitudes HTTP de traducción  |
+
+###### Atributos:
+| Nombre                | Tipo de dato          | Visibilidad  | Propósito                                                 |
+|-----------------------|-----------------------|--------------|-----------------------------------------------------------|
+| translationAppService | TranslationAppService | Private      | Servicio encargado de la lógica de traducción             |
+
+###### Métodos:
+| Nombre                   | Tipo de retorno    | Visibilidad     | Propósito                              |
+|--------------------------|--------------------|-----------------|----------------------------------------|
+| translateGesture         | ResponseEntity     | Public          | Endpoint para traducir gestos          |
+| translateText            | ResponseEntity     | Public          | Endpoint para traducir texto a gestos  |
+| getTranslationStatus     | ResponseEntity     | Public          | Obteniene el estado de la traducción   |
+| getTranslationResult     | ResponseEntity     | Public          | Obteniene el historial de traducciones |
+##### 4.2.3.3. Application Layer.
+
+
+##### 4.2.3.4. Infrastructure Layer.
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 
 # Conclusiones 
