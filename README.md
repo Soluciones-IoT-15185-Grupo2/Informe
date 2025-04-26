@@ -106,6 +106,61 @@ Visión:
 Ser reconocidos como líderes en innovación tecnológica en inclusión social en el Perú, convirtiéndonos en el referente nacional en soluciones accesibles e inteligentes que derriban barreras de comunicación para personas con discapacidad auditiva y del habla, promoviendo una sociedad más equitativa y conectada.
 
 #### 1.1.1 Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td rowspan="3">Foto</td>
+    <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Frank Salazar, tengo 24 años y tengo una gran devoción por la programación, desde los 8 años me gustó programar, iniciando por algoritmos sencillos, hasta la recreación de videojuegos. Hace unos años decidí centrarme mucho en el desarrollo Backend y frontend, pero también le he agarrado mucho gusto a la data science. Actualmente soy programador en Yape, BCP. Soy asistente desde el año pasado, pero comencé como practicando desde agosto del 2023.</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Foto</td>
+    <td>Alvaro Esteban Crispin Ccancce</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Alvaro Crispin, tengo 22 años y me encanta ser innovador, buscar nuevas ideas, crear soluciones y asumir retos. Desde pequeño me interesó mucho lo que son las computadoras a nivel hardware y sobre la ciberseguridad. Actualmente me encanta todo lo relacionado a soldar, crear, programar y manipular artefactos electrónicos como chips, sensores, redes, etc.</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>Orrego Noriega, Jorge David</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Estudio actualmente la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y la razón por la cual me encuentro estudiando esta carrera es porque siempre he tenido un interés particular por la tecnología, con un mayor énfasis en el software.</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato 3</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato 3</td>
+  </tr>
+</table>
+
+
 ### 1.2. Solution Profile
 Nuestra propuesta es la creación de una solución IOT, la cual tiene como objetivo principal facilitar la comunicación de las personas con discapacidad auditiva con el resto de personas, aplicando tecnologías de IOT y Deep Learning.
 
