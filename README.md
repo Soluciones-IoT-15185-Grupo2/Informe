@@ -23,7 +23,8 @@ Abril, 2025
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|----------------------------|
-|||||
+| 1.0 | 17/04/2025 | Grupo IoTech | Se creó el documento de desarrollo del informe |
+| 2.0 | 26/04/2025 | Grupo IoTech | Se terminó el desarrollo de la TB1 |
 
 # Project Report Collaboration Insights
 
@@ -35,10 +36,10 @@ Abril, 2025
 
 **ABET – EAC - Student Outcome 5:** Capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-|Criterio Especifico|Acciones Realizadas|Conclusiones|
-|-|-|-|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | | |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|  | |
+|Criterio Especifico| Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                           |
+|-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1:** <br> Jorge Orrego: <br> He trabajado con mis compañeros de manera cercana en el desarrollo del diseño de desarrollo de software, en el cual pudimos delegar equitativamente la carga de trabajo. <br>**TB1:** <br> Frank Salazar: <br> Se trabajó con el equipo la estructura del proyecto para poder delegar funciones en el desarrollo del proyecto y mejorar el trabajo en equipo                                    | **TB1:** <br> Se logró implementar drinámicas para que todos en el equipo tuvieran la oportunidad de liderar y aportar con lo que más sepan. <br> **TB1:** <br> Frank Salazar <br>Se logró desarrollar la primera parte del proyecto, hablando del documentado, de manera satisfactoria, gracias a la correcta delegación de funciones que se realizó. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:** <br> Jorge Orrego: <br> Junto a mis compañeros pude definir objetivos y fechas límite de entrega de las partes que les tocaba a cada uno, con el objetivo de poder revisar con más detenimiento lo que hemos avanzado antes de la entrega oficial.  <br>  **TB1:** <br> Frank Salazar: <br> En trabajo con mis compañeros, pudimos establecer funciones, plazos y reuniones a realizar para el desarrollo del proyecto. | **TB1:** <br> Se pudo realizar dinámicas entre el equipo (reuniones en discord) para planificar y mostrar nuestro progreso en lo que cada uno esté avanzando. <br>  **TB1:** <br> Frank Salazar <br> La correcta delegación del proyecto, junto a las reuniones, plazos y funciones permitieron llevar un orden en el desarrollo del proyecto.         |
 
 
 # Contenido
@@ -91,7 +92,43 @@ Abril, 2025
         - [4.1.3.2. Software Architecture Context Level Diagrams]()
         - [4.1.3.3. Software Architecture Container Level Diagrams]()
         - [4.1.3.4. Software Architecture Deployment Diagrams]()
-
+- [4.2. Tactical-Level Domain-Driven Design]()
+    - [4.2.1. Bounded Context: Authentication]() 
+        - [4.2.1.1. Domain Layer.]()
+        - [4.2.1.2. Interface Layer]()
+        - [4.2.1.3. Application Layer]()
+        - [4.2.1.4. Infrastructure Layer]()
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams]()
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams]()
+            - [4.2.1.6.1 Bounded Context Domain Layer Class Diagrams]()
+            - [4.2.1.6.2 Bounded Context Database Design Diagram]()
+    - [4.2.2. Bounded Context: Learning]() 
+        - [4.2.2.1. Domain Layer.]()
+        - [4.2.2.2. Interface Layer]()
+        - [4.2.2.3. Application Layer]()
+        - [4.2.2.4. Infrastructure Layer]()
+        - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams]()
+        - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams]()
+            - [4.2.2.6.1 Bounded Context Domain Layer Class Diagrams]()
+            - [4.2.2.6.2 Bounded Context Database Design Diagram]()
+    - [4.2.3. Bounded Context: Translation]() 
+        - [4.2.3.1. Domain Layer.]()
+        - [4.2.3.2. Interface Layer]()
+        - [4.2.3.3. Application Layer]()
+        - [4.2.3.4. Infrastructure Layer]()
+        - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams]()
+        - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams]()
+            - [4.2.3.6.1 Bounded Context Domain Layer Class Diagrams]()
+            - [4.2.3.6.2 Bounded Context Database Design Diagram]()
+    - [4.2.4. Bounded Context: Record]() 
+        - [4.2.4.1. Domain Layer.]()
+        - [4.2.4.2. Interface Layer]()
+        - [4.2.4.3. Application Layer]()
+        - [4.2.4.4. Infrastructure Layer]()
+        - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams]()
+        - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams]()
+            - [4.2.4.6.1 Bounded Context Domain Layer Class Diagrams]()
+            - [4.2.4.6.2 Bounded Context Database Design Diagram]()
 
 ## Capítulo I: Introduccion
 ### 1.1. Startup Profile
@@ -105,6 +142,61 @@ Visión:
 Ser reconocidos como líderes en innovación tecnológica en inclusión social en el Perú, convirtiéndonos en el referente nacional en soluciones accesibles e inteligentes que derriban barreras de comunicación para personas con discapacidad auditiva y del habla, promoviendo una sociedad más equitativa y conectada.
 
 #### 1.1.1 Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td rowspan="3"><img src="Assets/frankprofile.png" alt="Descripción" width="800"></td>
+    <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Frank Salazar, tengo 24 años y tengo una gran devoción por la programación, desde los 8 años me gustó programar, iniciando por algoritmos sencillos, hasta la recreación de videojuegos. Hace unos años decidí centrarme mucho en el desarrollo Backend y frontend, pero también le he agarrado mucho gusto a la data science. Actualmente soy programador en Yape, BCP. Soy asistente desde el año pasado, pero comencé como practicando desde agosto del 2023.</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><img src="Assets/alvaroprofile.png" alt="Descripción" width="800"></td>
+    <td>Alvaro Esteban Crispin Ccancce (u202020328)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Alvaro Crispin, tengo 22 años y me encanta ser innovador, buscar nuevas ideas, crear soluciones y asumir retos. Desde pequeño me interesó mucho lo que son las computadoras a nivel hardware y sobre la ciberseguridad. Actualmente me encanta todo lo relacionado a soldar, crear, programar y manipular artefactos electrónicos como chips, sensores, redes, etc.</td>
+  </tr>
+<tr>
+    <td rowspan="3"><img src="Assets/Perfil_Jorge.png" alt="Descripción" width="800"></td>
+    <td>Orrego Noriega, Jorge David (u201921734)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Estudio actualmente la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y la razón por la cual me encuentro estudiando esta carrera es porque siempre he tenido un interés particular por la tecnología, con un mayor énfasis en el software.</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>Jesús Andres Godoy Santillan (u20251c350)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato2</td>
+  </tr>
+<tr>
+    <td rowspan="3"><img src="Assets/miguelprofile.png" alt="Descripción" width="800"></td>
+    <td>Miguel Angel Huaman Cataño (u202120615)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Miguel Ángel Huamán Cataño, tengo 21 años y soy estudiante de ingeniería de software. Disfruto trabajar con empeño para alcanzar mis objetivos y nunca me rindo a pesar de los momentos difíciles. Haré todo lo posible para seguir mejorando en este largo camino de ser un buen profesional. </td>
+  </tr>
+</table>
+
+
 ### 1.2. Solution Profile
 Nuestra propuesta es la creación de una solución IOT, la cual tiene como objetivo principal facilitar la comunicación de las personas con discapacidad auditiva con el resto de personas, aplicando tecnologías de IOT y Deep Learning.
 
@@ -249,6 +341,10 @@ Debe tener una interfaz visual sencilla, accesible, intuitiva, precisa en su tra
 **Cuando** el 95% de los usuarios realicen tareas básicas sin asistencia adicional y manifiesten comodidad y satisfacción con el uso del producto.
 
 ##### 1.2.2.4 Lean UX Problem Canvas
+
+![bc_auth.png](Assets/canva.png)
+
+
 ### 1.3. Segmento Objetivo
 Según datos del Instituto Nacional de Estadística e Informática (INEI, 2017), en el Perú existen alrededor de 232,000 personas con discapacidad auditiva, enfrentando diariamente desafíos significativos en su comunicación e integración social debido a la falta de herramientas adecuadas para facilitar la interacción efectiva.
 
@@ -513,7 +609,306 @@ En esta sección se definen los diagramas del despliegue de la aplicación, en l
 ![soft_deployment_diag.png](Assets/soft_deployment_diag.png)
 
 
+### 4.2. Tactical-Level Domain-Driven Design (Cuatro Bounded Contexts) 
+
+#### 4.2.1. Bounded Context: Authorization 
+#### 4.2.1.1. Domain Layer.
+Se identificó en la capa del dominio tres entidades/aggregates necesarias para el control de acceso a información confidencial y autenticación de los usuarios: User, Permission y Role. 
+
+#### Aggregate User: 
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| User | Aggregate/Entity | Define los datos esenciales del usuario dentro de la plataforma | 
+
+**Atributos de User:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del usuario dentro de la plataforma.  |
+| name | String | Private | Nombre del usuario |
+| lastName | String | Private | Apellido del usuario |
+| email | String | Private | Correo electrónico del usuario| 
+| password | String | Private | Contraseña del usuario |
+| createdAt | LocalDateTime | Private | Fecha de creación del usuario |
+
+**Métodos de User:** 
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|- |
+| User | Void | Public | Constructor de la clase User.  |
+| authenticateUser | Boolean | Public | Autentica al usuario utilizando su correo y contraseña |
+
+#### Aggregate Permission: 
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Permission | Aggregate/Entity | Define los permisos que puede tener un usuario dentro del sistema. |
+
+**Atributos de Permission:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del permiso asignado.  |
+| permissionName | String | Private | Nombre del permiso a asignar (ej. Ver Historial de Traducciones, Crear Nueva Traducción) |
+
+**Métodos de Permission:**
+
+ Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| Permission | Void | Public | Constructor de la clase Permission.  |
+| definePermission | Void | Public | Define los permisos que se pueden otorgar a los usuarios. |
+
+#### Aggregate Role: 
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Role | Aggregate/Entity | Define los roles que los usuarios pueden tener dentro de la aplicación. |
+
+**Atributos de Permission:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del rol asignado.  |
+| roleName | String | Private | Nombre del rol del usuario a asignar (usuario común, administrador, etc.) |
+
+**Métodos de Permission:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| Role | Void | Public | Constructor de la clase Role.  |
+| defineRole | Void | Public | Se define el rol que toma un usuario en el sistema. |
+
+##### 4.2.1.2. Interface Layer.
+
+En la capa de interfaces se definen los controladores que se comunicarán con la interfaz de usuario con el objetivo de manejar los permisos y la autenticación del usuario. 
+
+**Controller UserController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserController | Controller | Controlador de los métodos CRUD de la clase User. |
+
+**Atributos de UserController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| userService | UserService | Private | Servicio encargado de manejar la lógica de la autenticación.  |
+
+**Métodos de UserController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
+| registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
+| getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
+| updateUser | ResponseEntity | Public | Método para modificar datos de un usuario en específico. |
+| deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
+
+**Controller PermissionController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionController | Controller | Controlador para el manejo de los permisos de usuario dentro de la aplicación. |
+
+**Atributos de PermissionController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| permissionService | PermissionService | Private | Servicio encargado de manejar la lógica del manejo de permisos.  |
+
+**Métodos de PermissionController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
+| removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
+| getAllPermissions | ResponseEntity | Public | Método para obtener todos los permisos válidos en la aplicación. |
+
+**Controller RoleController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleController | Controller | Controlador para el manejo de los roles de usuario dentro de la aplicación. |
+
+**Atributos de RoleController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| roleService | RoleService | Private | Servicio encargado de manejar la lógica del manejo de roles.  |
+
+**Métodos de RoleController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignRoleToUser | ResponseEntity | Public | Método para asignar un rol a un usuario en específico.  |
+| removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
+| getAllRoles | ResponseEntity | Public | Método para obtener todos los roles válidos en la aplicación. |
+
+##### 4.2.1.3. Application Layer.
+
+En la capa de aplicación se definirán las clases que manejarán los flujos de procesos de la funcionalidad de Autenticación. 
+
+**Service UserService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserService | Service | Servicio para el manejo de la gestión de usuarios |
+
+**Atributos de UserService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| userRepository | UserRepository | Private | Repositorio encargado de las operaciones CRUD de los usuarios.  |
+
+**Métodos de UserService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
+| registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
+| getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
+| updateUser | User | Public | Método para modificar datos de un usuario en específico. |
+| deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
+
+**Service PermissionService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionService | Service | Servicio para el manejo de los permisos de usuario dentro de la aplicación. |
+
+**Atributos de PermissionService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| permissionRepository | PermissionRepository | Private | Repositorio encargado de las operaciones CRUD de los permisos.  |
+
+**Métodos de PermissionService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
+| removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
+| getAllPermissions | List | Public | Método para obtener todos los permisos válidos en la aplicación. |
+
+
+**Service RoleService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleService | Service | Servicio para el manejo de los roles de usuario dentro de la aplicación. |
+
+**Atributos de RoleService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| roleRepository | RoleRepository | Private | Repositorio encargado de las operaciones CRUD de los roles.  |
+
+**Métodos de RoleService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignRoleToUser | ResponseEntity | Public | Método para asignar un rol a un usuario en específico.  |
+| removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
+| getAllRoles | List | Public | Método para obtener todos los roles válidos en la aplicación. |
+
+##### 4.2.1.4. Infrastructure Layer.
+
+En la capa de infraestructura se manejarán las clases que accedan a servicios externos de la aplicación como la base de datos, con el objetivo de validad las credenciales y permisos del usuario. 
+
+**Repository UserRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserRepository | Service | Repositorio que maneja la persistencia y recuperación de datos de la enitidad User de la base de datos.|
+
+**Métodos de UserRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findById | Optional | Public | Método para encontrar a un usuario según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un usuario según su Id. |
+| findByEmail | Optional | Public | Método para encontrar a un usuario según su correo  |
+| existsByEmail | Boolean | Public | Método para verificar la existencia de un usuario según su correo.  |
+| save | User | Public | Método para guardar los datos de un nuevo usuario. |
+| deleteById | Void | Public | Método para borrar un usuario según su Id. |
+
+**Repository PermissionRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionRepository | Repository | Repositorio que maneja la persistencia y recuperación de datos de la enitidad Permission de la base de datos. |
+
+**Métodos de PermissionRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findByPermissionName | Optional | Public | Método para encontrar a un servicio según su nombre.  |
+| existsByPermissionName | Boolean | Public | Método para verificar la existencia de un permiso según su Id. |
+| findById | Optional | Public | Método para encontrar a un servicio según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un permiso según su Id. |
+| save | Permission | Public | Método para guardar los datos de un nuevo permiso. |
+| deleteById | Void | Public | Método para borrar un permiso según su Id. |
+
+
+**Repository RoleRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleRepository | Repository | Repositorio que maneja la persistencia y recuperación de datos de la enitidad Role de la base de datos. |
+
+**Métodos de RoleRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findByRoleName | Optional | Public | Método para encontrar a un rol según su nombre.  |
+| existsByRoleName | Boolean | Public | Método para verificar la existencia de un rol según su Id. |
+| findById | Optional | Public | Método para encontrar a un rol según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un rol según su Id. |
+| save | Role | Public | Método para guardar los datos de un nuevo rol. |
+| deleteById | Void | Public | Método para borrar un rol según su Id. |
+
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+![AuthBC_ComponentDiagram.png](Assets/AuthBC_ComponentDiagram.png)
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+![BCAuth_ClassDiagram.png](Assets/BCAuth_ClassDiagram.png)
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
+![AuthorizationBC_Database.png](Assets/AuthorizationBC_Database.png)
+
+#### 4.2.2. Bounded Context: Learning 
+##### 4.2.2.1. Domain Layer.
+
+En la capa del dominio del bounded context Learning se ha identificado tres entidades/aggregates: Resource, Teacher y Course.
+
+**Aggregate Resources**
+
+**Aggregate Teacher**
+
+**Aggregate Course**
+
+
+##### 4.2.2.2. Interface Layer.
+##### 4.2.2.3. Application Layer.
+##### 4.2.2.4. Infrastructure Layer.
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+
+
 # Conclusiones 
+
+## Conclusiones TB1
+
+* Durante el desarrollo del TB1 pudimos analizar e investigar acerca de cómo la solución que estamos proponiendo puede adecuarse a las demandas de nuestros usuarios objetivos. Además, hemos desarrollado las bases del diseño estructural de nuestra solución, las cuales nos van a servir cuando entremos a la fase de desarrollo. 
 
 # Bibliografía 
 
