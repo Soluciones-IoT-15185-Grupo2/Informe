@@ -305,6 +305,10 @@ Debe tener una interfaz visual sencilla, accesible, intuitiva, precisa en su tra
 **Cuando** el 95% de los usuarios realicen tareas básicas sin asistencia adicional y manifiesten comodidad y satisfacción con el uso del producto.
 
 ##### 1.2.2.4 Lean UX Problem Canvas
+
+![bc_auth.png](Assets/canva.png)
+
+
 ### 1.3. Segmento Objetivo
 Según datos del Instituto Nacional de Estadística e Informática (INEI, 2017), en el Perú existen alrededor de 232,000 personas con discapacidad auditiva, enfrentando diariamente desafíos significativos en su comunicación e integración social debido a la falta de herramientas adecuadas para facilitar la interacción efectiva.
 
