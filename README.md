@@ -175,14 +175,16 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
     <td>Estudio actualmente la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y la razón por la cual me encuentro estudiando esta carrera es porque siempre he tenido un interés particular por la tecnología, con un mayor énfasis en el software.</td>
   </tr>
 <tr>
-    <td rowspan="3">Foto</td>
+    <td rowspan="3">![FOTO1](https://github.com/user-attachments/assets/783b9746-efa9-4baf-8d72-8c46e2010301) alt="Descripción" width="800"></td>
+</td>
     <td>Jesús Andres Godoy Santillan (u20251c350)</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
   </tr>
     <tr>
-    <td>Dato2</td>
+    <td> Soy Jesús, tengo 22 años, me gusta mucho programar desde pequeño haciendo pequeños proyectos en videojuegos hasta lo último que hice que fue un gran proyecto  en un evento online con creadores de contenido, patrocinadores y premios. Actualmente no trabajo formalmente pero ayudo a mi padre y junto a mi hermano haciendo sistemas y programas de una empresa que tiene junto a su amigo relacionado con la agroindustria y con el conocimiento que tengo de tecnología y solución de problemas también asesoró o ayudó a amigos de mi padre que tienen problemas técnicos relacionados con la tecnología ya sea personales o de trabajo.  
+</td>
   </tr>
 <tr>
     <td rowspan="3"><img src="Assets/miguelprofile.png" alt="Descripción" width="800"></td>
