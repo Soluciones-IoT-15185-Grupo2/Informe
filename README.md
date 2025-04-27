@@ -426,6 +426,8 @@ Estrategia: El startup se comprometió a monitorear continuamente el mercado de 
 Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestrales de benchmarking, se implementará un sistema de alertas para monitorear avances tecnológicos relevantes, y se participará activamente en conferencias y eventos internacionales sobre tecnologías asistivas para identificar tendencias emergentes.
 
 ### 2.2. Entrevistas
+#### 2.2.1. Diseño de entrevistas
+
 <h3>Preguntas Generales</h3>
 <ol>
     <li>¿Cuál es su nombre?</li>
@@ -475,7 +477,7 @@ Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestra
     <li>¿En qué escenarios le gustaría poder utilizar esta solución?</li>
 </ol>
 
-#### 2.2.1. Diseño de entrevistas
+
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
