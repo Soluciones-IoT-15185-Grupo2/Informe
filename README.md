@@ -581,9 +581,68 @@ Resumen:
 <p align="justify"> Sebastián Ríos, estudiante de Psicología y voluntario en talleres de apoyo a personas con discapacidad auditiva, compartió su experiencia trabajando con estudiantes que, fuera del entorno de los talleres, se sienten incomprendidos debido a la falta de acceso a tecnologías adaptadas. Sebastián destacó la importancia de que el lenguaje de señas se enseñe adecuadamente en las escuelas y expresó que una aplicación divertida o un dispositivo que traduzca las señas en tiempo real sería una excelente herramienta para mejorar la inclusión. También mencionó que la propuesta de SmartSign, con su capacidad de traducción instantánea, es una solución muy prometedora, especialmente si es personalizable y compatible con asistentes virtuales. </p>
 
 #### 2.2.3. Análisis de entrevistas
+
+Análisis de las Entrevistas: Familiares de Personas con Discapacidad Auditiva:
+
+Los entrevistados han tenido que adaptarse a la situación, principalmente aprendiendo el lenguaje de señas o utilizando aplicaciones de mensajería como WhatsApp y Facebook para facilitar la comunicación. Sin embargo, destacan que estas soluciones no son óptimas debido a que no permiten una comunicación espontánea e inmediata. Los entrevistados señalan la falta de inclusión social como un problema persistente, aunque mencionan casos de integración laboral exitosa a pesar de las limitaciones. Coinciden en que la sociedad no está preparada para fomentar una inclusión completa de las personas con discapacidad auditiva, creando barreras comunicacionales en diversos contextos. Consideran que una herramienta como SmartSign representaría un avance significativo hacia la inclusión social al eliminar las barreras comunicacionales existentes.
+
+Análisis de las Entrevistas: Educadores y Voluntarios que Trabajan con Personas con Discapacidad Auditiva:
+
+Los entrevistados destacan las limitaciones de los métodos actuales, que se basan principalmente en recursos manuales como cartillas visuales, juegos y videos, con un acceso muy limitado a tecnologías adaptadas al contexto peruano. Los educadores coinciden en señalar deficiencias sistemáticas en la enseñanza del lenguaje de señas en las instituciones educativas regulares, lo que perpetúa las dificultades de comunicación e integración social. Observan que sus estudiantes experimentan aislamiento y frustración cuando intentan comunicarse fuera de los entornos controlados de los talleres. Respecto a SmartSign, ambos voluntarios evalúan positivamente la propuesta, especialmente la capacidad de traducción en tiempo real de señas a audio. Sugieren características importantes como facilidad de uso, accesibilidad económica
+
+
 ### 2.3. Needfinding
+En esta sección presentamos los resultados de nuestro proceso de investigación y análisis de necesidades para el proyecto SmartSign. 
 #### 2.3.1. User Personas
+Basados en la información recopilada durante nuestras entrevistas y análisis competitivo, hemos desarrollado User Personas representativas de nuestros segmentos objetivo. 
+
+Segmento 1: Personas con discapacidad auditiva y del habla:
+![image](https://github.com/user-attachments/assets/3d35ad00-29c4-415f-bb3a-1fdc2dafc12d)
+
+Segmento 2: Instituciones educativas especializadas y centros de rehabilitación:
+![image](https://github.com/user-attachments/assets/eb39cfe6-c3c3-479a-afc3-36024250726c)
+
+
 #### 2.3.2. User Task Matrix
+En esta sección se describen las tareas realizadas por los distintos segmentos objetivos.
+
+Segmento 1: Personas con discapacidad auditiva y del habla:
+
+| Tarea                                                      | Frecuencia | Importancia |
+|------------------------------------------------------------|------------|-------------|
+| Comunicarse con compañeros de clase que no conocen lengua de señas | Alta       | Alta        |
+| Participar en discusiones grupales en clase                 | Alta       | Alta        |
+| Expresar preguntas o dudas durante las clases               | Alta       | Alta        |
+| Comunicarse con profesores durante asesorías                | Media      | Alta        |
+| Interactuar con personal administrativo de la universidad   | Media      | Alta        |
+| Participar en actividades sociales universitarias           | Media      | Alta        |
+| Comunicarse con personas en transporte público              | Alta       | Media       |
+| Realizar trámites en instituciones públicas o privadas      | Baja       | Alta        |
+| Comunicarse en situaciones de emergencia                    | Baja       | Crítica     |
+| Participar en entrevistas laborales o prácticas             | Baja       | Alta        |
+| Interactuar con dependientes en tiendas o restaurantes      | Alta       | Media       |
+| Comunicarse con familiares que no dominan lengua de señas   | Alta       | Alta       |
+
+
+Segmento 2: Instituciones educativas especializadas y centros de rehabilitación:
+
+| Tarea                                                        | Frecuencia | Importancia |
+|--------------------------------------------------------------|------------|-------------|
+| Comunicarse efectivamente con estudiantes con discapacidad auditiva | Alta       | Crítica     |
+| Explicar conceptos complejos a estudiantes con discapacidad auditiva | Alta       | Alta        |
+| Evaluar la comprensión de estudiantes con discapacidad auditiva | Alta       | Alta        |
+| Facilitar la interacción entre estudiantes con y sin discapacidad | Alta       | Alta        |
+| Informar a padres sobre el progreso de estudiantes con discapacidad | Media      | Alta        |
+| Adaptar material educativo para estudiantes con discapacidad auditiva | Alta       | Alta        |
+| Coordinar con intérpretes de lengua de señas                 | Media      | Media       |
+| Gestionar situaciones de emergencia con estudiantes con discapacidad | Baja       | Crítica     |
+| Participar en reuniones con otros docentes sobre inclusión   | Media      | Media       |
+| Capacitarse en nuevas metodologías de enseñanza inclusiva    | Media      | Alta        |
+| Documentar necesidades específicas de comunicación de cada estudiante | Media      | Alta        |
+| Mediar en conflictos derivados de barreras de comunicación   | Media      | Alta        |
+
+
+
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 #### 2.3.5. As-is Scenario Mapping
