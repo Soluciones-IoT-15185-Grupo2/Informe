@@ -426,6 +426,55 @@ Estrategia: El startup se comprometió a monitorear continuamente el mercado de 
 Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestrales de benchmarking, se implementará un sistema de alertas para monitorear avances tecnológicos relevantes, y se participará activamente en conferencias y eventos internacionales sobre tecnologías asistivas para identificar tendencias emergentes.
 
 ### 2.2. Entrevistas
+<h3>Preguntas Generales</h3>
+<ol>
+    <li>¿Cuál es su nombre?</li>
+    <li>¿Cuántos años tiene?</li>
+    <li>¿En qué ciudad y distrito reside?</li>
+    <li>¿A qué se dedica actualmente?</li>
+</ol>
+
+<h3>Segmento 1: Personas con discapacidad auditiva y del habla (Cuidadores)</h3>
+<ol>
+    <li>¿Cuál es su relación con la persona con discapacidad auditiva o del habla que cuida?</li>
+    <li>¿Qué estrategias o métodos utiliza actualmente para comunicarse con ella?</li>
+    <li>¿En qué tipo de situaciones suele haber más dificultades de comunicación (visitas médicas, trámites, tiendas, transporte, etc.)?</li>
+    <li>¿Con qué tipo de personas se presentan mayores barreras (familiares, profesores, personal de atención al cliente, desconocidos)?</li>
+    <li>¿Utilizan actualmente algún tipo de tecnología o aplicación para facilitar la comunicación? ¿Cuál ha sido su experiencia?</li>
+    <li>¿Qué limitaciones ha encontrado en las herramientas existentes para ayudar en la comunicación?</li>
+    <li>¿Ha presenciado o vivido junto con la persona bajo su cuidado situaciones de exclusión o malentendidos debido a la barrera del lenguaje?</li>
+    <li>¿Cómo se sienten usted y la persona que cuida cuando no pueden hacerse entender en ciertos contextos?</li>
+    <li>¿Considera que la sociedad en general está preparada para interactuar adecuadamente con personas con discapacidad auditiva o del habla?</li>
+    <li>¿Cree que esta situación afecta las oportunidades educativas, sociales o laborales de la persona que cuida?</li>
+    <li>¿Qué tipo de funcionalidades esperaría de un dispositivo o aplicación para facilitar la comunicación?</li>
+    <li>¿Qué tipo de mensajes o expresiones serían más útiles que se pudieran traducir automáticamente con la ayuda de un dispositivo?</li>
+    <li>¿En qué espacios le gustaría que esta herramienta sea especialmente útil (hospitales, bancos, centros educativos, etc.)?</li>
+</ol>
+
+<h3>Segmento 2: Instituciones educativas especializadas y centros de rehabilitación</h3>
+<ol>
+    <li>¿Cuál es su rol dentro de la institución?</li>
+    <li>¿Cuántos estudiantes o pacientes con discapacidad auditiva o del habla atienden en promedio?</li>
+    <li>¿Qué métodos utilizan actualmente para facilitar la enseñanza o terapia del lenguaje de señas?</li>
+    <li>¿Han utilizado tecnología para mejorar la comunicación o el aprendizaje de sus estudiantes? ¿Cuál fue su experiencia?</li>
+    <li>¿Qué dificultades enfrentan sus estudiantes o pacientes al interactuar con personas fuera del entorno institucional?</li>
+    <li>¿Considera que el lenguaje de señas se enseña de forma adecuada en los niveles educativos actuales?</li>
+    <li>¿Qué limitaciones tienen actualmente en cuanto a recursos tecnológicos para mejorar sus procesos de enseñanza?</li>
+    <li>¿Qué tipo de dispositivo o aplicación cree que sería útil para reforzar la enseñanza del lenguaje de señas?</li>
+    <li>¿Le gustaría contar con una herramienta que permita evaluar en tiempo real la expresión en señas de los estudiantes?</li>
+</ol>
+
+<h3>Validación de la propuesta</h3>
+<ol>
+    <li>Se presenta al entrevistado la idea del proyecto SmartSign y sus principales funcionalidades (traducción en tiempo real de señas a texto o voz y viceversa, uso de IA para mejorar la precisión, compatibilidad con dispositivos móviles y wearables).</li>
+    <li>¿Qué le parece la propuesta de SmartSign?</li>
+    <li>¿Cree que podría ser útil en su vida diaria o en su entorno educativo/laboral?</li>
+    <li>¿Alguna vez ha usado una tecnología similar?</li>
+    <li>¿Cuál es el aspecto que más le llama la atención de esta propuesta?</li>
+    <li>¿Qué sugerencias o mejoras le gustaría que tenga el dispositivo o la aplicación?</li>
+    <li>¿En qué escenarios le gustaría poder utilizar esta solución?</li>
+</ol>
+
 #### 2.2.1. Diseño de entrevistas
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
