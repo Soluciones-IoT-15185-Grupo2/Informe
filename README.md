@@ -394,22 +394,34 @@ Luego de realizar una investigación del mercado peruano e internacional de solu
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
 **Diferenciación de Producto:**
+
 Estrategia: SmartSign se enfocará en resaltar su adaptación específica al lenguaje de señas peruano y su implementación de tecnologías IoT y Deep Learning que permiten una traducción más precisa y contextualizada.
 Tácticas: Para llevar a cabo esta estrategia, se desarrollará una biblioteca especializada de gestos específicos del lenguaje de señas peruano, se implementarán actualizaciones trimestrales del algoritmo de Deep Learning basadas en datos recopilados de usuarios reales peruanos, y se crearán materiales de marketing que destaquen casos de éxito locales y testimonios de usuarios.
+
 **Desarrollo Continuo:**
+
 Estrategia: El startup se comprometió a la mejora constante de la tecnología mediante la integración de avances en IoT y aprendizaje automático, manteniendo el enfoque en las necesidades específicas de la comunidad peruana con discapacidad auditiva.
 Tácticas: Para implementar esta estrategia, se establecerá un programa de "beta testers" con miembros de la comunidad sorda peruana para probar nuevas funcionalidades, se implementará un sistema de retroalimentación directa donde los usuarios puedan reportar errores de traducción, y se desarrollará un plan de actualización trimestral del firmware del dispositivo.
+
 **Colaboraciones Estratégicas:**
+
 Estrategia: Se buscarán asociaciones con instituciones educativas especializadas, organizaciones de personas sordas y entidades gubernamentales para fortalecer la presencia en el mercado y mejorar continuamente la adaptación cultural del producto.
 Tácticas: Para ejecutar esta estrategia, se establecerán convenios con instituciones educativas especializadas en Lima y provincias, se desarrollará un programa de embajadores dentro de la comunidad de personas sordas, y se colaborará con el CONADIS para alinear el desarrollo del producto con las políticas nacionales de inclusión.
+
 **Enfoque en la Experiencia del Usuario:**
+
 Estrategia: La prioridad será la satisfacción del usuario y la facilidad de uso del dispositivo, considerando las necesidades específicas de personas con discapacidad auditiva en el contexto peruano.
 Tácticas: Para lograr esta estrategia, se realizarán pruebas de usabilidad trimestrales con grupos diversos de usuarios, se implementará un programa de capacitación personalizada para nuevos usuarios, y se desarrollarán materiales de soporte en formatos accesibles, incluyendo tutoriales en lengua de señas peruana.
+
 **Accesibilidad y Modelo de Negocio Inclusivo:**
+
 Estrategia: Se desarrollará un modelo de precios que permita el acceso a la tecnología por parte de diversos segmentos socioeconómicos, maximizando el impacto social sin comprometer la sostenibilidad del negocio.
 Tácticas: Para implementar esta estrategia, se establecerá un programa de subsidio cruzado donde las ventas institucionales permitan ofrecer precios reducidos a usuarios individuales de bajos recursos, se desarrollará un modelo de leasing para instituciones educativas, y se creará un fondo de impacto social en colaboración con ONGs y empresas privadas.
+
 **Análisis Competitivo Continuo:**
+
 Estrategia: El startup se comprometió a monitorear continuamente el mercado de tecnologías asistivas tanto a nivel local como internacional, adaptando su estrategia según la evolución del ecosistema competitivo.
 Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestrales de benchmarking, se implementará un sistema de alertas para monitorear avances tecnológicos relevantes, y se participará activamente en conferencias y eventos internacionales sobre tecnologías asistivas para identificar tendencias emergentes.
 
