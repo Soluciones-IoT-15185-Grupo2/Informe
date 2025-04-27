@@ -644,9 +644,67 @@ Segmento 2: Instituciones educativas especializadas y centros de rehabilitación
 
 
 #### 2.3.3. User Journey Mapping
+
+En esta sección presentamos los User Journey Maps para nuestros segmentos objetivo. Estos mapas ilustran el recorrido end-to-end que experimentan actualmente nuestros usuarios.
+
+Segmento 1: Personas con discapacidad auditiva y del habla:
+
+![image](https://github.com/user-attachments/assets/4cbdf297-c191-4b8a-b68e-a8ae5c21a22e)
+
+
+Segmento 2: Instituciones educativas especializadas y centros de rehabilitación:
+
+![image](https://github.com/user-attachments/assets/2a410488-96b5-446c-a72f-06b6d67c5974)
+
+
 #### 2.3.4. Empathy Mapping
+En esta sección presentamos los Empathy Maps desarrollados para cada uno de nuestros User Personas. 
+
+Segmento 1: Personas con discapacidad auditiva y del habla:
+
+![image](https://github.com/user-attachments/assets/61e1e76f-803a-4906-ba9b-5d0848b099e4)
+
+
+Segmento 2: Instituciones educativas especializadas y centros de rehabilitación:
+
+![image](https://github.com/user-attachments/assets/84a8a7fc-a0e5-4807-b0c2-6ef7afc6ee41)
+
+
+
 #### 2.3.5. As-is Scenario Mapping
+
+Esta sección muestra los As-Is Scenario Maps elaborados para cada User Persona, proporcionando una representación visual de las experiencias actuales de nuestros usuarios. 
+
+Segmento 1: Personas con discapacidad auditiva y del habla:
+
+![image](https://github.com/user-attachments/assets/006db391-d6af-41f6-b9ae-9366064541a5)
+
+
+Segmento 2: Instituciones educativas especializadas y centros de rehabilitación:
+
+![image](https://github.com/user-attachments/assets/90531be7-076b-4b57-91c2-9b9339bb43b4)
+
+
 ### 2.4. Ubiquitous Language
+
+En esta sección presentamos el glosario de términos y conceptos fundamentales del dominio de negocio relacionados con nuestra solución SmartSign. 
+
+| Término                      | Definición |
+|-------------------------------|------------|
+| Sign Language (Lengua de Señas) | Sistema lingüístico visual-gestual utilizado por personas con discapacidad auditiva o del habla, que emplea configuraciones de manos, movimientos, orientaciones y expresiones faciales para transmitir significados. |
+| Peruvian Sign Language (Lengua de Señas Peruana) | Variante específica de la lengua de señas utilizada en Perú, con características léxicas y gramaticales propias que la distinguen de otras lenguas de señas. |
+| Hearing Impairment (Discapacidad Auditiva) | Disminución total o parcial de la capacidad de percibir sonidos, que puede variar en grados desde leve hasta profunda, afectando la comunicación verbal. |
+| Inclusive Education (Educación Inclusiva) | Enfoque educativo que reconoce la diversidad de necesidades y capacidades de todos los estudiantes, adaptando metodologías y recursos para garantizar su participación efectiva. |
+| Gesture Recognition (Reconocimiento de Gestos) | Tecnología que permite a dispositivos electrónicos identificar y clasificar movimientos específicos de las manos, brazos y cuerpo para su interpretación como comandos o lenguaje. |
+| Haptic Feedback (Retroalimentación Háptica) | Sistema de respuesta que utiliza el sentido del tacto mediante vibraciones o fuerzas para comunicar información al usuario de un dispositivo. |
+| Communication Barrier (Barrera de Comunicación) | Obstáculo que dificulta o impide la transmisión efectiva de información entre un emisor y un receptor, especialmente relevante en contextos de discapacidad sensorial. |
+| Real-time Translation (Traducción en Tiempo Real) | Proceso de conversión inmediata de un sistema de comunicación a otro, sin retrasos significativos que afecten la fluidez de la interacción. |
+| Social Inclusion (Inclusión Social) | Proceso que asegura que todas las personas, independientemente de sus capacidades, tengan las mismas oportunidades de participar plenamente en todos los aspectos de la sociedad. |
+| Assistive Technology (Tecnología Asistiva) | Dispositivos, software o equipos diseñados para mantener, aumentar o mejorar las capacidades funcionales de personas con discapacidad. |
+| Smart Glove (Guante Inteligente) | Dispositivo wearable equipado con sensores que detecta movimientos y posiciones de la mano y dedos para capturar e interpretar gestos específicos. |
+| Sensor Calibration (Calibración de Sensores) | Proceso de ajuste de los sensores del dispositivo para adaptarse a las características específicas del usuario, mejorando la precisión en la detección de gestos. |
+| Communication Autonomy (Autonomía Comunicativa) | Capacidad de una persona para expresarse e interactuar independientemente con otros, sin necesidad de intermediarios o asistencia constante. |
+
 
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
