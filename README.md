@@ -1396,8 +1396,14 @@ Se definen los repositorios que permiten la persistencia de datos.
 ![learning 3 - 4 2 2 5](https://github.com/user-attachments/assets/b6237ab3-900c-4814-af99-41e7da0ec5d6)
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+
+![BCLearning__ClassDiagram.png](Assets/BCLearning__ClassDiagram.png)
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+![BCLearning_DBDiagram.png](Assets/BCLearning_DBDiagram.png)
 
 #### 4.2.3. Bounded Context: Translation
 ##### 4.2.3.1. Domain Layer.
