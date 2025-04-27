@@ -30,7 +30,9 @@ Abril, 2025
 
 **TB1:**
 
-**Colocar al final capturas de los commits**
+Todos los integrantes del equipo apoyaron en el desarrollo del informe. 
+
+![commitsReportTB1.png](Assets/commitsReportTB1.png)
 
 # Student Outcome
 
