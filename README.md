@@ -479,6 +479,107 @@ Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestra
 
 
 #### 2.2.2. Registro de entrevistas
+
+Entrevistado #1:
+Isaac Burgos
+
+● Sexo: Masculino
+
+● Edad: 22 años
+
+● Distrito en el que vive: Breña
+
+● Ocupación: Comerciante
+
+● Link: [Click para ver entrevista](https://youtu.be/oU4ckNnNtoU)
+
+
+![image](https://github.com/user-attachments/assets/ce124bd4-7f88-4bae-b596-1fe1a8c3c2cf)
+
+Resumen:
+
+<p align="justify"> Isaac Burgos, comerciante de 22 años, compartió su experiencia sobre la vida de su hermano, quien tiene discapacidad del habla. Isaac destacó las dificultades que enfrenta su hermano tanto en la escuela como en su vida diaria debido a esta discapacidad. Sin embargo, en el entorno familiar han logrado adaptarse y comunicarse de forma más fluida. Isaac aprendió lenguaje de señas para mejorar la comunicación con su hermano. A pesar de los avances familiares, mencionó que la sociedad aún no está completamente preparada para fomentar la inclusión de personas con discapacidades del habla. Isaac subrayó que un dispositivo inteligente que facilite la vida de estas personas sería un gran avance para la inclusión social. </p>
+
+Entrevistado #2:
+
+Yasmin Díaz
+
+● Sexo: Femenino
+
+● Edad: 20 años
+
+● Distrito en el que vive: San Martín de Porres
+
+● Ocupación: Estudiante
+
+● Link: [Click para ver entrevista](https://youtu.be/WRmBH8R3Po0)
+
+![image](https://github.com/user-attachments/assets/f7d9fe7b-7f99-4824-bc26-a7747ffdba80)
+
+Resumen:
+
+<p align="justify"> Yasmin Díaz, estudiante de Publicidad, compartió su experiencia sobre su hermano, quien sufrió una enfermedad que le causó la discapacidad del habla. A pesar de que Yasmin aprendió lenguaje de señas, la comunicación en la familia no ha sido completamente fluida ya que no todos lograron aprenderlo adecuadamente. Por ello, la familia optó por usar aplicaciones de mensajería como WhatsApp, Facebook e Instagram para comunicarse. A pesar de la discapacidad, su hermano ha logrado conseguir trabajo en un almacén y desempeñar sus tareas de manera efectiva. Yasmin expresó el deseo de que existieran tecnologías o dispositivos que facilitaran la comunicación de personas con discapacidad del habla, especialmente en citas médicas o laborales. </p>
+
+Entrevistado #3:
+
+Emilio Alexander
+
+● Sexo: Masculino
+
+● Edad: 23 años
+
+● Distrito en el que vive: Cercado de Lima
+
+● Ocupación: Estudiante
+
+● Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h103_upc_edu_pe/EUhrCY-bJoxBgf1cCl3CcBoBsoBB5oHdv9-r7w4upVl8Zg?e=FDXc1b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+![image](https://github.com/user-attachments/assets/26abf731-5843-4cfb-82b8-8f5cc8542ecf)
+
+Resumen:
+
+<p align="justify"> Emilio Alexander, estudiante de la UNMSM, nos habló sobre su sobrino, quien tiene discapacidad auditiva y del habla. Emilio mencionó que la familia ha podido comunicarse con cierta facilidad usando aplicaciones de mensajería como WhatsApp o Messenger, aunque reconoció que este tipo de comunicación no es ideal debido a la falta de inmediatez y espontaneidad. A pesar de no haber vivido situaciones de discriminación, Emilio apoya la idea de que se desarrollen tecnologías que permitan una comunicación instantánea y eficiente para personas con discapacidades, ya que esto contribuiría significativamente a la inclusión social. </p>
+
+Entrevistado #4:
+
+Luis Fernando Rivas
+
+● Sexo: Masculino
+
+● Edad: 25 años
+
+● Distrito en el que vive: San Martín de Porres
+
+● Ocupación: Estudiante Universitario
+
+● Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EdBS2d5cOS1CqWnHhxXhXNABy0G0QRaGoQFGigH4O-izhw?e=QbYcnf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+![image](https://github.com/user-attachments/assets/7c0fe1ff-4776-42dc-af75-32d86597aa59)
+
+Resumen:
+
+<p align="justify"> Luis Fernando Rivas, estudiante universitario y voluntario en talleres para personas con discapacidad auditiva, comentó sobre las dificultades que enfrentan sus estudiantes para comunicarse fuera del entorno de los talleres, ya que el acceso a tecnologías adaptadas es limitado. Además, mencionó que el lenguaje de señas no se enseña adecuadamente en los colegios. Luis considera que una herramienta como SmartSign, que traduzca las señas a audio en tiempo real, sería muy útil, especialmente si fuera fácil de usar y económica. Luis expresó que le gustaría aplicar esta herramienta en talleres, en la universidad y en espacios públicos. </p>
+
+Entrevistado #5:
+
+Sebastián Ríos
+
+● Sexo: Masculino
+
+● Edad: 20 años
+
+● Distrito en el que vive: Santiago de Surco
+
+● Ocupación: Estudiante Universitario
+
+● Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EUPC6b4_4ehLpOeKO_wyZ3wBz-WQOWnvEljuSGk_OD1UrA?e=8YED8e&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+![image](https://github.com/user-attachments/assets/7c9a7668-06ae-4b7e-91bd-8b13fc7589b0)
+
+Resumen:
+
+<p align="justify"> Sebastián Ríos, estudiante de Psicología y voluntario en talleres de apoyo a personas con discapacidad auditiva, compartió su experiencia trabajando con estudiantes que, fuera del entorno de los talleres, se sienten incomprendidos debido a la falta de acceso a tecnologías adaptadas. Sebastián destacó la importancia de que el lenguaje de señas se enseñe adecuadamente en las escuelas y expresó que una aplicación divertida o un dispositivo que traduzca las señas en tiempo real sería una excelente herramienta para mejorar la inclusión. También mencionó que la propuesta de SmartSign, con su capacidad de traducción instantánea, es una solución muy prometedora, especialmente si es personalizable y compatible con asistentes virtuales. </p>
+
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
