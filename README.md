@@ -1464,19 +1464,24 @@ En la capa del dominio del bounded context Record se han identificado tres entid
 | VisualizationRepository | Repository | Persistencia de los reportes de visualización generados. |
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades y las interacciones entre ellos.
+Estos diagramas ayudan a entender la estructura interna del sistema de gestión de historial de traducciones en SmartSign.
+![image](https://github.com/user-attachments/assets/2a0853f4-85ae-40c7-a68d-9fd240cb86be)
 
 
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
-
+En esta sección, se presentan los diagramas que detallan la implementación de los componentes dentro del Bounded Context Record.
 
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+![image](https://github.com/user-attachments/assets/42577ea2-705f-49c6-8794-63b5883dc343)
 
 
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
-
+El diagrama de base de datos define cómo se almacena la información del historial de traducciones y el uso de gestos.
+![image](https://github.com/user-attachments/assets/a431fb95-2aa1-400f-b9af-9e0be91e7467)
 
 # Conclusiones 
 
