@@ -175,7 +175,9 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
     <td>Estudio actualmente la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y la razón por la cual me encuentro estudiando esta carrera es porque siempre he tenido un interés particular por la tecnología, con un mayor énfasis en el software.</td>
   </tr>
 <tr>
-    <td rowspan="3">![FOTO1](https://github.com/user-attachments/assets/783b9746-efa9-4baf-8d72-8c46e2010301) alt="Descripción" width="800"></td>
+    <td rowspan="3">![FOTO1](https://github.com/user-attachments/assets/61f9cf6e-26eb-4580-8091-ffac4bba25f2)
+
+
 </td>
     <td>Jesús Andres Godoy Santillan (u20251c350)</td>
   </tr>
