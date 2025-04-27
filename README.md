@@ -1393,6 +1393,8 @@ Se definen los repositorios que permiten la persistencia de datos.
 
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+![learning 3 - 4 2 2 5](https://github.com/user-attachments/assets/b6237ab3-900c-4814-af99-41e7da0ec5d6)
+
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
