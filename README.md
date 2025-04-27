@@ -175,7 +175,7 @@ Ser reconocidos como líderes en innovación tecnológica en inclusión social e
     <td>Estudio actualmente la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y la razón por la cual me encuentro estudiando esta carrera es porque siempre he tenido un interés particular por la tecnología, con un mayor énfasis en el software.</td>
   </tr>
 <tr>
-    <td rowspan="3">![FOTO1](https://github.com/user-attachments/assets/61f9cf6e-26eb-4580-8091-ffac4bba25f2)
+    <td rowspan="3"><img src="Assets/Perfil_Jesus.png" alt="Descripción" width="800"></td>
 
 
 </td>
