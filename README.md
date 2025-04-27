@@ -712,6 +712,18 @@ En esta sección presentamos el glosario de términos y conceptos fundamentales 
 
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
+
+En esta sección, se visualiza el rendimiento esperado del sistema SmartSign después de su implementación. Se describirán los flujos de trabajo, las interacciones y las mejoras respecto al estado actual, destacando cómo la solución propuesta resolverá problemas y optimizará los procesos de comunicación de personas con discapacidad auditiva o del habla.
+
+
+#### Segmento 1: Personas con discapacidad auditiva o del habla:
+
+![11](https://github.com/user-attachments/assets/12fa2f20-40a8-4ab7-812e-940788d0b0fd)
+
+#### Segmento 2: Profesores, instituciones educativas y organizaciones inclusiva:
+
+![12](https://github.com/user-attachments/assets/6f3f431e-45ed-483c-aba7-a579c62b32d3)
+
 ### 3.2. User Stories
 | Story ID | Título                               | Descripción                                                                                                                                           | Criterios de Aceptación                                                                 | Relacionado con (Epic ID)                        |
 |:--------:|:--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -738,6 +750,17 @@ En esta sección presentamos el glosario de términos y conceptos fundamentales 
 
 
 ### 3.3. Impact Mapping
+
+En esta sección, se evidencia cómo el sistema se alinea perfectamente con los objetivos estratégicos del proyecto. Asimismo, se muestra cómo cada función del sistema contribuirá a lograr los resultados esperados.
+
+#### Segmento 1: Personas con discapacidad auditiva o del habla:
+
+![Impact Mapping - G2](https://github.com/user-attachments/assets/793ccba2-b226-437c-a89d-e5ab0999e0c7)
+
+#### Segmento 2: Profesores, instituciones educativas y organizaciones inclusiva:
+
+![Impact Mapping - G2 - 2](https://github.com/user-attachments/assets/70a8070a-fe0d-43f4-a386-29a93846a838)
+
 ### 3.4. Product Backlog
 | # Orden | User Story Id | Título                                 | Descripción                                                                                                                                                                                                                             | Story Points |
 |---------|----------------|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
