@@ -1760,6 +1760,81 @@ El diagrama de base de datos define cómo se almacena la información del histor
 
 ##### 5.1. Style Guidelines
 ##### 5.1.1. General Style Guidelines
+Esta sección detalla los estándares visuales y de interacción específicos para la interfaz en dispositivos web, móviles y el dispositivo IoT (guante inteligente) de SmartSign. La experiencia del usuario debe ser coherente en todas las plataformas, optimizando la usabilidad según el tipo de dispositivo y las necesidades específicas de las personas con discapacidad auditiva.
+
+---
+
+**Web Responsive Design**
+
+La interfaz web debe ser totalmente responsive, adaptándose a diferentes tamaños de pantalla. El diseño prioriza la visualización clara de traducciones y opciones de configuración accesibles.
+
+**Grid System:**  
+Se utilizará un sistema de 12 columnas para el diseño responsivo.
+
+**Breakpoints:**  
+- Móviles: 320px - 480px  
+- Tablets: 481px - 768px  
+- Escritorio: 769px en adelante
+
+**Navegación:**  
+- Barra superior de navegación con opciones principales: Inicio, Conoce más, Acerca de Nosotros, Iniciar sesión y Registrarse.  
+- Menú desplegable para dispositivos móviles.  
+- Selector de idioma visible en todo momento (ES/EN).
+
+**Elementos:**  
+- Fondos oscuros con texto claro para mayor legibilidad.  
+- Iconografía de lenguaje de señas coherente y reconocible.  
+- Botones de llamada a la acción en color turquesa `#00E5E5` destacados y de tamaño generoso.
+
+---
+
+**Mobile Application Interface**
+
+En la aplicación móvil, la experiencia debe ser simple y optimizada para usuarios con discapacidad auditiva, con especial atención a alertas visuales y feedback táctil.
+
+**Navegación:**  
+- Barra inferior de navegación para acceder a las opciones principales (Traducir, Biblioteca de Señas, Perfil, Configuraciones).  
+- Gestos simplificados y consistentes para navegación.
+
+**Interacción:**  
+- Botones amplios (mínimo de 48x48px) para facilitar la interacción táctil.  
+- Feedback visual por código de colores y vibraciones para confirmar acciones.  
+- Modo oscuro predeterminado para reducir fatiga visual.
+
+**Elementos específicos:**  
+- Visualización de traducciones en tiempo real con opción de ajuste de tamaño de texto.  
+- Biblioteca de señas con categorías claramente diferenciadas por iconos y colores.  
+- Sistema de notificaciones basado en indicadores visuales y vibraciones.
+
+---
+
+**IoT Application Interface (Guante Inteligente)**
+
+Para la interfaz del guante inteligente y su conexión con la aplicación, se priorizará la simplicidad y la retroalimentación inmediata.
+
+**Panel de Control:**  
+- Dashboard simple que muestra el estado de conexión del guante.  
+- Indicadores visuales de batería, intensidad de señal y estado de funcionamiento.  
+- Gráficos sencillos que muestran la precisión de reconocimiento de señas.
+
+**Configuración del Dispositivo:**  
+- Calibración del guante con instrucciones paso a paso ilustradas.  
+- Personalización de sensibilidad de sensores con controles deslizantes intuitivos.  
+- Biblioteca de señas personalizadas con opción de grabación de nuevos gestos.
+
+**Alertas y Feedback:**  
+- Código de colores consistente:  
+  - Verde `#4CAF50` para funcionamiento normal  
+  - Amarillo `#FFEB3B` para advertencias  
+  - Rojo `#FF4B4B` para problemas críticos  
+- Notificaciones sobre el estado de la batería del guante con representación visual clara.  
+- Retroalimentación sobre la calidad de la interpretación de señas mediante gráficos sencillos.
+
+**Sincronización:**  
+- Visualización en tiempo real de la comunicación entre el guante y el dispositivo móvil/web.  
+- Historial de traducciones accesible y organizado cronológicamente.  
+- Ajustes de voz (tono, velocidad, género) presentados con controles intuitivos y previsualizaciones auditivas.
+
 ##### 5.1.2. Web, Mobile and IoT Style Guidelines
 ##### 5.2. Information Architecture
 ##### 5.2.1. Organization Systems
