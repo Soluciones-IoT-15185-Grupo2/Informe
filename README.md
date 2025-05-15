@@ -2153,8 +2153,44 @@ Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pu
 ##### 6.2. Landing Page, Services & Applications Implementation
 ##### 6.2.1. Sprint 1
 ##### 6.2.1.1. Sprint Planning 1
+| Sprint # | Sprint 1 |
+|---------------------|-------------------------------------------|
+| Date                | 2025/05/15                                |
+| Time                | 04:00 PM                                  |
+| Location            | Videoconferencia Discord                  |
+| Prepared By         | Jorge David Orrego Noriega                |
+| Attendees (to planning meeting) | Alvaro Esteban Crispin Ccancce |
+|                      | Jesús Andres Godoy Santillan|
+|                      | Jorge David Orrego Noriega |
+|                      | Miguel Ángel Huaman Cataño  |
+|                      | Frank Junior Salazar Saldarriaga |
+| Sprint 0 Review Summary | Siendo el primer Sprint, no hay revisión previa. |
+| Sprint 0 Retrospective Summary | Siendo el primer Sprint, no hay retrospectiva previa. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal        | El objetivo primordial para este sprint es implementar las funcionalidades base del guante SmartSign que permitan la comunicación básica en entornos cotidianos y de emergencia para personas con discapacidad auditiva. Nos enfocaremos en desarrollar el sistema de reconocimiento de señas esenciales, su traducción a texto/audio y garantizar su funcionamiento en situaciones críticas, estableciendo así los cimientos tecnológicos del producto. |
+| Sprint 1 Velocity    | 13 Story Points                           |
+| Sum of Story Points  | 13 Story Points                           |
+
 ##### 6.2.1.2. Aspect Leaders and Collaborators
 ##### 6.2.1.3. Sprint Backlog 1
+
+
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|---|------------------------|-------------------------------------------|--------------|-------------------|--------|
+| **User Story ID** | **Title** | **Work-Item / Task ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US01 | Comunicación en conversaciones cotidianas | T01 | Desarrollo del sensor de movimiento de dedos | Implementar la detección de posición y movimiento de los dedos mediante sensores flexibles | 8 horas | Alvaro Crispin | To-do |
+| US01 | Comunicación en conversaciones cotidianas | T02 | Desarrollo del algoritmo de reconocimiento de señas básicas | Crear el algoritmo que identifique los patrones de las señas más comunes en conversaciones cotidianas | 12 horas | Jorge Orrego | To-do |
+| US01 | Comunicación en conversaciones cotidianas | T03 | Implementación de convertidor de señas a texto | Desarrollar el módulo que traduce las señas reconocidas a texto legible | 10 horas | Miguel Huaman | To-do |
+| US01 | Comunicación en conversaciones cotidianas | T04 | Desarrollo del módulo de salida de audio | Crear la funcionalidad que convierte el texto a voz para reproducir el mensaje | 6 horas | Frank Salazar | To-do |
+| US02 | Expresión en entornos públicos | T05 | Optimización de los sensores para uso en espacios públicos | Ajustar la sensibilidad de los sensores para funcionar en entornos con mayor ruido y movimiento | 6 horas | Alvaro Crispin | To-do |
+| US02 | Expresión en entornos públicos | T06 | Desarrollo de vocabulario extendido para entornos públicos | Ampliar la base de señas reconocidas para incluir expresiones comunes en tiendas, transporte, etc. | 8 horas | Jorge Orrego | To-do |
+| US02 | Expresión en entornos públicos | T07 | Implementación de aumento de volumen adaptativo | Desarrollar funcionalidad que ajuste el volumen de salida según el ruido ambiental | 5 horas | Jesús Godoy | To-do |
+| US06 | Comunicación en emergencias | T08 | Implementación de gestos de emergencia | Desarrollar reconocimiento de señas específicas para situaciones de emergencia | 8 horas | Miguel Huaman | To-do |
+| US06 | Comunicación en emergencias | T09 | Desarrollo de notificaciones prioritarias | Crear sistema que priorice y amplifique mensajes identificados como emergencias | 6 horas | Frank Salazar | To-do |
+| US06 | Comunicación en emergencias | T10 | Integración con sistema de alerta de emergencia | Implementar la funcionalidad que permite enviar alertas a contactos predefinidos | 10 horas | Jesús Godoy | To-do |
+| US05 | Comprensión por parte del entorno | T11 | Desarrollo de interfaz visual auxiliar | Crear pantalla complementaria que muestre el texto traducido para reforzar la comunicación | 8 horas | Alvaro Crispin | To-do |
+| US05 | Comprensión por parte del entorno | T12 | Implementación de feedback visual para el usuario | Desarrollar sistema de luces o vibraciones que indiquen al usuario si su mensaje fue procesado correctamente | 5 horas | Jorge Orrego | To-do |
+| US05 | Comprensión por parte del entorno | T13 | Pruebas de usabilidad con usuarios sin conocimiento de señas | Realizar pruebas con personas sin experiencia en lengua de señas para validar la claridad de la comunicación | 4 horas |  Frank Salazar | To-do |
 
 ##### 6.2.1.4. Development Evidence for Sprint Review
 
