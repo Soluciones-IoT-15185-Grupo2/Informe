@@ -1760,6 +1760,66 @@ El diagrama de base de datos define cómo se almacena la información del histor
 
 ##### 5.1. Style Guidelines
 ##### 5.1.1. General Style Guidelines
+En esta sección estableceremos las directrices generales de estilo para SmartSign. La aplicación busca proyectar inclusión, innovación y accesibilidad para personas con discapacidad auditiva y del habla. El objetivo es crear una plataforma intuitiva y efectiva que facilite la comunicación y promueva la inclusión social de este grupo.
+
+---
+
+**Branding**
+
+La identidad de marca refleja los valores de inclusión, innovación y accesibilidad. Esto se logra mediante una paleta de colores contrastantes, tipografía clara y elementos visuales que representan la comunicación mediante lenguaje de señas.
+
+**Nombre de la marca:** SmartSign  
+**Tagline:** "Comunícate con gestos, con facilidad"  
+**Elementos visuales:** Uso de iconos de manos realizando señas y elementos tecnológicos para representar la unión de tecnología y comunicación inclusiva.
+
+---
+
+**Comunicación Visual**
+
+El tono de comunicación debe ser cercano y empático, con un enfoque en proporcionar instrucciones claras para usuarios con distintos niveles de familiaridad tecnológica. Debe sentirse accesible y confiable, usando un lenguaje inclusivo y directo.
+
+**Formalidad:** Cercano pero respetuoso, adaptado a usuarios de diversos contextos culturales y educativos.  
+**Estilo de Mensajes:** Conciso, claro y positivo, evitando tecnicismos innecesarios.  
+**Entusiasmo:** Motivador y optimista, especialmente al destacar los logros en la comunicación.
+
+---
+
+**Paleta de Colores**
+
+La paleta de colores de SmartSign está diseñada para maximizar la legibilidad y crear una experiencia visual agradable:
+
+**Colores Primarios:**  
+- Turquesa brillante `#00E5E5`: Color principal de la marca, representa innovación y tecnología.  
+- Negro intenso `#000000`: Proporciona alto contraste para fondos y contenido principal.  
+- Blanco puro `#FFFFFF`: Para texto sobre fondos oscuros y elementos de interfaz claros.
+
+**Colores Secundarios:**  
+- Gris claro `#F0F0F0`: Para fondos secundarios y áreas de descanso visual.  
+- Azul oscuro `#1E293B`: Para áreas que requieren foco o concentración.
+
+**Colores de Acento:**  
+- Verde éxito `#4CAF50`: Para confirmaciones y acciones completadas.  
+- Rojo alerta `#FF4B4B`: Para notificaciones importantes y errores.  
+- Amarillo advertencia `#FFEB3B`: Para mensajes de precaución.
+
+---
+
+**Tipografía**
+
+Se utilizará una tipografía sans-serif moderna y de alta legibilidad para asegurar la accesibilidad.
+
+**Fuente Principal:** Roboto o San Francisco  
+- Títulos: Bold, 24–32px  
+- Subtítulos: Medium, 18–22px  
+- Cuerpo de texto: Regular, 16–18px  
+- Información secundaria: Light, 14–16px
+
+**Características:**  
+- Alto contraste entre texto y fondo  
+- Espaciado adecuado entre caracteres y líneas  
+- Tamaño mínimo de 14px para toda la información textual
+
+##### 5.1.2. Web, Mobile and IoT Style Guidelines
 Esta sección detalla los estándares visuales y de interacción específicos para la interfaz en dispositivos web, móviles y el dispositivo IoT (guante inteligente) de SmartSign. La experiencia del usuario debe ser coherente en todas las plataformas, optimizando la usabilidad según el tipo de dispositivo y las necesidades específicas de las personas con discapacidad auditiva.
 
 ---
@@ -1834,12 +1894,113 @@ Para la interfaz del guante inteligente y su conexión con la aplicación, se pr
 - Visualización en tiempo real de la comunicación entre el guante y el dispositivo móvil/web.  
 - Historial de traducciones accesible y organizado cronológicamente.  
 - Ajustes de voz (tono, velocidad, género) presentados con controles intuitivos y previsualizaciones auditivas.
-
-##### 5.1.2. Web, Mobile and IoT Style Guidelines
+- 
 ##### 5.2. Information Architecture
 ##### 5.2.1. Organization Systems
+En SmartSign, hemos diseñado cuidadosamente sistemas de organización de la información que responden a las necesidades específicas de las personas con discapacidad auditiva y del habla, facilitando una navegación intuitiva y un acceso eficiente a todas las funcionalidades de traducción de lenguaje de señas.
+
+---
+
+**Organización Visual del Contenido**
+
+**Jerárquica (Visual Hierarchy):**  
+Implementamos una organización visual jerárquica donde los elementos se estructuran según su importancia para el usuario. En la aplicación web y móvil, la función principal de traducción ocupa la posición más prominente, seguida por herramientas de personalización y configuración. Esta jerarquía permite que los usuarios accedan inmediatamente a la funcionalidad más crítica: la comunicación mediante señas.
+
+**Modular:**  
+Las funcionalidades de SmartSign están organizadas en módulos claramente definidos, permitiendo que los usuarios enfoquen su atención en tareas específicas sin distracciones. Los módulos principales incluyen:  
+- Traductor de Señas (función principal)  
+- Biblioteca de Señas (recurso educativo)  
+- Configuración del Dispositivo (ajustes del guante)  
+- Perfil Personal (preferencias de usuario)  
+- Comunidad (intercambio de experiencias)
+
+**Contextual:**  
+La información se organiza de manera contextual, presentando opciones relevantes según la actividad que el usuario está realizando. Por ejemplo, cuando se utiliza el traductor, aparecen opciones relacionadas como guardar frases frecuentes o ajustar la velocidad de la voz sintetizada.
+
+---
+
+**Esquemas de Categorización**
+
+**Por funcionalidad:**  
+Las herramientas están agrupadas según su función principal, como "Traducción", "Aprendizaje" y "Personalización", facilitando que el usuario encuentre rápidamente la herramienta adecuada para su necesidad inmediata.
+
+**Por situaciones de uso:**  
+En la biblioteca de señas y frases predefinidas, organizamos el contenido según situaciones cotidianas como "Conversaciones diarias", "Entorno laboral", "Emergencias" o "Educación", permitiendo al usuario prepararse para diferentes contextos comunicativos.
+
+**Por nivel de complejidad:**  
+Las opciones de configuración del guante se presentan en orden progresivo de complejidad, comenzando con ajustes básicos (como encendido/apagado, nivel de volumen) hasta configuraciones avanzadas (como calibración de sensores o programación de señas personalizadas).
+
+---
+
+Esta estructura organizativa asegura que SmartSign sea accesible para usuarios con diferentes niveles de familiaridad tecnológica, priorizando siempre la facilidad de uso y la eficiencia en la comunicación.
+
 ##### 5.2.2. Labeling Systems
+El sistema de etiquetado de SmartSign ha sido diseñado pensando en la claridad y la inclusión, utilizando términos sencillos que evitan ambigüedades y facilitan la navegación para todos los usuarios, independientemente de su nivel de familiaridad con la tecnología o el lenguaje de señas.
+
+---
+
+**Etiquetas Generales**
+
+- Traductor: Función principal para convertir señas a audio y texto.  
+- Biblioteca de Señas: Colección de señas categorizadas para aprendizaje y práctica.  
+- Mi Dispositivo: Gestión y configuración del guante inteligente.  
+- Perfil: Información personal y preferencias del usuario.  
+- Comunidad: Espacio para interactuar con otros usuarios de SmartSign.  
+- Ayuda: Centro de soporte y tutoriales sobre el uso de la plataforma.
+
+---
+
+**Etiquetas en la Landing Page**
+
+- Inicio: Presentación general de SmartSign y sus beneficios.  
+- Conoce más: Información detallada sobre la tecnología y funcionalidades.  
+- Acerca de Nosotros: Historia y misión de SmartSign.  
+- Iniciar sesión: Acceso para usuarios registrados.  
+- Registrarse: Formulario para nuevos usuarios.  
+- Comienza Ahora: Botón principal de llamada a la acción.
+
+---
+
+**Etiquetas en la Versión Web**
+
+- Traductor en Vivo: Herramienta principal para traducción en tiempo real.  
+- Mis Frases: Frases guardadas y personalizadas por el usuario.  
+- Estado del Dispositivo: Muestra la conexión y batería del guante.  
+- Ajustes de Voz: Personalización de la voz sintetizada (género, velocidad, tono).  
+- Historial: Registro de traducciones recientes.  
+- Calibración: Herramienta para optimizar el reconocimiento de señas.  
+- Tutorial: Guías paso a paso para utilizar el sistema.  
+- Soporte Técnico: Asistencia para problemas con el dispositivo.
+
+---
+
+**Etiquetas en la App Móvil**
+
+- Traducir: Función principal de traducción de señas a voz.  
+- Biblioteca: Acceso a la colección de señas organizadas por categorías.  
+- Mi Guante: Configuración y estado del dispositivo IoT.  
+- Aprendizaje: Tutoriales y ejercicios para mejorar el uso del sistema.  
+- Perfil: Información personal y configuraciones de usuario.
+
+---
+
+**Etiquetas en Notificaciones**
+
+- Conexión: Alertas sobre el estado de conexión del guante.  
+- Batería: Avisos sobre el nivel de batería del dispositivo.  
+- Calibración: Recordatorios para calibrar el guante.  
+- Actualización: Información sobre nuevas características o mejoras.  
+- Comunidad: Notificaciones de interacciones con otros usuarios.
+
+---
+
+Todas las etiquetas han sido seleccionadas por su claridad semántica, consistencia a través de las plataformas y relevancia para el usuario, asegurando una experiencia de navegación fluida e intuitiva.
+
 ##### 5.2.3. SEO Tags and Meta Tags
+
+En esta sección se detallan las etiquetas SEO y meta tags implementadas en SmartSign para optimizar la visibilidad en motores de búsqueda y mejorar la experiencia de usuario en redes sociales.
+
+
 ##### 5.2.4. Searching Systems
 ##### 5.2.5. Navigation Systems
 ##### 5.3. Landing Page UI Design
