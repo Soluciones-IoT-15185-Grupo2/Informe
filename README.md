@@ -2060,54 +2060,81 @@ En esta sección se detallan las etiquetas SEO y meta tags implementadas en Smar
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
 ##### 6.1. Software Configuration Management
-##### 6.1.1. Software Development Environment Configuration
-    **Discord** Servicio de mensajería instantánea y comunicación por voz que utilizamos como plataforma principal para las reuniones virtuales del equipo. Organizamos canales específicos para cada componente del proyecto, facilitando la distribución de tareas durante los sprints y manteniendo una comunicación fluida entre todos los miembros del equipo.
-**Gestión de Requisitos**
-**Trello** Software de administración de proyectos que implementamos para organizar nuestras historias de usuario y seguimiento de tareas. Estructuramos nuestros tableros según la metodología Scrum, con columnas que representan el flujo de trabajo (Por hacer, En proceso, Revisión, Completado) y etiquetas para identificar la prioridad y complejidad de cada tarea.
-**UXPressia** Plataforma utilizada para la creación de User Personas y Mapas de Empatía. Esta herramienta nos permitió definir claramente los perfiles de nuestros usuarios objetivo, comprender sus necesidades y expectativas, y diseñar una experiencia adaptada a sus requerimientos específicos.
-**Miro** Plataforma de colaboración digital que utilizamos para desarrollar los escenarios As-Is y To-Be de nuestra solución. Esta herramienta nos permitió visualizar el recorrido del usuario antes y después de implementar nuestra propuesta, identificando puntos de mejora y oportunidades de innovación.
-**LucidChart**Herramienta de diagramación empleada para la creación de diagramas de flujo, mapas de procesos y representaciones visuales de la arquitectura del sistema. Facilitó la comunicación de conceptos técnicos complejos entre los miembros del equipo y stakeholders.
-**Structurizr** Herramienta especializada que empleamos para crear diagramas de arquitectura siguiendo el modelo C4. Con ella generamos representaciones visuales de nuestro sistema a diferentes niveles (contexto, contenedor y componentes), facilitando la comprensión de la estructura y relaciones dentro de nuestra solución.
-**Diseño de Producto**
-**Figma** Editor de gráficos vectoriales y herramienta de prototipado que utilizamos para el diseño de la interfaz de usuario. Desarrollamos wireframes iniciales, mockups detallados y prototipos interactivos que nos permitieron iterar rápidamente sobre el diseño y validarlo con usuarios potenciales antes de la implementación.
-**Desarrollo de Software**
-**Visual Studio Code** Entorno de desarrollo integrado que empleamos para la programación del frontend con Angular. Sus extensiones y capacidades de integración con sistemas de control de versiones optimizaron nuestro flujo de trabajo de desarrollo.
-**IntelliJ IDEA** Entorno de desarrollo integrado utilizado para la programación del backend con Java y Spring Boot, aprovechando sus capacidades avanzadas de depuración y análisis de código.
-**Git** Sistema de control de versiones que implementamos para gestionar el código fuente, facilitando el trabajo colaborativo y manteniendo un historial completo de cambios en el proyecto.
-**Despliegue de Software**
-**Vercel** Plataforma de computación en la nube que utilizamos para el despliegue de nuestra aplicación web desarrollada en Angular, proporcionando un entorno optimizado para frontend con actualizaciones automatizadas desde nuestro repositorio.
-**Documentación de Software**
-**GitHub** Plataforma de desarrollo colaborativo que utilizamos para alojar nuestros repositorios de código y documentar los diferentes componentes del sistema mediante archivos README estructurados y wikis detalladas.
-**Swagger** Conjunto de herramientas que implementamos para diseñar, documentar y consumir nuestra API REST, generando automáticamente una interfaz interactiva que facilita las pruebas y comprensión de los endpoints disponibles.
 
-**6.1.2. Source Code Management. **
+| Herramienta | Descripción |
+|-------------|-------------|
+| **Discord** | Servicio de mensajería instantánea y comunicación por voz que utilizamos como plataforma principal para las reuniones virtuales del equipo. Organizamos canales específicos para cada componente del proyecto, facilitando la distribución de tareas durante los sprints y manteniendo una comunicación fluida entre todos los miembros del equipo. |
+| **Trello** | Software de administración de proyectos que implementamos para organizar nuestras historias de usuario y seguimiento de tareas. Estructuramos nuestros tableros según la metodología Scrum, con columnas que representan el flujo de trabajo (Por hacer, En proceso, Revisión, Completado) y etiquetas para identificar la prioridad y complejidad de cada tarea. |
+| **UXPressia** | Plataforma utilizada para la creación de User Personas y Mapas de Empatía. Esta herramienta nos permitió definir claramente los perfiles de nuestros usuarios objetivo, comprender sus necesidades y expectativas, y diseñar una experiencia adaptada a sus requerimientos específicos. |
+| **Miro** | Plataforma de colaboración digital que utilizamos para desarrollar los escenarios As-Is y To-Be de nuestra solución. Esta herramienta nos permitió visualizar el recorrido del usuario antes y después de implementar nuestra propuesta, identificando puntos de mejora y oportunidades de innovación. |
+| **LucidChart** | Herramienta de diagramación empleada para la creación de diagramas de flujo, mapas de procesos y representaciones visuales de la arquitectura del sistema. Facilitó la comunicación de conceptos técnicos complejos entre los miembros del equipo y stakeholders. |
+| **Structurizr** | Herramienta especializada que empleamos para crear diagramas de arquitectura siguiendo el modelo C4. Con ella generamos representaciones visuales de nuestro sistema a diferentes niveles (contexto, contenedor y componentes), facilitando la comprensión de la estructura y relaciones dentro de nuestra solución. |
+| **Figma** | Editor de gráficos vectoriales y herramienta de prototipado que utilizamos para el diseño de la interfaz de usuario. Desarrollamos wireframes iniciales, mockups detallados y prototipos interactivos que nos permitieron iterar rápidamente sobre el diseño y validarlo con usuarios potenciales antes de la implementación. |
+| **Visual Studio Code** | Entorno de desarrollo integrado que empleamos para la programación del frontend con Angular. Sus extensiones y capacidades de integración con sistemas de control de versiones optimizaron nuestro flujo de trabajo de desarrollo. |
+| **IntelliJ IDEA** | Entorno de desarrollo integrado utilizado para la programación del backend con Java y Spring Boot, aprovechando sus capacidades avanzadas de depuración y análisis de código. |
+| **Git** | Sistema de control de versiones que implementamos para gestionar el código fuente, facilitando el trabajo colaborativo y manteniendo un historial completo de cambios en el proyecto. |
+| **Vercel** | Plataforma de computación en la nube que utilizamos para el despliegue de nuestra aplicación web desarrollada en Angular, proporcionando un entorno optimizado para frontend con actualizaciones automatizadas desde nuestro repositorio. |
+| **GitHub** | Plataforma de desarrollo colaborativo que utilizamos para alojar nuestros repositorios de código y documentar los diferentes componentes del sistema mediante archivos README estructurados y wikis detalladas. |
+| **Swagger** | Conjunto de herramientas que implementamos para diseñar, documentar y consumir nuestra API REST, generando automáticamente una interfaz interactiva que facilita las pruebas y comprensión de los endpoints disponibles. |
+
+---
+
+## 6.1.2. Source Code Management
+
 Para la administración y gestión de las múltiples modificaciones del código fuente, nuestro equipo estableció una organización en GitHub donde se crearon repositorios independientes para cada componente principal del sistema:
-•	Frontend Angular
-•	Backend Spring Boot
-•	Documentación técnica
+
+- Frontend Angular  
+- Backend Spring Boot  
+- Documentación técnica
+
 Adoptamos la metodología GitFlow para estructurar nuestro flujo de trabajo, estableciendo las siguientes convenciones para las ramas de desarrollo:
-**Main: ** Contiene la versión estable y productiva de la aplicación. Es la rama que se despliega en el entorno de producción y con la que interactúan los usuarios finales.
-**Develop: ** Rama de integración donde se consolidan las funcionalidades desarrolladas durante el sprint actual. Sirve como base para las pruebas de integración continua.
-**Release: ** Rama preparatoria para la integración con main. En esta versión, las funcionalidades se han completado y pasado pruebas iniciales, pero aún requieren validación exhaustiva antes de su promoción a producción.
-**Feature: ** Ramas temporales creadas para desarrollar nuevas funcionalidades específicas. Se nombran siguiendo el patrón "feature/nombre-descriptivo".
-**Hotfix: ** Ramas dedicadas a la corrección urgente de errores detectados en el entorno de producción. Se crean directamente desde main y se fusionan tanto en main como en develop una vez completadas.
-**Stack tecnológico: **
-•	Frontend: Angular con TypeScript
-•	Backend: Java con Spring Boot
-•	Base de datos: PostgreSQL
-**Convenciones de idioma: ** El inglés es el idioma estándar para todo el código fuente, nombres de variables, comentarios, nombres de ramas y mensajes de commit. El español se utiliza exclusivamente para la documentación del proyecto dirigida a stakeholders locales y para los manuales de usuario final.
-**Convenciones de versionamiento: ** Seguimos el estándar de Versionado Semántico (SemVer) con la estructura X.Y.Z donde:
-•	X representa cambios mayores incompatibles con versiones anteriores
-•	Y indica nuevas funcionalidades compatibles con versiones anteriores
-•	Z señala correcciones de errores compatibles con versiones anteriores
+
+| Rama    | Propósito                                                                                                      |
+|---------|----------------------------------------------------------------------------------------------------------------|
+| **main**    | Contiene la versión estable y productiva de la aplicación. Es la rama que se despliega en producción y con la que interactúan los usuarios finales. |
+| **develop** | Rama de integración donde se consolidan las funcionalidades desarrolladas durante el sprint actual. Sirve como base para las pruebas de integración continua. |
+| **release** | Rama preparatoria para la integración con main. En esta versión, las funcionalidades se han completado y pasado pruebas iniciales, pero aún requieren validación exhaustiva antes de su promoción a producción. |
+| **feature** | Ramas temporales creadas para desarrollar nuevas funcionalidades específicas. Se nombran siguiendo el patrón `feature/nombre-descriptivo`. |
+| **hotfix**  | Ramas dedicadas a la corrección urgente de errores detectados en producción. Se crean directamente desde main y se fusionan tanto en main como en develop una vez completadas. |
+
+---
+
+### Stack tecnológico
+
+| Componente | Tecnología            |
+|------------|----------------------|
+| Frontend   | Angular con TypeScript |
+| Backend    | Java con Spring Boot   |
+| Base de datos | PostgreSQL          |
+
+---
+
+### Convenciones de idioma
+
+- El inglés es el idioma estándar para todo el código fuente, nombres de variables, comentarios, nombres de ramas y mensajes de commit.  
+- El español se utiliza exclusivamente para la documentación del proyecto dirigida a stakeholders locales y para los manuales de usuario final.
+
+---
+
+### Convenciones de versionamiento
+
+Seguimos el estándar de Versionado Semántico (SemVer) con la estructura X.Y.Z donde:
+
+| Componente | Significado                                                  |
+|------------|--------------------------------------------------------------|
+| X          | Cambios mayores incompatibles con versiones anteriores       |
+| Y          | Nuevas funcionalidades compatibles con versiones anteriores  |
+| Z          | Correcciones de errores compatibles con versiones anteriores |
+
 Iniciamos el proyecto con la versión 0.1.0 e incrementamos los números según las convenciones establecidas.
-**Convenciones de Commits: ** Adoptamos el formato "Conventional Commits" para estandarizar los mensajes de commit y facilitar la generación automática de changelogs. La estructura básica es:
-<tipo>[ámbito opcional]: <descripción>
-Donde:
-•	tipo: Categoría del cambio (feat, fix, docs, style, refactor, test, chore)
-•	ámbito: Componente o módulo afectado (opcional)
-•	descripción: Resumen conciso del cambio en tiempo presente
-Para un mejor seguimiento del proyecto, implementamos revisiones de código (pull requests) obligatorias antes de fusionar cualquier rama con develop, asegurando que al menos un miembro del equipo revise y apruebe los cambios propuestos.
+
+---
+
+### Convenciones de Commits
+
+Adoptamos el formato **Conventional Commits** para estandarizar los mensajes de commit y facilitar la generación automática de changelogs. La estructura básica es:
+
+
 
 
 ##### 6.1.2. Source Code Management
