@@ -2059,21 +2059,55 @@ En esta sección se detallan las etiquetas SEO y meta tags implementadas en Smar
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
-##### 6.1. Software Configuration Management
-##### 6.1.1. Software Development Environment Configuration
-##### 6.1.2. Source Code Management
-##### 6.1.3. Source Code Style Guide & Conventions
-##### 6.1.4. Software Deployment Configuration
-##### 6.2. Landing Page, Services & Applications Implementation
-##### 6.2.1. Sprint 1
+### 6.1. Software Configuration Management
+#### 6.1.1. Software Development Environment Configuration
+#### 6.1.2. Source Code Management
+#### 6.1.3. Source Code Style Guide & Conventions
+#### 6.1.4. Software Deployment Configuration
+### 6.2. Landing Page, Services & Applications Implementation
+#### 6.2.1. Sprint 1
 ##### 6.2.1.1. Sprint Planning 1
 ##### 6.2.1.2. Aspect Leaders and Collaborators
 ##### 6.2.1.3. Sprint Backlog 1
+
 ##### 6.2.1.4. Development Evidence for Sprint Review
+
+
+
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
 ##### 6.2.1.6. Execution Evidence for Sprint Review
+
+Se desarrolló la landing page y el frontend usando Angular en el IDE WebStorm de JetBrains. 
+
+**Vista del desarrollo de la Landing Page:** 
+
+![image](/Assets/landingPageDev.png)
+
+**Vista del desarrollo del Frontend:** 
+
+![image](/Assets/frontendDev.png)
+
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+No aplica para esta entrega. 
+
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+Se desplegó la landing page con Google Firebase 
+
+![image](/Assets/landingDeployment.png)
+
+![image](/Assets/landingPageDeployed.png)
+
+**Enlace de la landing page:**  https://smartsignlanding.web.app/ 
+
+Se desplegó el frontend con Vercel 
+
+![image](/Assets/frontendDeployed.png)
+
+**Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/
+
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 # Conclusiones 
@@ -2089,3 +2123,6 @@ En esta sección se detallan las etiquetas SEO y meta tags implementadas en Smar
 # Bibliografía 
 
 # Anexos
+
+* **Enlace de la landing page:**  https://smartsignlanding.web.app/ 
+* **Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/ 
