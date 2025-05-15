@@ -457,6 +457,16 @@ Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestra
     <li>¿Qué tipo de funcionalidades esperaría de un dispositivo o aplicación para facilitar la comunicación?</li>
     <li>¿Qué tipo de mensajes o expresiones serían más útiles que se pudieran traducir automáticamente con la ayuda de un dispositivo?</li>
     <li>¿En qué espacios le gustaría que esta herramienta sea especialmente útil (hospitales, bancos, centros educativos, etc.)?</li>
+<ol>
+    <h3>Propósito de la entrevista del segmento 1:</h3>
+<ol>
+    <li>Comprender las principales dificultades que enfrentan para comunicarse con la persona a su cargo en distintos contextos (familiar, médico, social, laboral).</li>
+    <li>Identificar las estrategias actuales que utilizan para superar las barreras comunicativas.</li>
+    <li>Explorar sus experiencias con tecnologías o aplicaciones existentes y sus limitaciones.</li>
+    <li>Detectar necesidades y expectativas específicas sobre un dispositivo o aplicación que facilite la comunicación en tiempo real.</li>
+    <li>Evaluar la percepción y aceptación inicial del concepto SmartSign como solución potencial.</li>
+</ol>
+    
 </ol>
 
 <h3>Segmento 2: Instituciones educativas especializadas y centros de rehabilitación</h3>
@@ -470,6 +480,15 @@ Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestra
     <li>¿Qué limitaciones tienen actualmente en cuanto a recursos tecnológicos para mejorar sus procesos de enseñanza?</li>
     <li>¿Qué tipo de dispositivo o aplicación cree que sería útil para reforzar la enseñanza del lenguaje de señas?</li>
     <li>¿Le gustaría contar con una herramienta que permita evaluar en tiempo real la expresión en señas de los estudiantes?</li>
+<ol>
+    <h3>Propósito de la entrevista del segmento 2:</h3>
+<ol>
+    <li>Entender los métodos y recursos utilizados para la enseñanza del lenguaje de señas y la integración de personas con discapacidad auditiva o del habla.</li>
+    <li>Analizar las dificultades que enfrentan sus estudiantes o pacientes para comunicarse fuera del entorno institucional.</li>
+    <li>Investigar el uso actual de tecnologías para apoyo en la educación y sus limitaciones.</li>
+    <li>Identificar qué funcionalidades consideran más útiles y relevantes en una herramienta tecnológica como SmartSign.</li>
+    <li>Validar la factibilidad y utilidad de la propuesta SmartSign en el contexto educativo y terapéutico.</li>
+    
 </ol>
 
 <h3>Validación de la propuesta</h3>
@@ -482,7 +501,6 @@ Tácticas: Para llevar a cabo esta estrategia, se realizarán informes trimestra
     <li>¿Qué sugerencias o mejoras le gustaría que tenga el dispositivo o la aplicación?</li>
     <li>¿En qué escenarios le gustaría poder utilizar esta solución?</li>
 </ol>
-
 
 #### 2.2.2. Registro de entrevistas
 
