@@ -2132,12 +2132,22 @@ Iniciamos el proyecto con la versión 0.1.0 e incrementamos los números según 
 
 ### Convenciones de Commits
 
-Adoptamos el formato **Conventional Commits** para estandarizar los mensajes de commit y facilitar la generación automática de changelogs. La estructura básica es:
+Adoptamos el formato **Conventional Commits** para estandarizar los mensajes de commit y facilitar la generación automática de changelogs. La estructura básica es: <tipo>[ámbito opcional]: <descripción>
 
+Donde:
 
+- **tipo:** Categoría del cambio (`feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`)  
+- **ámbito:** Componente o módulo afectado (opcional)  
+- **descripción:** Resumen conciso del cambio en tiempo presente
 
+---
+
+### Revisión de Código
+
+Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pull requests*) obligatorias antes de fusionar cualquier rama con `develop`, asegurando que al menos un miembro del equipo revise y apruebe los cambios propuestos.
 
 ##### 6.1.2. Source Code Management
+
 ##### 6.1.3. Source Code Style Guide & Conventions
 ##### 6.1.4. Software Deployment Configuration
 ##### 6.2. Landing Page, Services & Applications Implementation
