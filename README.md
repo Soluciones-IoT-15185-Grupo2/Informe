@@ -2082,6 +2082,10 @@ En esta sección se detallan las etiquetas SEO y meta tags implementadas en Smar
 
 * Durante el desarrollo del TB1 pudimos analizar e investigar acerca de cómo la solución que estamos proponiendo puede adecuarse a las demandas de nuestros usuarios objetivos. Además, hemos desarrollado las bases del diseño estructural de nuestra solución, las cuales nos van a servir cuando entremos a la fase de desarrollo.
 
+## Conclusiones TP
+
+* Durante el desarrollo del TP pudimos desarrollar tanto los prototipos de nuestra aplicación como sus implementaciones parciales sin dispositivos IoT. Esto nos sirve para tener una base sólida sobre la que vamos a desarrollar nuestra aplicación con dispositivos IoT en los siguientes entregables. 
+
 # Bibliografía 
 
 # Anexos
