@@ -2000,6 +2000,9 @@ Todas las etiquetas han sido seleccionadas por su claridad semántica, consisten
 
 En esta sección se detallan las etiquetas SEO y meta tags implementadas en SmartSign para optimizar la visibilidad en motores de búsqueda y mejorar la experiencia de usuario en redes sociales.
 
+1. **SEO Tags and Meta Tags for Landing Page**
+
+
 
 ##### 5.2.4. Searching Systems
 ##### 5.2.5. Navigation Systems
