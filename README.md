@@ -2235,7 +2235,11 @@ Los sistemas de navegación de SmartSign están diseñados considerando las nece
   - El dispositivo proporciona retroalimentación física para acciones clave
 ##### 5.3. Landing Page UI Design
 ##### 5.3.1. Landing Page Wireframe
+![image](https://github.com/user-attachments/assets/15b14265-1d47-4471-ab57-97b8af0266bc)
+
 ##### 5.3.2. Landing Page Mock-up
+![image](https://github.com/user-attachments/assets/899e9251-fce7-43dc-8020-36f415cee32b)
+
 ##### 5.4. Applications UX/UI Design
 ##### 5.4.1. Applications Wireframes
 ##### 5.4.2. Applications Wireflow Diagrams
