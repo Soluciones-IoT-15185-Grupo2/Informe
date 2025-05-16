@@ -2423,6 +2423,9 @@ El proceso general para el despliegue en Firebase Hosting es:
 6. Firebase asigna una URL pública (del tipo https://<proyecto>.web.app) desde donde se puede acceder al sitio.
 La siguiente URL corresponde a la Landing Page actual desplegada mediante Firebase Hosting:
 https://smartsignlanding.web.app
+
+![image](/Assets/landing.png)
+
 ________________________________________
 **Despliegue del Frontend de la Aplicación Web**
 El frontend de la aplicación SmartSign está desplegado en Vercel, plataforma especializada en hosting de aplicaciones web modernas con integración continua. El flujo de despliegue se realiza con los siguientes pasos:
@@ -2434,6 +2437,8 @@ El frontend de la aplicación SmartSign está desplegado en Vercel, plataforma e
 6. **Acceder a la URL proporcionada por Vercel**, que usualmente tiene el formato https://<nombre-proyecto>.vercel.app, para visualizar la aplicación web en producción.
 La URL pública actual del frontend desplegado es:
 https://front-end-phi-liart-90.vercel.app
+
+![image](/Assets/front.png)
 
 
 ##### 6.2. Landing Page, Services & Applications Implementation
