@@ -2146,8 +2146,6 @@ Donde:
 
 Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pull requests*) obligatorias antes de fusionar cualquier rama con `develop`, asegurando que al menos un miembro del equipo revise y apruebe los cambios propuestos.
 
-##### 6.1.2. Source Code Management
-
 ##### 6.1.3. Source Code Style Guide & Conventions
 
 ### Angular
