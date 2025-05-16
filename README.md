@@ -2251,6 +2251,8 @@ Los sistemas de navegación de SmartSign están diseñados considerando las nece
 
 ### 6.1. Software Configuration Management
 
+#### 6.1.1. Software Development Environment Configuration
+
 | Herramienta | Descripción |
 |-------------|-------------|
 | **Discord** | Servicio de mensajería instantánea y comunicación por voz que utilizamos como plataforma principal para las reuniones virtuales del equipo. Organizamos canales específicos para cada componente del proyecto, facilitando la distribución de tareas durante los sprints y manteniendo una comunicación fluida entre todos los miembros del equipo. |
@@ -2372,26 +2374,27 @@ Ejemplo correcto:
 ```html
 <img src="smartsign-logo.png" alt="Logo de SmartSign" width="128" height="128" />
 ```
-###Convenciones CSS
+#### Convenciones CSS
 -Usar nombres de clases e IDs descriptivos y cortos, usando guiones para separar palabras (`device-status`, `btn-primary`).
 -Utilizar propiedades abreviadas cuando sea posible para mayor legibilidad.
 -No especificar unidades en valores 0 (ejemplo: `margin: 0; `).
-###Convenciones TypeScript
+
+#### Convenciones TypeScript
 -No usar explícitamente el modificador `public` para atributos o métodos públicos.
 -Siempre usar paréntesis al instanciar clases, incluso sin parámetros.
 -Inicializar arrays preferentemente con corchetes ` []` o `Array.from()`.
 -Declarar variables con `const` o `let`, evitar `var`.
 -Declarar funciones con la palabra clave `function` en lugar de asignarlas a variables anónimas.
-________________________________________
-##Java 
-###Nomenclatura
+
+#### Java 
+#### Nomenclatura
 -Los nombres de interfaces terminan en `Interface` y usan CamelCase (ej. `TranslationServiceInterface`).
 -Clases con nombres descriptivos en CamelCase, evitando abreviaciones confusas.
 -Paquetes en minúsculas sin guiones bajos (ej. `com.smartsign.translation`).
-###Variables y constantes
+#### Variables y constantes
 -Variables descriptivas, evitando abreviaciones salvo en iteradores (`i`,` j`,`k`).
 -Constantes en mayúsculas con guiones bajos, declaradas como `public static final`.
-###Llaves {}
+#### Llaves {}
 -Usar siempre llaves en estructuras `if`, `else`, `for`, `while`, aunque el cuerpo sea de una sola línea.
 
 ###Package names
@@ -2430,7 +2433,7 @@ https://smartsignlanding.web.app
 
 ![image](/Assets/landing.png)
 
-________________________________________
+
 **Despliegue del Frontend de la Aplicación Web**
 El frontend de la aplicación SmartSign está desplegado en Vercel, plataforma especializada en hosting de aplicaciones web modernas con integración continua. El flujo de despliegue se realiza con los siguientes pasos:
 1. **Crear una cuenta en Vercel** si aún no se tiene una.
