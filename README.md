@@ -2241,11 +2241,27 @@ Los sistemas de navegación de SmartSign están diseñados considerando las nece
 ![image](https://github.com/user-attachments/assets/899e9251-fce7-43dc-8020-36f415cee32b)
 
 ##### 5.4. Applications UX/UI Design
+
 ##### 5.4.1. Applications Wireframes
+![image](https://github.com/user-attachments/assets/d77cba05-b3e4-476c-a9d6-310b7b2fe4bf)
+
+
 ##### 5.4.2. Applications Wireflow Diagrams
+![image](https://github.com/user-attachments/assets/57385e21-ed6c-49a2-9f19-1159a562bd93)
+
+
 ##### 5.4.2. Applications Mock-ups
+![image](https://github.com/user-attachments/assets/6e89808f-beaa-42d9-a9fc-57594dcd4e5c)
+![image](https://github.com/user-attachments/assets/b4ae726b-0351-42e4-abff-511f300b6e3b)
+![image](https://github.com/user-attachments/assets/fbbdf7fe-afcc-49a1-b2bb-5553cac7410c)
+![image](https://github.com/user-attachments/assets/abc35196-dc68-45d7-b689-8d190f10a166)
+
+
 ##### 5.4.3. Applications User Flow Diagrams
+![image](https://github.com/user-attachments/assets/18710d82-8d81-4359-9cb8-1068c7305a13)
+
 ##### 5.5. Applications Prototyping
+![image](https://github.com/user-attachments/assets/b1c03f37-0a23-4a48-a2b4-c6b67cb7950c)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
