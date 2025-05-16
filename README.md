@@ -2150,7 +2150,7 @@ Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pu
 
 ##### 6.1.3. Source Code Style Guide & Conventions
 
-## Angular
+### Angular
 
 ### Convenciones para nombres de archivos
 
