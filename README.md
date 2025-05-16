@@ -2249,7 +2249,7 @@ Los sistemas de navegación de SmartSign están diseñados considerando las nece
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
-##### 6.1. Software Configuration Management
+### 6.1. Software Configuration Management
 
 | Herramienta | Descripción |
 |-------------|-------------|
@@ -2269,7 +2269,7 @@ Los sistemas de navegación de SmartSign están diseñados considerando las nece
 
 ---
 
-## 6.1.2. Source Code Management
+#### 6.1.2. Source Code Management
 
 Para la administración y gestión de las múltiples modificaciones del código fuente, nuestro equipo estableció una organización en GitHub donde se crearon repositorios independientes para cada componente principal del sistema:
 
@@ -2289,7 +2289,7 @@ Adoptamos la metodología GitFlow para estructurar nuestro flujo de trabajo, est
 
 ---
 
-### Stack tecnológico
+##### Stack tecnológico
 
 | Componente | Tecnología            |
 |------------|----------------------|
@@ -2299,14 +2299,14 @@ Adoptamos la metodología GitFlow para estructurar nuestro flujo de trabajo, est
 
 ---
 
-### Convenciones de idioma
+##### Convenciones de idioma
 
 - El inglés es el idioma estándar para todo el código fuente, nombres de variables, comentarios, nombres de ramas y mensajes de commit.  
 - El español se utiliza exclusivamente para la documentación del proyecto dirigida a stakeholders locales y para los manuales de usuario final.
 
 ---
 
-### Convenciones de versionamiento
+##### Convenciones de versionamiento
 
 Seguimos el estándar de Versionado Semántico (SemVer) con la estructura X.Y.Z donde:
 
@@ -2320,7 +2320,7 @@ Iniciamos el proyecto con la versión 0.1.0 e incrementamos los números según 
 
 ---
 
-### Convenciones de Commits
+##### Convenciones de Commits
 
 Adoptamos el formato **Conventional Commits** para estandarizar los mensajes de commit y facilitar la generación automática de changelogs. La estructura básica es: <tipo>[ámbito opcional]: <descripción>
 
@@ -2332,15 +2332,15 @@ Donde:
 
 ---
 
-### Revisión de Código
+#### Revisión de Código
 
 Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pull requests*) obligatorias antes de fusionar cualquier rama con `develop`, asegurando que al menos un miembro del equipo revise y apruebe los cambios propuestos.
 
-##### 6.1.3. Source Code Style Guide & Conventions
+#### 6.1.3. Source Code Style Guide & Conventions
 
-### Angular
+#### Angular
 
-### Convenciones para nombres de archivos
+#### Convenciones para nombres de archivos
 
 | Tipo de archivo | Convención de nombre                          |
 |-----------------|----------------------------------------------|
@@ -2348,7 +2348,7 @@ Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pu
 | CSS             | `<nombre>-component.css`                      |
 | TypeScript      | `<nombre>-component.ts`                       |
 
-### Estructura de archivos por componente
+#### Estructura de archivos por componente
 
 Cada componente Angular contiene un conjunto de archivos relacionados agrupados en una carpeta. Por ejemplo, para el componente `translator`:
 ```
@@ -2360,7 +2360,7 @@ translator/
 ```
 
 
-### Convenciones en HTML
+#### Convenciones en HTML
 
 - Usar nombres de etiquetas y atributos en minúsculas.
 - Cerrar correctamente todos los elementos HTML.
@@ -2413,7 +2413,7 @@ ________________________________________
 |     BACKGROUND     | Permite agrupar condiciones comunes que se repiten en varios escenarios dentro de una misma FEATURE, evitando la repetición y clarificando que son detalles generales que anteceden a cada escenario individual.                            |
 
 
-##### 6.1.4. Software Deployment Configuration
+#### 6.1.4. Software Deployment Configuration
 
 **Despliegue de la Landing Page**
 
@@ -2445,9 +2445,9 @@ https://front-end-phi-liart-90.vercel.app
 ![image](/Assets/front.png)
 
 
-##### 6.2. Landing Page, Services & Applications Implementation
-##### 6.2.1. Sprint 1
-##### 6.2.1.1. Sprint Planning 1
+### 6.2. Landing Page, Services & Applications Implementation
+#### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
 | Sprint # | Sprint 1 |
 |---------------------|-------------------------------------------|
 | Date                | 2025/05/15                                |
@@ -2466,7 +2466,7 @@ https://front-end-phi-liart-90.vercel.app
 | Sprint 1 Velocity    | 13 Story Points                           |
 | Sum of Story Points  | 13 Story Points                           |
 
-##### 6.2.1.2. Aspect Leaders and Collaborators
+#### 6.2.1.2. Aspect Leaders and Collaborators
 En esta sección se detalla la elaboración del artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto.
 
 | Team Member | GitHub Username | Desarrollo de Hardware | Reconocimiento de Señas | Procesamiento de Audio | Integración de Sistemas |
@@ -2478,7 +2478,7 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 | Salazar Saldarriaga, Frank Junior | Ank222001 | C | - | C | C |
 
 
-##### 6.2.1.3. Sprint Backlog 1
+#### 6.2.1.3. Sprint Backlog 1
 
 
 | Sprint # | Sprint 1 | | | | | | |
@@ -2498,7 +2498,7 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 | US05 | Comprensión por parte del entorno | T12 | Implementación de feedback visual para el usuario | Desarrollar sistema de luces o vibraciones que indiquen al usuario si su mensaje fue procesado correctamente | 5 horas | Jorge Orrego | To-do |
 | US05 | Comprensión por parte del entorno | T13 | Pruebas de usabilidad con usuarios sin conocimiento de señas | Realizar pruebas con personas sin experiencia en lengua de señas para validar la claridad de la comunicación | 4 horas |  Frank Salazar | To-do |
 
-##### 6.2.1.4. Development Evidence for Sprint Review
+#### 6.2.1.4. Development Evidence for Sprint Review
 El equipo de SmartSign ha realizado avances significativos en la implementación del prototipo inicial del guante traductor de señas. Hemos logrado establecer las bases del hardware y el software de reconocimiento.
 
 **Enlace del repositorio Landing Page:** https://github.com/Soluciones-IoT-15185-Grupo2/LandingPage 
@@ -2507,11 +2507,11 @@ El equipo de SmartSign ha realizado avances significativos en la implementación
 
 **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
 
-##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
 Durante el Sprint 1 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
 
 
-##### 6.2.1.6. Execution Evidence for Sprint Review
+#### 6.2.1.6. Execution Evidence for Sprint Review
 
 Se desarrolló la landing page y el frontend usando Angular en el IDE WebStorm de JetBrains. 
 
@@ -2523,11 +2523,11 @@ Se desarrolló la landing page y el frontend usando Angular en el IDE WebStorm d
 
 ![image](/Assets/frontendDev.png)
 
-##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
 No aplica para esta entrega. 
 
-##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
 Se desplegó la landing page con Google Firebase 
 
@@ -2543,7 +2543,7 @@ Se desplegó el frontend con Vercel
 
 **Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/
 
-##### 6.2.1.9. Team Collaboration Insights during Sprint
+#### 6.2.1.9. Team Collaboration Insights during Sprint
 
 | Alumno | Actividad |
 |--------|-----------|
