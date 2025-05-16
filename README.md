@@ -2149,6 +2149,82 @@ Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pu
 ##### 6.1.2. Source Code Management
 
 ##### 6.1.3. Source Code Style Guide & Conventions
+
+## Angular
+
+### Convenciones para nombres de archivos
+
+| Tipo de archivo | Convención de nombre                          |
+|-----------------|----------------------------------------------|
+| HTML            | `<nombre>-component.html`                     |
+| CSS             | `<nombre>-component.css`                      |
+| TypeScript      | `<nombre>-component.ts`                       |
+
+### Estructura de archivos por componente
+
+Cada componente Angular contiene un conjunto de archivos relacionados agrupados en una carpeta. Por ejemplo, para el componente `translator`:
+```
+translator/
+ ├── translator.component.ts
+ ├── translator.component.html
+ ├── translator.component.css
+ ├── translator.component.spec.ts
+```
+
+
+### Convenciones en HTML
+
+- Usar nombres de etiquetas y atributos en minúsculas.
+- Cerrar correctamente todos los elementos HTML.
+- Especificar siempre los atributos `alt`, `width` y `height` en imágenes para mejorar la accesibilidad.
+- No dejar espacios extras alrededor de los signos de igualdad en los atributos.
+
+Ejemplo correcto:
+
+```html
+<img src="smartsign-logo.png" alt="Logo de SmartSign" width="128" height="128" />
+```
+###Convenciones CSS
+-Usar nombres de clases e IDs descriptivos y cortos, usando guiones para separar palabras (`device-status`, `btn-primary`).
+-Utilizar propiedades abreviadas cuando sea posible para mayor legibilidad.
+-No especificar unidades en valores 0 (ejemplo: `margin: 0; `).
+###Convenciones TypeScript
+-No usar explícitamente el modificador `public` para atributos o métodos públicos.
+-Siempre usar paréntesis al instanciar clases, incluso sin parámetros.
+-Inicializar arrays preferentemente con corchetes ` []` o `Array.from()`.
+-Declarar variables con `const` o `let`, evitar `var`.
+-Declarar funciones con la palabra clave `function` en lugar de asignarlas a variables anónimas.
+________________________________________
+##Java 
+###Nomenclatura
+-Los nombres de interfaces terminan en `Interface` y usan CamelCase (ej. `TranslationServiceInterface`).
+-Clases con nombres descriptivos en CamelCase, evitando abreviaciones confusas.
+-Paquetes en minúsculas sin guiones bajos (ej. `com.smartsign.translation`).
+###Variables y constantes
+-Variables descriptivas, evitando abreviaciones salvo en iteradores (`i`,` j`,`k`).
+-Constantes en mayúsculas con guiones bajos, declaradas como `public static final`.
+###Llaves {}
+-Usar siempre llaves en estructuras `if`, `else`, `for`, `while`, aunque el cuerpo sea de una sola línea.
+
+###Package names
+-Los nombres de paquetes usan solo letras minúsculas y dígitos, sin guiones bajos ni caracteres especiales.
+-Las palabras consecutivas se concatenan sin espacios ni separadores.
+-Ejemplos correctos: `com.smartsign.translation`, `pe.edu.upc.smartsign`.
+-Ejemplos incorrectos: `com.smartsign.Translation`, `com.smart_sign, com.smart-sign`.
+###Gherking
+
+|      Sintaxis      |                                                                                                                                                 Propósito                                                                                                                                                  |
+|:------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      FEATURE       | Describe una función principal o característica del sistema SmartSign. Agrupa varios SCENARIOs relacionados que ejemplifican diferentes casos de uso o comportamientos esperados dentro de esa función.                                      |
+| SCENARIO O EXAMPLE | Representa un caso específico y concreto dentro de una FEATURE, describiendo una regla de negocio o comportamiento esperado. Se estructura siguiendo el patrón Given-When-Then para clarificar la interacción y resultado esperado.          |
+|       GIVEN        | Define el estado inicial o contexto del sistema antes de que el usuario o algún evento externo interactúe con SmartSign. Sirve para establecer condiciones previas sin describir la acción en sí.                                            |
+|        WHEN        | Indica la acción o evento que desencadena una interacción con SmartSign. Puede ser una acción realizada por el usuario (por ejemplo, realizar un gesto) o un evento generado por el sistema u otro componente externo.                       |
+|        THEN        | Expresa el resultado esperado tras la acción indicada en WHEN. Incluye una afirmación que compara el comportamiento real del sistema con el resultado deseado, asegurando que SmartSign cumpla con los objetivos funcionales planteados.      |
+|        AND         | Se utiliza para añadir condiciones o pasos adicionales dentro de cualquiera de las fases (GIVEN, WHEN o THEN) para ampliar o detallar el escenario sin crear un nuevo bloque separado.                                                   |
+|        BUT         | Introduce una condición excepcional o una restricción que puede afectar el flujo normal del escenario, usada para describir casos donde la acción no sucede como se esperaba o se presentan limitaciones.                                    |
+|     BACKGROUND     | Permite agrupar condiciones comunes que se repiten en varios escenarios dentro de una misma FEATURE, evitando la repetición y clarificando que son detalles generales que anteceden a cada escenario individual.                            |
+
+
 ##### 6.1.4. Software Deployment Configuration
 ##### 6.2. Landing Page, Services & Applications Implementation
 ##### 6.2.1. Sprint 1
