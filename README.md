@@ -2497,6 +2497,11 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 ##### 6.2.1.4. Development Evidence for Sprint Review
 El equipo de SmartSign ha realizado avances significativos en la implementación del prototipo inicial del guante traductor de señas. Hemos logrado establecer las bases del hardware y el software de reconocimiento.
 
+**Enlace del repositorio Landing Page:** https://github.com/Soluciones-IoT-15185-Grupo2/LandingPage 
+
+**Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
+
+**Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
 Durante el Sprint 1 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
@@ -2552,3 +2557,6 @@ Se desplegó el frontend con Vercel
 
 * **Enlace de la landing page:**  https://smartsignlanding.web.app/ 
 * **Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/ 
+* **Enlace del repositorio Landing Page:** https://github.com/Soluciones-IoT-15185-Grupo2/LandingPage 
+* **Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
+* **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
