@@ -2545,6 +2545,14 @@ Se desplegó el frontend con Vercel
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
+| Alumno | Actividad |
+|--------|-----------|
+| Alvaro Crispin | Desarrollo y despliegue del frontend  |
+| Frank Salazar | Desarrollo y despliegue del frontend |
+| Jesus Godoy | Edición informe Capítulo 6 |
+| Miguel Huaman | Edición informe Capítulo 5 |
+| Jorge David Orrego Noriega | Desarrollo y despliegue de la landing page |
+
 # Conclusiones 
 
 ## Conclusiones TB1
