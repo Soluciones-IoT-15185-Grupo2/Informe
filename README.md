@@ -2473,7 +2473,7 @@ https://front-end-phi-liart-90.vercel.app
 #### 6.2.1.1. Sprint Planning 1
 | Sprint # | Sprint 1 |
 |---------------------|-------------------------------------------|
-| Date                | 2025/05/15                                |
+| Date                | 2025/05/12                                |
 | Time                | 04:00 PM                                  |
 | Location            | Videoconferencia Discord                  |
 | Prepared By         | Jorge David Orrego Noriega                |
