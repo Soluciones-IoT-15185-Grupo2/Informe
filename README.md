@@ -2042,11 +2042,197 @@ Todas las etiquetas han sido seleccionadas por su claridad semántica, consisten
 En esta sección se detallan las etiquetas SEO y meta tags implementadas en SmartSign para optimizar la visibilidad en motores de búsqueda y mejorar la experiencia de usuario en redes sociales.
 
 1. **SEO Tags and Meta Tags for Landing Page**
+```html
+<!-- Title -->
+<title>SmartSign | Traducción de Lenguaje de Señas mediante Tecnología IoT</title>
 
+<!-- Meta Tags -->
+<meta name="description" content="SmartSign transforma el lenguaje de señas en audio mediante un guante inteligente, facilitando la comunicación e inclusión social de personas con discapacidad auditiva y del habla.">
+<meta name="keywords" content="lenguaje de señas, traducción de señas, guante inteligente, discapacidad auditiva, inclusión social, tecnología asistiva, IoT para discapacidad">
+<meta name="author" content="Equipo SmartSign">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="SmartSign | Comunicación sin Barreras">
+<meta property="og:description" content="Tecnología innovadora que traduce el lenguaje de señas a voz, facilitando la comunicación e inclusión de personas con discapacidad auditiva y del habla.">
+<meta property="og:url" content="https://www.smartsign.com">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.smartsign.com/images/smartsign-social-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SmartSign | Traducción de Lenguaje de Señas">
+<meta name="twitter:description" content="Facilitamos la comunicación para personas con discapacidad auditiva mediante tecnología IoT innovadora.">
+<meta name="twitter:image" content="https://www.smartsign.com/images/smartsign-twitter-card.jpg">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.smartsign.com">
+```
 
+2. **SEO Tags and Meta Tags for Web Application**
+```html
+<!-- Title -->
+<title>SmartSign | Plataforma de Traducción de Señas</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="Accede a tu plataforma SmartSign para gestionar tu dispositivo de traducción, personalizar ajustes y mejorar tu experiencia de comunicación mediante lenguaje de señas.">
+<meta name="keywords" content="traductor de señas, plataforma SmartSign, configuración guante traductor, tecnología asistiva">
+<meta name="author" content="Equipo SmartSign">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="SmartSign | Tu Plataforma Personal de Traducción">
+<meta property="og:description" content="Gestiona tu dispositivo SmartSign, personaliza la traducción de lenguaje de señas y accede a todas las herramientas de comunicación.">
+<meta property="og:url" content="https://app.smartsign.com">
+<meta property="og:type" content="application">
+<meta property="og:image" content="https://www.smartsign.com/images/app-preview.jpg">
+<meta name="robots" content="noindex, nofollow">
+```
+3. **SEO Tags and Meta Tags for Mobile App Landing**
+```html
+<!-- Title -->
+<title>App SmartSign | Traducción de Señas en tu Bolsillo</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="Descarga la aplicación SmartSign y conecta tu guante inteligente para traducir lenguaje de señas a voz donde sea que vayas. Comunicación sin barreras al alcance de tu mano.">
+<meta name="keywords" content="app traducción señas, aplicación SmartSign, guante traductor móvil, app para sordomudos">
+<meta name="author" content="Equipo SmartSign">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Aplicación SmartSign | Traducción de Señas Móvil">
+<meta property="og:description" content="Lleva contigo la capacidad de traducir lenguaje de señas a voz con nuestra aplicación móvil y guante inteligente. Comunicación inclusiva donde sea que vayas.">
+<meta property="og:url" content="https://www.smartsign.com/app">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.smartsign.com/images/mobile-app-preview.jpg">
+<meta name="robots" content="index, follow">
+```
 
 ##### 5.2.4. Searching Systems
+#### Los sistemas de búsqueda de SmartSign están diseñados para que los usuarios puedan encontrar rápidamente señas específicas, configuraciones y recursos de aprendizaje, optimizando la eficiencia en la comunicación y el uso de la plataforma.
+
+**Opciones de Búsqueda**
+
+- **Búsqueda Global:** Un campo de búsqueda unificado que permite a los usuarios encontrar cualquier tipo de contenido dentro de la plataforma: señas específicas, frases preestablecidas, ajustes del dispositivo o recursos de aprendizaje.
+- **Búsqueda por Voz:** Opción especialmente útil para personas que necesitan asistencia pero pueden hablar. Los usuarios pueden dictar la palabra o frase que desean encontrar en la biblioteca de señas.
+- **Búsqueda por Texto Predictivo:** A medida que el usuario escribe, el sistema sugiere términos relacionados, facilitando y agilizando la búsqueda, especialmente útil para dispositivos móviles.
+- **Búsqueda por Categorías:** Permite navegar jerárquicamente a través de categorías predefinidas de señas (como saludos, emergencias, familia, trabajo, etc.).
+
+**Filtros Disponibles**
+
+*Filtros en la Biblioteca de Señas:*
+- Filtro por categoría (comunicación básica, médica, educativa, laboral)
+- Filtro por complejidad de la seña (básica, intermedia, avanzada)
+- Filtro por región/variante del lenguaje de señas
+
+*Filtros en Historial de Traducciones:*
+- Filtro por fecha (hoy, esta semana, este mes, personalizado)
+- Filtro por contexto (conversaciones guardadas, situaciones de emergencia)
+- Filtro por frecuencia de uso (más usadas, favoritas)
+
+*Filtros en Configuración del Dispositivo:*
+- Filtro por tipo de ajuste (calibración, personalización, técnico)
+- Filtro por parte del guante (sensores individuales, sistema completo)
+- Filtro por estado (configuraciones pendientes, actualizaciones disponibles)
+
+*Filtros en Comunidad:*
+- Filtro por tipo de contenido (tutoriales, experiencias, preguntas)
+- Filtro por popularidad (más comentados, mejor valorados)
+- Filtro por temática (educación, tecnología, inclusión social)
+
+**Visualización de Resultados**
+
+*Presentación de Resultados en Biblioteca de Señas:*
+- Los resultados se muestran en un formato de cuadrícula con imágenes o animaciones que representan visualmente cada seña, acompañadas de su texto correspondiente.
+- Al seleccionar una seña, se expande mostrando una animación detallada, descripción textual y opción de audio.
+
+*Presentación de Resultados en Configuraciones:*
+- Se muestran como una lista organizada con íconos representativos, breve descripción y estado actual de cada configuración, permitiendo acceso directo a su modificación.
+
+*Organización de Resultados:*
+- Ordenación por relevancia predeterminada
+- Opción de ordenar alfabéticamente
+- Opción de ordenar por fecha (más reciente/más antiguo)
+- Opción de ordenar por frecuencia de uso
+
+**Sistema de Ayuda de Búsqueda**
+
+*Sugerencias Inteligentes:*
+- Corrección automática de errores ortográficos
+- Sugerencias basadas en búsquedas previas del usuario
+- Recomendaciones contextuales según el módulo en uso
+
 ##### 5.2.5. Navigation Systems
+Los sistemas de navegación de SmartSign están diseñados considerando las necesidades específicas de personas con discapacidad auditiva, priorizando la claridad visual, la intuitividad y el acceso rápido a las funciones de traducción.
+
+### Sistema de Navegación en la Landing Page
+
+**Navegación Principal:**
+- **Menú Superior:** Ubicado en la parte superior de la página, con etiquetas claras y concisas:
+  - Inicio
+  - Conoce más
+  - Acerca de Nosotros
+  - Iniciar sesión
+  - Registrarse
+  - Selector de idioma (ES/EN)
+
+### Sistema de Navegación en la Aplicación Web
+
+**Estructura Principal:**
+- **Barra Superior:**
+  - Logo de SmartSign (vinculado al dashboard)
+  - Estado de conexión del guante
+  - Indicador de batería del dispositivo
+  - Notificaciones
+  - Perfil de usuario (con menú desplegable para configuración y cerrar sesión)
+
+- **Menú Principal:**
+  - Traductor: Centro de traducción en tiempo real
+  - Biblioteca de Señas: Catálogo organizado de señas por categorías
+  - Mi Dispositivo: Configuración y estado del guante
+  - Aprendizaje: Tutoriales y recursos educativos
+  - Comunidad: Foro y compartición de experiencias
+  - Ayuda: Soporte técnico y preguntas frecuentes
+
+- **Área de Trabajo Principal:**
+  - Cambia dinámicamente según la sección seleccionada
+  - Mantiene una estructura coherente con encabezado, contenido principal y acciones relacionadas
+
+- **Navegación Contextual:**
+  - Pestañas contextuales dentro de cada sección principal
+  - Botones "Atrás" y "Siguiente" cuando se realizan procesos secuenciales
+
+### Sistema de Navegación en la Aplicación Móvil
+
+**Estructura Móvil:**
+- **Barra Inferior de Navegación:**
+  - Cinco iconos principales para acceso rápido:
+    - Traductor (ícono de manos)
+    - Biblioteca (ícono de libro)
+    - Mi Guante (ícono de dispositivo)
+    - Perfil (ícono de usuario)
+    - Más (menú expandible para opciones adicionales)
+
+- **Navegación por Gestos:**
+  - Deslizar hacia izquierda/derecha para alternar entre vistas relacionadas
+  - Deslizar hacia abajo para actualizar datos
+  - Deslizar hacia arriba para acceder a detalles adicionales
+
+- **Botón Flotante de Acción:**
+  - Botón circular destacado para iniciar traducción rápidamente desde cualquier pantalla
+  - Cambia contextualmente según la sección (ej: en Biblioteca activa búsqueda por voz)
+
+- **Navegación Jerárquica:**
+  - Estructura de navegación con máximo dos niveles de profundidad para mantener la simplicidad
+  - Botón "Atrás" consistente en la esquina superior izquierda
+
+### Sistema de Navegación en el Dispositivo IoT (Guante)
+
+- **Navegación Táctil:**
+  - Pequeña superficie táctil en el dorso del guante para navegación básica:
+    - Toque simple: Activar/Pausar traducción
+    - Doble toque: Cambiar modo (traducción/aprendizaje)
+    - Deslizamiento: Ajustar volumen
+
+- **Feedback de Navegación:**
+  - Indicadores LED de color para mostrar estado y modo activo
+  - Vibraciones leves que confirman acciones realizadas
+  - Señales auditivas discretas para confirmar cambios de modo
+
+- **Sincronización con App:**
+  - La navegación principal se realiza a través de la app móvil
+  - El dispositivo proporciona retroalimentación física para acciones clave
 ##### 5.3. Landing Page UI Design
 ##### 5.3.1. Landing Page Wireframe
 ##### 5.3.2. Landing Page Mock-up
