@@ -2410,6 +2410,32 @@ ________________________________________
 
 
 ##### 6.1.4. Software Deployment Configuration
+
+**Despliegue de la Landing Page**
+
+La Landing Page del proyecto SmartSign se encuentra desplegada en Firebase Hosting, una plataforma de Google Cloud diseñada para alojar aplicaciones web estáticas y dinámicas con alta disponibilidad, seguridad y facilidad de configuración.
+El proceso general para el despliegue en Firebase Hosting es:
+1.	Configurar el proyecto en Firebase Console, creando un nuevo proyecto o utilizando uno existente.
+2.	Instalar y configurar la CLI de Firebase en el entorno de desarrollo local.
+3.	Construir la Landing Page en el entorno local, generando los archivos estáticos (HTML, CSS, JS).
+4.	Inicializar Firebase Hosting en el proyecto mediante el comando firebase init hosting, seleccionando la carpeta de salida (generalmente public o dist).
+5.	Desplegar la Landing Page al hosting de Firebase utilizando el comando firebase deploy.
+6.	Firebase asigna una URL pública (del tipo https://<proyecto>.web.app) desde donde se puede acceder al sitio.
+La siguiente URL corresponde a la Landing Page actual desplegada mediante Firebase Hosting:
+https://smartsignlanding.web.app
+________________________________________
+**Despliegue del Frontend de la Aplicación Web**
+El frontend de la aplicación SmartSign está desplegado en Vercel, plataforma especializada en hosting de aplicaciones web modernas con integración continua. El flujo de despliegue se realiza con los siguientes pasos:
+1.	**Crear una cuenta en Vercel** si aún no se tiene una.
+2.	**Conectar el repositorio de GitHub** donde se encuentra el código del frontend. Vercel permite integración directa y automática con GitHub.
+3.	**Seleccionar el repositorio** correspondiente al proyecto SmartSign y configurar las opciones de despliegue según las necesidades.
+4.	**Configurar las variables de entorno** necesarias para la aplicación, si es que la aplicación requiere configuraciones específicas.
+5.	**Desplegar la aplicación** iniciando el despliegue desde la plataforma Vercel. Vercel se encargará de construir, optimizar y alojar la aplicación automáticamente.
+6.	**Acceder a la URL proporcionada por Vercel**, que usualmente tiene el formato https://<nombre-proyecto>.vercel.app, para visualizar la aplicación web en producción.
+La URL pública actual del frontend desplegado es:
+https://front-end-phi-liart-90.vercel.app
+
+
 ##### 6.2. Landing Page, Services & Applications Implementation
 ##### 6.2.1. Sprint 1
 ##### 6.2.1.1. Sprint Planning 1
