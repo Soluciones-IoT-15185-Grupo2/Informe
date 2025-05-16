@@ -2172,6 +2172,17 @@ Para un mejor seguimiento del proyecto, implementamos revisiones de código (*pu
 | Sum of Story Points  | 13 Story Points                           |
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators
+En esta sección se detalla la elaboración del artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto.
+
+| Team Member | GitHub Username | Desarrollo de Hardware | Reconocimiento de Señas | Procesamiento de Audio | Integración de Sistemas |
+|-------------|----------------|------------------------|-------------------------|------------------------|-------------------------|
+| Orrego Noriega, Jorge David | JorgeOrrego1201 | L | C | - | C |
+| Crispin Ccancce, Alvaro Esteban | acrispin06 | C | L | - | - |
+| Godoy Santillan, Jesús Andres | JesusGodoyS | - | C | C | L |
+| Huaman Cataño, Miguel Ángel | Huaman-Miguel | - | C | L | C |
+| Salazar Saldarriaga, Frank Junior | Ank222001 | C | - | C | C |
+
+
 ##### 6.2.1.3. Sprint Backlog 1
 
 
