@@ -37,6 +37,8 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
 
 **TP:**
 
+![commitsReportTP.png](Assets/commitsReportTP.png)
+
 # Student Outcome
 
 **ABET – EAC - Student Outcome 5:** Capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
