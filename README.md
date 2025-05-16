@@ -2397,7 +2397,7 @@ Ejemplo correcto:
 #### Llaves {}
 -Usar siempre llaves en estructuras `if`, `else`, `for`, `while`, aunque el cuerpo sea de una sola línea.
 
-###Package names
+#### Package names
 -Los nombres de paquetes usan solo letras minúsculas y dígitos, sin guiones bajos ni caracteres especiales.
 -Las palabras consecutivas se concatenan sin espacios ni separadores.
 -Ejemplos correctos: `com.smartsign.translation`, `pe.edu.upc.smartsign`.
@@ -2421,6 +2421,7 @@ Ejemplo correcto:
 **Despliegue de la Landing Page**
 
 La Landing Page del proyecto SmartSign se encuentra desplegada en Firebase Hosting, una plataforma de Google Cloud diseñada para alojar aplicaciones web estáticas y dinámicas con alta disponibilidad, seguridad y facilidad de configuración.
+
 El proceso general para el despliegue en Firebase Hosting es:
 1. Configurar el proyecto en Firebase Console, creando un nuevo proyecto o utilizando uno existente.
 2. Instalar y configurar la CLI de Firebase en el entorno de desarrollo local.
@@ -2435,6 +2436,7 @@ https://smartsignlanding.web.app
 
 
 **Despliegue del Frontend de la Aplicación Web**
+
 El frontend de la aplicación SmartSign está desplegado en Vercel, plataforma especializada en hosting de aplicaciones web modernas con integración continua. El flujo de despliegue se realiza con los siguientes pasos:
 1. **Crear una cuenta en Vercel** si aún no se tiene una.
 2. **Conectar el repositorio de GitHub** donde se encuentra el código del frontend. Vercel permite integración directa y automática con GitHub.
