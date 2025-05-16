@@ -2490,10 +2490,12 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 | US05 | Comprensión por parte del entorno | T13 | Pruebas de usabilidad con usuarios sin conocimiento de señas | Realizar pruebas con personas sin experiencia en lengua de señas para validar la claridad de la comunicación | 4 horas |  Frank Salazar | To-do |
 
 ##### 6.2.1.4. Development Evidence for Sprint Review
-
+El equipo de SmartSign ha realizado avances significativos en la implementación del prototipo inicial del guante traductor de señas. Hemos logrado establecer las bases del hardware y el software de reconocimiento.
 
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+Durante el Sprint 1 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
+
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review
 
