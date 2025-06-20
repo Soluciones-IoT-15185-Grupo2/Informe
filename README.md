@@ -17,7 +17,7 @@
 | Miguel Angel Huaman Cataño       | u202120615 |
 | Frank Junior Salazar Saldarriaga | u20181h103 |
 
-Mayo, 2025
+Junio, 2025
 
 # Registro de Versiones del Informe
 
@@ -26,6 +26,8 @@ Mayo, 2025
 | 1.0 | 17/04/2025 | Grupo IoTech | Se creó el documento de desarrollo del informe |
 | 2.0 | 26/04/2025 | Grupo IoTech | Se terminó el desarrollo de la TB1 |
 | 3.0 | 15/05/2025 | Grupo IoTech | Se terminó el desarrollo del Trabajo Parcial |
+| 3.0 | 21/06/2025 | Grupo IoTech | Se terminó el desarrollo de la TB2 |
+
 
 # Project Report Collaboration Insights
 
@@ -38,6 +40,10 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
 **TP:**
 
 ![commitsReportTP.png](Assets/commitsReportTP.png)
+
+**TB2:**
+
+
 
 # Student Outcome
 
@@ -174,6 +180,22 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
         - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-doc)
         - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment)
         - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collab)
+    - [6.2.2. Sprint 2](#622-sprint-2) 
+        - [6.2.2.1. Sprint Planning 1](#6221-sprint-planning-2)
+        - [6.2.2.2. Aspect Leaders and Collaborators](#6222-leaders)
+        - [6.2.2.3. Sprint Backlog 1](#6223-sprint-backlog-2)
+        - [6.2.2.4. Development Evidence for Sprint Review](#6224-development)
+        - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing)
+        - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution)
+        - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-doc)
+        - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment)
+        - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collab)
+- [6.3. Validation Interviews](#63-validation)
+    - [6.3.1. Diseño de Entrevistas](#631-disenio) 
+    - [6.3.2. Registro de Entrevistas](#632-registro) 
+    - [6.3.3. Evaluaciones según Heurísticas](#633-evaluaciones) 
+- [6.4. Video About-the-Product](#64-product)
+
 
 ## Capítulo I: Introduccion
 ### 1.1. Startup Profile
@@ -2576,6 +2598,133 @@ Se desplegó el frontend con Vercel
 | Miguel Huaman | Edición informe Capítulo 5 |
 | Jorge David Orrego Noriega | Desarrollo y despliegue de la landing page |
 
+#### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+
+Cambiar lo que está aquí
+
+| Sprint # | Sprint 2 |
+|---------------------|-------------------------------------------|
+| Date                | 2025/05/12                                |
+| Time                | 04:00 PM                                  |
+| Location            | Videoconferencia Discord                  |
+| Prepared By         | Jorge David Orrego Noriega                |
+| Attendees (to planning meeting) | Alvaro Esteban Crispin Ccancce |
+|                      | Jesús Andres Godoy Santillan|
+|                      | Jorge David Orrego Noriega |
+|                      | Miguel Ángel Huaman Cataño  |
+|                      | Frank Junior Salazar Saldarriaga |
+| Sprint 1 Review Summary | Siendo el primer Sprint, no hay revisión previa. |
+| Sprint 1 Retrospective Summary | Siendo el primer Sprint, no hay retrospectiva previa. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal        | El objetivo primordial para este sprint es implementar las funcionalidades base del guante SmartSign que permitan la comunicación básica en entornos cotidianos y de emergencia para personas con discapacidad auditiva. Nos enfocaremos en desarrollar el sistema de reconocimiento de señas esenciales, su traducción a texto/audio y garantizar su funcionamiento en situaciones críticas, estableciendo así los cimientos tecnológicos del producto. |
+| Sprint 2 Velocity    | 13 Story Points                           |
+| Sum of Story Points  | 13 Story Points                           |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+En esta sección se detalla la elaboración del artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto.
+
+| Team Member | GitHub Username | Desarrollo de Hardware | Reconocimiento de Señas | Procesamiento de Audio | Integración de Sistemas |
+|-------------|----------------|------------------------|-------------------------|------------------------|-------------------------|
+| Orrego Noriega, Jorge David | JorgeOrrego1201 | L | C | - | C |
+| Crispin Ccancce, Alvaro Esteban | acrispin06 | C | L | - | - |
+| Godoy Santillan, Jesús Andres | JesusGodoyS | - | C | C | L |
+| Huaman Cataño, Miguel Ángel | Huaman-Miguel | - | C | L | C |
+| Salazar Saldarriaga, Frank Junior | Ank222001 | C | - | C | C |
+
+
+#### 6.2.2.3. Sprint Backlog 2
+
+Actualizar Backlog
+
+| Sprint # | Sprint 2 | | | | | | |
+|----------|----------|---|------------------------|-------------------------------------------|--------------|-------------------|--------|
+| **User Story ID** | **Title** | **Work-Item / Task ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US01 | Comunicación en conversaciones cotidianas | T01 | Desarrollo del sensor de movimiento de dedos | Implementar la detección de posición y movimiento de los dedos mediante sensores flexibles | 8 horas | Alvaro Crispin | To-do |
+| US01 | Comunicación en conversaciones cotidianas | T02 | Desarrollo del algoritmo de reconocimiento de señas básicas | Crear el algoritmo que identifique los patrones de las señas más comunes en conversaciones cotidianas | 12 horas | Jorge Orrego | To-do |
+| US01 | Comunicación en conversaciones cotidianas | T03 | Implementación de convertidor de señas a texto | Desarrollar el módulo que traduce las señas reconocidas a texto legible | 10 horas | Miguel Huaman | To-do |
+| US01 | Comunicación en conversaciones cotidianas | T04 | Desarrollo del módulo de salida de audio | Crear la funcionalidad que convierte el texto a voz para reproducir el mensaje | 6 horas | Frank Salazar | To-do |
+| US02 | Expresión en entornos públicos | T05 | Optimización de los sensores para uso en espacios públicos | Ajustar la sensibilidad de los sensores para funcionar en entornos con mayor ruido y movimiento | 6 horas | Alvaro Crispin | To-do |
+| US02 | Expresión en entornos públicos | T06 | Desarrollo de vocabulario extendido para entornos públicos | Ampliar la base de señas reconocidas para incluir expresiones comunes en tiendas, transporte, etc. | 8 horas | Jorge Orrego | To-do |
+| US02 | Expresión en entornos públicos | T07 | Implementación de aumento de volumen adaptativo | Desarrollar funcionalidad que ajuste el volumen de salida según el ruido ambiental | 5 horas | Jesús Godoy | To-do |
+| US06 | Comunicación en emergencias | T08 | Implementación de gestos de emergencia | Desarrollar reconocimiento de señas específicas para situaciones de emergencia | 8 horas | Miguel Huaman | To-do |
+| US06 | Comunicación en emergencias | T09 | Desarrollo de notificaciones prioritarias | Crear sistema que priorice y amplifique mensajes identificados como emergencias | 6 horas | Frank Salazar | To-do |
+| US06 | Comunicación en emergencias | T10 | Integración con sistema de alerta de emergencia | Implementar la funcionalidad que permite enviar alertas a contactos predefinidos | 10 horas | Jesús Godoy | To-do |
+| US05 | Comprensión por parte del entorno | T11 | Desarrollo de interfaz visual auxiliar | Crear pantalla complementaria que muestre el texto traducido para reforzar la comunicación | 8 horas | Alvaro Crispin | To-do |
+| US05 | Comprensión por parte del entorno | T12 | Implementación de feedback visual para el usuario | Desarrollar sistema de luces o vibraciones que indiquen al usuario si su mensaje fue procesado correctamente | 5 horas | Jorge Orrego | To-do |
+| US05 | Comprensión por parte del entorno | T13 | Pruebas de usabilidad con usuarios sin conocimiento de señas | Realizar pruebas con personas sin experiencia en lengua de señas para validar la claridad de la comunicación | 4 horas |  Frank Salazar | To-do |
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+Actualizar
+
+El equipo de SmartSign ha realizado avances significativos en la implementación del prototipo inicial del guante traductor de señas. Hemos logrado establecer las bases del hardware y el software de reconocimiento.
+
+**Enlace del repositorio Landing Page:** https://github.com/Soluciones-IoT-15185-Grupo2/LandingPage 
+
+**Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
+
+**Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 2 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
+
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+
+**Vista del desarrollo de la Landing Page:** 
+
+![image](/Assets/landingPageDev.png)
+
+**Vista del desarrollo del Frontend:** 
+
+![image](/Assets/frontendDev.png)
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+No aplica para esta entrega. 
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Se desplegó la landing page con Google Firebase 
+
+![image](/Assets/landingDeployment.png)
+
+![image](/Assets/landingPageDeployed.png)
+
+**Enlace de la landing page:**  https://smartsignlanding.web.app/ 
+
+Se desplegó el frontend con Vercel 
+
+![image](/Assets/frontendDeployed.png)
+
+**Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+| Alumno | Actividad |
+|--------|-----------|
+| Alvaro Crispin | Desarrollo y despliegue del frontend  |
+| Frank Salazar | Desarrollo y despliegue del frontend |
+| Jesus Godoy | Edición informe Capítulo 6 |
+| Miguel Huaman | Edición informe Capítulo 5 |
+| Jorge David Orrego Noriega | Desarrollo y despliegue de la landing page |
+
+
+### 6.3 Validation Interviews
+
+#### 6.3.1 Diseño de Entrevistas
+
+#### 6.3.2 Registro de Entrevistas
+
+#### 6.3.3 Evaluaciones según Heurísticas
+
+### 6.4 Video About-the-Product
+
+
+
 # Conclusiones 
 
 ## Conclusiones TB1
@@ -2585,6 +2734,10 @@ Se desplegó el frontend con Vercel
 ## Conclusiones TP
 
 * Durante el desarrollo del TP pudimos desarrollar tanto los prototipos de nuestra aplicación como sus implementaciones parciales sin dispositivos IoT. Esto nos sirve para tener una base sólida sobre la que vamos a desarrollar nuestra aplicación con dispositivos IoT en los siguientes entregables. 
+
+## Conclusiones TB2
+
+* Testing
 
 # Bibliografía 
 
