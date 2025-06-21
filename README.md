@@ -2614,7 +2614,7 @@ Cambiar lo que está aquí
 |                      | Jorge David Orrego Noriega |
 |                      | Miguel Ángel Huaman Cataño  |
 |                      | Frank Junior Salazar Saldarriaga |
-| Sprint 1 Review Summary | Se completaron exitosamente las funcionalidades base de comunicación cotidiana (US01, US02, US06, US05) con un 95% de las tareas finalizadas. Se logró implementar el reconocimiento básico de señas, la conversión a texto/audio y las funciones de emergencia. El prototipo en Wokwi está operativo y tanto la landing page como el frontend fueron desplegados correctamente. |
+| Sprint 1 Review Summary | Se completaron exitosamente las funcionalidades base de comunicación cotidiana (US01, US02, US06, US05). Se logró implementar el reconocimiento básico de señas, la conversión a texto/audio y las funciones de emergencia. El prototipo en Wokwi está operativo y tanto la landing page como el frontend fueron desplegados correctamente. |
 | Sprint 1 Retrospective Summary | **Fortalezas:** Buena coordinación del equipo y cumplimiento de plazos. **Áreas de mejora:** Necesidad de más pruebas de integración entre componentes. **Acciones:** Implementar más testing automatizado y mejorar la documentación técnica. |
 | **Sprint Goal & User Stories** | |
 | Sprint 2 Goal        | Expandir las capacidades del sistema SmartSign hacia el ámbito educativo y de salud, implementando funcionalidades específicas para docentes y centros médicos. El objetivo es desarrollar el reconocimiento avanzado de señas académicas/médicas, herramientas de evaluación para docentes, y sistemas de comunicación crítica en centros de salud, mientras se desarrolla la aplicación móvil complementaria y se mejora el backend del sistema. |
