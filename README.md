@@ -2772,6 +2772,27 @@ Se desplegó el frontend con Vercel
 - ¿En qué situaciones crees que sería más útil?  
 - ¿Tienes alguna sugerencia de mejora?  
 #### 6.3.2 Registro de Entrevistas
+### Entrevista N° 1
+
+**Entrevistador:**  
+**Entrevistado:**  
+**Sexo:**  
+**Edad:**  
+**Distrito:**  
+**Rol:**  
+**Duración de la entrevista:**  
+**Link:**  
+
+#### Hallazgos
+
+**Landing page:**  
+[Escribe aquí el análisis del entrevistado sobre la landing page]
+
+**Aplicación web:**  
+[Escribe aquí el análisis del entrevistado sobre la aplicación web]
+
+#### Resumen:  
+[Escribe aquí un resumen de los puntos más importantes mencionados por el entrevistado sobre la landing page y la aplicación web]
 
 #### 6.3.3 Evaluaciones según Heurísticas
 
