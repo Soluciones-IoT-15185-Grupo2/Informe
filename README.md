@@ -2656,11 +2656,9 @@ Actualizar Backlog
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
-Actualizar
+En este sprint se siguió realizando avances en el desarrollo de la implementación del prototipo en simulador (Wokwi), el backend y la aplicación móvil. 
 
-El equipo de SmartSign ha realizado avances significativos en la implementación del prototipo inicial del guante traductor de señas. Hemos logrado establecer las bases del hardware y el software de reconocimiento.
-
-**Enlace del repositorio Landing Page:** https://github.com/Soluciones-IoT-15185-Grupo2/LandingPage 
+**Enlace del repositorio de la aplicación Móvil:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
 
 **Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
 
@@ -2673,8 +2671,18 @@ Durante el Sprint 2 se han desarrollado pruebas unitarias para los componentes b
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+**Vista de desarrollo de la Mobile App:**
 
-**Vista del desarrollo de la Landing Page:** 
+![image](/Assets/sprint2ExecMobile.png)
+
+**Vistas de las pantallas de la Aplicación Móvil:**
+
+![image](/Assets/mobileApp.png)
+
+
+**Vista del desarrollo del Backend:** 
+
+Actualizar captura
 
 ![image](/Assets/landingPageDev.png)
 
@@ -2710,7 +2718,7 @@ Se desplegó el frontend con Vercel
 | Frank Salazar | Desarrollo y despliegue del frontend |
 | Jesus Godoy | Edición informe Capítulo 6 |
 | Miguel Huaman | Edición informe Capítulo 5 |
-| Jorge David Orrego Noriega | Desarrollo y despliegue de la landing page |
+| Jorge David Orrego Noriega | Desarrollo de la aplicación móvil |
 
 
 ### 6.3 Validation Interviews
@@ -2748,3 +2756,4 @@ Se desplegó el frontend con Vercel
 * **Enlace del repositorio Landing Page:** https://github.com/Soluciones-IoT-15185-Grupo2/LandingPage 
 * **Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
 * **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
+* **Enlace del repositorio Mobile App:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
