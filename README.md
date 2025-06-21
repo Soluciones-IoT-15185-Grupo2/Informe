@@ -2605,7 +2605,7 @@ Cambiar lo que está aquí
 
 | Sprint # | Sprint 2 |
 |---------------------|-------------------------------------------|
-| Date                | 2025/05/12                                |
+| Date                | 2025/06/02                                |
 | Time                | 04:00 PM                                  |
 | Location            | Videoconferencia Discord                  |
 | Prepared By         | Jorge David Orrego Noriega                |
@@ -2614,23 +2614,23 @@ Cambiar lo que está aquí
 |                      | Jorge David Orrego Noriega |
 |                      | Miguel Ángel Huaman Cataño  |
 |                      | Frank Junior Salazar Saldarriaga |
-| Sprint 1 Review Summary | Siendo el primer Sprint, no hay revisión previa. |
-| Sprint 1 Retrospective Summary | Siendo el primer Sprint, no hay retrospectiva previa. |
+| Sprint 1 Review Summary | Se completaron exitosamente las funcionalidades base de comunicación cotidiana (US01, US02, US06, US05) con un 95% de las tareas finalizadas. Se logró implementar el reconocimiento básico de señas, la conversión a texto/audio y las funciones de emergencia. El prototipo en Wokwi está operativo y tanto la landing page como el frontend fueron desplegados correctamente. |
+| Sprint 1 Retrospective Summary | **Fortalezas:** Buena coordinación del equipo y cumplimiento de plazos. **Áreas de mejora:** Necesidad de más pruebas de integración entre componentes. **Acciones:** Implementar más testing automatizado y mejorar la documentación técnica. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal        | El objetivo primordial para este sprint es implementar las funcionalidades base del guante SmartSign que permitan la comunicación básica en entornos cotidianos y de emergencia para personas con discapacidad auditiva. Nos enfocaremos en desarrollar el sistema de reconocimiento de señas esenciales, su traducción a texto/audio y garantizar su funcionamiento en situaciones críticas, estableciendo así los cimientos tecnológicos del producto. |
-| Sprint 2 Velocity    | 13 Story Points                           |
-| Sum of Story Points  | 13 Story Points                           |
+| Sprint 2 Goal        | Expandir las capacidades del sistema SmartSign hacia el ámbito educativo y de salud, implementando funcionalidades específicas para docentes y centros médicos. El objetivo es desarrollar el reconocimiento avanzado de señas académicas/médicas, herramientas de evaluación para docentes, y sistemas de comunicación crítica en centros de salud, mientras se desarrolla la aplicación móvil complementaria y se mejora el backend del sistema. |
+| Sprint 2 Velocity    | 15 Story Points                           |
+| Sum of Story Points  | 15 Story Points                           |
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 En esta sección se detalla la elaboración del artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto.
 
-| Team Member | GitHub Username | Desarrollo de Hardware | Reconocimiento de Señas | Procesamiento de Audio | Integración de Sistemas |
+| Team Member | GitHub Username | Desarrollo Mobile App | Backend Development | Reconocimiento Avanzado | Integración Educativa/Salud |
 |-------------|----------------|------------------------|-------------------------|------------------------|-------------------------|
-| Orrego Noriega, Jorge David | JorgeOrrego1201 | L | C | - | C |
-| Crispin Ccancce, Alvaro Esteban | acrispin06 | C | L | - | - |
-| Godoy Santillan, Jesús Andres | JesusGodoyS | - | C | C | L |
-| Huaman Cataño, Miguel Ángel | Huaman-Miguel | - | C | L | C |
-| Salazar Saldarriaga, Frank Junior | Ank222001 | C | - | C | C |
+| Orrego Noriega, Jorge David | JorgeOrrego1201 | L | C | C | - |
+| Crispin Ccancce, Alvaro Esteban | acrispin06 | C | C | L | C |
+| Godoy Santillan, Jesús Andres | JesusGodoyS | C | L | C | C |
+| Huaman Cataño, Miguel Ángel | Huaman-Miguel | - | C | C | L |
+| Salazar Saldarriaga, Frank Junior | Ank222001 | C | C | - | L |
 
 
 #### 6.2.2.3. Sprint Backlog 2
