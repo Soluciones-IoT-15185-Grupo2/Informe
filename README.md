@@ -2724,7 +2724,53 @@ Se desplegó el frontend con Vercel
 ### 6.3 Validation Interviews
 
 #### 6.3.1 Diseño de Entrevistas
+##### Preguntas Generales
+- ¿Cuál es tu nombre?  
+- ¿Qué edad tienes?  
+- ¿De qué distrito de Lima eres?  
+- ¿A qué te dedicas actualmente?  
 
+##### Segmento 1: Personas con discapacidad auditiva y del habla (y sus cuidadores)
+
+**Pregunta específica del segmento:**  
+- ¿Tienes discapacidad auditiva o del habla, o eres cuidador de alguien con esta condición?
+
+**Validación del Landing Page**  
+- ¿Qué te parece el diseño general de la página? ¿Los colores y estilo son atractivos?  
+- ¿Entendiste rápidamente qué es SmartSign y para qué sirve?  
+- ¿La información se presenta de forma clara y fácil de entender?  
+- ¿La navegación por la página fue sencilla?  
+- ¿Qué te parece más interesante de la propuesta de SmartSign?  
+
+**Validación de la Aplicación Web**  
+- ¿Qué opinas sobre el diseño visual de la aplicación?  
+- ¿El proceso de registro e inicio de sesión te pareció sencillo?  
+- ¿Fue fácil navegar entre las diferentes secciones?  
+- ¿Las funcionalidades mostradas te resultan útiles para tu situación?  
+- ¿Qué mejorarías de la aplicación?  
+
+##### Segmento 2: Instituciones educativas especializadas
+
+**Pregunta específica del segmento:**  
+- ¿Cuál es tu rol en la institución educativa o centro que atiende personas con discapacidad auditiva?
+
+**Validación del Landing Page**  
+- ¿La información sobre SmartSign es clara para entender sus beneficios educativos?  
+- ¿Consideras que sería útil en tu institución?  
+- ¿El diseño transmite confianza y profesionalismo?  
+- ¿Qué información adicional te gustaría ver?  
+
+**Validación de la Aplicación Web (Frontend)**  
+- ¿La interfaz es apropiada para uso educativo?  
+- ¿Crees que sería fácil de usar para educadores y estudiantes?  
+- ¿Qué funcionalidades consideras más valiosas para tu institución?  
+- ¿Qué aspectos mejorarías para uso educativo?  
+
+##### Preguntas de Cierre (Para ambos segmentos)
+- ¿Qué es lo que más te gustó de SmartSign?  
+- ¿Recomendarías esta solución a otras personas?  
+- ¿En qué situaciones crees que sería más útil?  
+- ¿Tienes alguna sugerencia de mejora?  
 #### 6.3.2 Registro de Entrevistas
 
 #### 6.3.3 Evaluaciones según Heurísticas
