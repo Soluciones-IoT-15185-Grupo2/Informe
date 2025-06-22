@@ -2773,6 +2773,17 @@ Se desplegó el frontend con Vercel
 - ¿Tienes alguna sugerencia de mejora?  
 #### 6.3.2 Registro de Entrevistas
 ## Entrevista 1
+**Entrevistador:**  Jesús Godoy
+**Entrevistado:**  Jose Diaz
+**Sexo:**  masculino
+**Edad:**  23 años
+**Distrito:**  Ate
+**Rol:**  Estudiante de Arquitectura
+**Duración de la entrevista:**  6:07
+**Link:**  https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing
+
+## Entrevista 1
+![Screenshot_1](https://github.com/user-attachments/assets/3f4fed55-c125-4be1-a907-b7bd3acc5d29)
 
 **Entrevistador:** Huamán Cataño Miguel Ángel 
 **Entrevistado:** Sofía Mendoza  
@@ -2797,6 +2808,7 @@ Sofía ve gran potencial en SmartSign especialmente para talleres familiares y v
 ---
 
 ## Entrevista 2
+![image](https://github.com/user-attachments/assets/61e3ecc9-abfd-42c0-ab0b-58f96531b713)
 
 **Entrevistador:** Huamán Cataño Miguel Ángel  
 **Entrevistado:** Sebastián Ríos  
@@ -2819,17 +2831,9 @@ Considera la interfaz funcional pero carente del elemento emocional necesario pa
 Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando el potencial impacto positivo en la confianza y autonomía comunicativa. Su principal contribución es la identificación de la necesidad de elementos emocionales y de bienestar en el diseño. Recomienda fuertemente el producto para profesionales de la salud mental e instituciones educativas, sugiriendo mejoras en personalización, compatibilidad con asistentes virtuales, y la incorporación de un modo de emergencia.
 
 ---
-## Entrevista 1
-**Entrevistador:**  Jesús Godoy
-**Entrevistado:**  Jose Diaz
-**Sexo:**  masculino
-**Edad:**  23 años
-**Distrito:**  Ate
-**Rol:**  Estudiante de Arquitectura
-**Duración de la entrevista:**  6:07
-**Link:**  https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing
 
 ## Entrevista 3
+![image](https://github.com/user-attachments/assets/6b370d1f-212f-4279-bc3d-36e016db7a0b)
 
 **Entrevistador:** Huamán Cataño Miguel Ángel
 **Entrevistado:** Luis Fernando Rivas  
@@ -2839,6 +2843,17 @@ Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando e
 **Rol:** Estudiante universitario y voluntario en fundación (talleres de capacitación laboral para personas con discapacidad auditiva)  
 **Duración de la entrevista:** 12:49
 **Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EbYzfjRLeKpFv1zcqek41hoBT5a0gSkGaL5h_MfaVOrmCg?e=VCBAqb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Hallazgos
+
+**Landing page:**  
+El entrevistado considera clara la propuesta pero enfatiza la necesidad de información sobre accesibilidad económica, dado que las personas con discapacidad auditiva frecuentemente enfrentan limitaciones económicas para acceder a tecnología. Reconoce alta utilidad para eliminar barreras comunicativas y crear oportunidades laborales. Critica el diseño básico, considerando que debería ser más profesional para contextos laborales y educativos. Solicita información sobre facilidad de uso para diferentes niveles educativos y funcionamiento en dispositivos móviles.
+
+**Aplicación web:**  
+Para capacitación laboral, identifica la necesidad de más herramientas didácticas específicas como ejercicios de práctica para diferentes oficios. Considera que educadores pueden usarla fácilmente, pero estudiantes con nivel educativo básico necesitarían más guías visuales y tutoriales detallados. Valora la traducción en tiempo real y el historial para revisión y práctica. Propone más opciones de personalización y mejor diseño con elementos interactivos.
+
+#### Resumen:  
+Luis enfoca su evaluación desde la perspectiva de inserción laboral, destacando el potencial del producto para mejorar oportunidades de empleo. Sus principales preocupaciones son la accesibilidad económica y la adaptación a diferentes niveles educativos. Condiciona su recomendación a mejoras en diseño y funcionamiento correcto del dispositivo. Sugiere reducción de costos, mejor funcionamiento en móviles, y contenido específico para capacitación laboral, identificando aplicaciones en universidades para mejor inclusión de estudiantes sordos.
 
 #### Hallazgos
 
