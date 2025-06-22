@@ -2846,7 +2846,7 @@ Considera la interfaz funcional pero carente del elemento emocional necesario pa
 Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando el potencial impacto positivo en la confianza y autonomía comunicativa. Su principal contribución es la identificación de la necesidad de elementos emocionales y de bienestar en el diseño. Recomienda fuertemente el producto para profesionales de la salud mental e instituciones educativas, sugiriendo mejoras en personalización, compatibilidad con asistentes virtuales, y la incorporación de un modo de emergencia.
 
 ---
-## Entrevista 1
+## Entrevista 4
 
 **Entrevistador:** Jesus Godoy       
 **Entrevistado:** Jose Diaz     
@@ -2855,9 +2855,9 @@ Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando e
 **Distrito:** Ate     
 **Rol:** Estudiante universitario de arquitectura      
 **Duración de la entrevista:** 6:16      
-**Link:** [Click para ver entrevista]([https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing)     
+**Link:** https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing        
 
-## Entrevista 2
+## Entrevista 5
 
 **Entrevistador:** Jesus Godoy      
 **Entrevistado:** Fabricio Mendoza    
@@ -2866,7 +2866,7 @@ Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando e
 **Distrito:** Cusco    
 **Rol:** Estudiante universitario de ingenieria de sistema, trabajando en una constructora.    
 **Duración de la entrevista:** 6:04     
-**Link:** [Click para ver entrevista]([https://drive.google.com/file/d/1W8qRGS2Dnc-wrsU4j0YOdJYwzpF_U6b2/view?usp=sharing)     
+**Link:** https://drive.google.com/file/d/1W8qRGS2Dnc-wrsU4j0YOdJYwzpF_U6b2/view?usp=sharing       
 
 ## Entrevista 3
 ![image](https://github.com/user-attachments/assets/6b370d1f-212f-4279-bc3d-36e016db7a0b)
