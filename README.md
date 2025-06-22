@@ -2795,8 +2795,50 @@ Se desplegó el frontend con Vercel
 [Escribe aquí un resumen de los puntos más importantes mencionados por el entrevistado sobre la landing page y la aplicación web]
 
 #### 6.3.3 Evaluaciones según Heurísticas
+Con el objetivo de evaluar la experiencia de usuario (UX) de la solución SmartSign, se aplicó una evaluación heurística basada en los principios de usabilidad de Jakob Nielsen, criterios de diseño inclusivo y fundamentos de arquitectura de información. Esta evaluación se realizó durante las entrevistas de validación con usuarios reales pertenecientes a los segmentos objetivo.
+Las tareas evaluadas incluyeron:
+• Registro de usuario
+• Inicio de sesión
+• Navegación entre secciones
+• Comprensión del propósito del producto
+• Acceso a funcionalidades clave
+La evaluación se enfocó en la versión actual del Landing Page y el prototipo funcional de la aplicación web.
+
+CUADRO
+
+
+
+Detalle de problemas significativos
+Problema #1: Botón de acceso poco visible
+• Descripción: Algunos entrevistados no identificaron rápidamente cómo acceder a la aplicación desde el Landing Page. El botón está presente pero no tiene suficiente contraste ni una llamada a la acción clara.
+• Recomendación: Utilizar un color contrastante, un texto más explícito (ej. “Ingresar a la aplicación”) y ubicarlo en la parte superior visible.
+
+Problema #2: Falta de navegación hacia atrás
+• Descripción: En la aplicación web, al ingresar a ciertas secciones como "Configuración" o "Mi cuenta", no hay forma intuitiva de regresar a la pantalla principal. Esto generó confusión.
+• Recomendación: Añadir un botón de retroceso fijo o una barra de navegación inferior que esté presente en todo momento.
+
+Problema #3: Contraste insuficiente en móvil
+• Descripción: En ciertos móviles, la combinación de colores (texto blanco sobre fondo celeste claro) dificultó la lectura para algunos entrevistados.
+• Recomendación: Seguir estándares de accesibilidad (WCAG) y utilizar herramientas como contrastchecker.com para validar.
+
+Problema #4: Menú desorganizado
+• Descripción: Los entrevistados manifestaron que les costó encontrar funciones como “Configuración” o “Ayuda”, debido a un menú poco jerárquico.
+• Recomendación: Aplicar diseño jerárquico y agrupar funciones similares.
+
+Problema #5: Texto no ajustable
+• Descripción: No existe opción para modificar el tamaño del texto, lo cual es importante para usuarios mayores o con discapacidad visual.
+• Recomendación: Implementar una opción de accesibilidad que permita cambiar el tamaño de fuente.
+
+Conclusión de la evaluación
+Los hallazgos permiten identificar áreas clave de mejora antes del siguiente ciclo de iteración. Se concluye que el sistema es funcional y comprensible, pero requiere ajustes en accesibilidad, navegación y diseño visual para garantizar una experiencia más inclusiva y amigable. Las recomendaciones serán priorizadas en los próximos sprints.
+
+
+
 
 ### 6.4 Video About-the-Product
+La siguiente sección presenta el video introductorio de la solución SmartSign, desarrollado como parte del proyecto de innovación inclusiva en el curso de Desarrollo de Soluciones IoT. El objetivo del video es explicar de manera clara y concisa el propósito del producto, su funcionamiento principal, los beneficios que ofrece para los usuarios con discapacidad auditiva y del habla, y el impacto social que se busca generar con su implementación.
+
+Enlace al video: https://drive.google.com/file/d/1fi9FJ50o8nl_Y5rFbJb9caQHc5bOP5ql/view?usp=sharing
 
 
 
