@@ -2935,14 +2935,11 @@ La evaluación se enfocó en la versión actual del Landing Page y el prototipo 
 Los hallazgos permiten identificar áreas clave de mejora antes del siguiente ciclo de iteración. Se concluye que el sistema es funcional y comprensible, pero requiere ajustes en accesibilidad, navegación y diseño visual para garantizar una experiencia más inclusiva y amigable. Las recomendaciones serán priorizadas en los próximos sprints.
 
 
-
-
 ### 6.4 Video About-the-Product
+
 La siguiente sección presenta el video introductorio de la solución SmartSign, desarrollado como parte del proyecto de innovación inclusiva en el curso de Desarrollo de Soluciones IoT. El objetivo del video es explicar de manera clara y concisa el propósito del producto, su funcionamiento principal, los beneficios que ofrece para los usuarios con discapacidad auditiva y del habla, y el impacto social que se busca generar con su implementación.
 
-Enlace al video: https://drive.google.com/file/d/1fi9FJ50o8nl_Y5rFbJb9caQHc5bOP5ql/view?usp=sharing
-
-
+**Enlace al video:** https://drive.google.com/file/d/1fi9FJ50o8nl_Y5rFbJb9caQHc5bOP5ql/view?usp=sharing
 
 # Conclusiones 
 
@@ -2956,7 +2953,7 @@ Enlace al video: https://drive.google.com/file/d/1fi9FJ50o8nl_Y5rFbJb9caQHc5bOP5
 
 ## Conclusiones TB2
 
-La validación con usuarios reales confirmó que SmartSign responde a una necesidad concreta de comunicación para personas con discapacidad auditiva y del habla, siendo valorada como una solución útil, comprensible e inclusiva; además, la evaluación heurística permitió identificar mejoras clave en usabilidad y accesibilidad que serán implementadas en los siguientes sprints para fortalecer la experiencia del usuario y el impacto del producto.
+* La validación con usuarios reales confirmó que SmartSign responde a una necesidad concreta de comunicación para personas con discapacidad auditiva y del habla, siendo valorada como una solución útil, comprensible e inclusiva; además, la evaluación heurística permitió identificar mejoras clave en usabilidad y accesibilidad que serán implementadas en los siguientes sprints para fortalecer la experiencia del usuario y el impacto del producto.
 
 # Bibliografía 
 
@@ -2968,3 +2965,5 @@ La validación con usuarios reales confirmó que SmartSign responde a una necesi
 * **Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
 * **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
 * **Enlace del repositorio Mobile App:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
+* **Enlace del repositorio Backend:** https://github.com/Soluciones-IoT-15185-Grupo2/Backend 
+
