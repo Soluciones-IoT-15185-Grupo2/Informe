@@ -2859,7 +2859,7 @@ Enlace al video: https://drive.google.com/file/d/1fi9FJ50o8nl_Y5rFbJb9caQHc5bOP5
 
 ## Conclusiones TB2
 
-* Testing
+La validación con usuarios reales confirmó que SmartSign responde a una necesidad concreta de comunicación para personas con discapacidad auditiva y del habla, siendo valorada como una solución útil, comprensible e inclusiva; además, la evaluación heurística permitió identificar mejoras clave en usabilidad y accesibilidad que serán implementadas en los siguientes sprints para fortalecer la experiencia del usuario y el impacto del producto.
 
 # Bibliografía 
 
