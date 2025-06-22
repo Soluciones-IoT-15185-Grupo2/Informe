@@ -2848,25 +2848,25 @@ Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando e
 ---
 ## Entrevista 1
 
-**Entrevistador:** Jesus Godoy
-**Entrevistado:** Jose Diaz 
-**Sexo:** Masculino   
-**Edad:** 23 años   
-**Distrito:** Ate  
-**Rol:** Estudiante universitario de arquitectura 
-**Duración de la entrevista:** 6:16 
-**Link:** [Click para ver entrevista]([https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing) 
+**Entrevistador:** Jesus Godoy       
+**Entrevistado:** Jose Diaz     
+**Sexo:** Masculino      
+**Edad:** 23 años      
+**Distrito:** Ate     
+**Rol:** Estudiante universitario de arquitectura      
+**Duración de la entrevista:** 6:16      
+**Link:** [Click para ver entrevista]([https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing)     
 
 ## Entrevista 2
 
-**Entrevistador:** Jesus Godoy 
-**Entrevistado:** Fabricio Mendoza 
-**Sexo:** Masculino   
-**Edad:** 22 años   
-**Distrito:** Cusco 
-**Rol:** Estudiante universitario de ingenieria de sistema, trabajando en una constructora. 
-**Duración de la entrevista:** 6:04 
-**Link:** [Click para ver entrevista]([https://drive.google.com/file/d/1W8qRGS2Dnc-wrsU4j0YOdJYwzpF_U6b2/view?usp=sharing) 
+**Entrevistador:** Jesus Godoy      
+**Entrevistado:** Fabricio Mendoza    
+**Sexo:** Masculino      
+**Edad:** 22 años      
+**Distrito:** Cusco    
+**Rol:** Estudiante universitario de ingenieria de sistema, trabajando en una constructora.    
+**Duración de la entrevista:** 6:04     
+**Link:** [Click para ver entrevista]([https://drive.google.com/file/d/1W8qRGS2Dnc-wrsU4j0YOdJYwzpF_U6b2/view?usp=sharing)     
 
 ## Entrevista 3
 ![image](https://github.com/user-attachments/assets/6b370d1f-212f-4279-bc3d-36e016db7a0b)
