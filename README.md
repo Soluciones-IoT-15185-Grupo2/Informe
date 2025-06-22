@@ -2730,7 +2730,7 @@ Se desplegó el frontend con Vercel
 
 | Alumno | Actividad |
 |--------|-----------|
-| Alvaro Crispin | Desarrollo y despliegue del frontend  |
+| Alvaro Crispin | Desarrollo del backend  |
 | Frank Salazar | Desarrollo del backend |
 | Jesus Godoy | Edición informe Capítulo 6.2 y 6.4 |
 | Miguel Huaman | Edición informe Capítulo 6.3 |
