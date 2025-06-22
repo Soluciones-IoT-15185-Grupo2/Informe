@@ -2660,6 +2660,8 @@ En este sprint se siguió realizando avances en el desarrollo de la implementaci
 
 **Enlace del repositorio de la aplicación Móvil:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
 
+**Enlace del repositorio Backend:** https://github.com/Soluciones-IoT-15185-Grupo2/Backend 
+
 **Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
 
 **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
@@ -2682,9 +2684,23 @@ Durante el Sprint 2 se han desarrollado pruebas unitarias para los componentes b
 
 **Vista del desarrollo del Backend:** 
 
-Actualizar captura
+Se desarrolló el modelo de predicción para la traducción de gestos a lenguaje verbal.
 
-![image](/Assets/landingPageDev.png)
+Entrenamiento del modelo: 
+
+![image](/Assets/modelTraining1.jpeg)
+
+![image](/Assets/modelTraining2.jpeg)
+
+![image](/Assets/modelTraining4.jpeg)
+
+![image](/Assets/modelTraining5.jpeg)
+
+
+Vista del Dataset en Excel: 
+
+![image](/Assets/modelTraining3.jpeg)
+
 
 **Vista del desarrollo del Frontend:** 
 
@@ -2715,11 +2731,10 @@ Se desplegó el frontend con Vercel
 | Alumno | Actividad |
 |--------|-----------|
 | Alvaro Crispin | Desarrollo y despliegue del frontend  |
-| Frank Salazar | Desarrollo y despliegue del frontend |
-| Jesus Godoy | Edición informe Capítulo 6 |
-| Miguel Huaman | Edición informe Capítulo 5 |
+| Frank Salazar | Desarrollo del backend |
+| Jesus Godoy | Edición informe Capítulo 6.2 y 6.4 |
+| Miguel Huaman | Edición informe Capítulo 6.3 |
 | Jorge David Orrego Noriega | Desarrollo de la aplicación móvil |
-
 
 ### 6.3 Validation Interviews
 
