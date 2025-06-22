@@ -2772,27 +2772,75 @@ Se desplegó el frontend con Vercel
 - ¿En qué situaciones crees que sería más útil?  
 - ¿Tienes alguna sugerencia de mejora?  
 #### 6.3.2 Registro de Entrevistas
-### Entrevista N° 1
+## Entrevista 1
 
-**Entrevistador:**  
-**Entrevistado:**  
-**Sexo:**  
-**Edad:**  
-**Distrito:**  
-**Rol:**  
-**Duración de la entrevista:**  
-**Link:**  
+**Entrevistador:** Huamán Cataño Miguel Ángel 
+**Entrevistado:** Sofía Mendoza  
+**Sexo:** Femenino  
+**Edad:** 22 años  
+**Distrito:** Jesús María  
+**Rol:** Estudiante universitaria y voluntaria en ONG (talleres de lengua de señas para familiares y actividades recreativas con adolescentes y jóvenes adultos sordos)  
+**Duración de la entrevista:** 09:18
+**Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/ESsQMlWKTkRFgOp8febJDLMB5d7HbFd_oXUgIfvJFQ_v5A?e=L7w16c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Hallazgos
 
 **Landing page:**  
-[Escribe aquí el análisis del entrevistado sobre la landing page]
+La entrevistada considera que la información es clara en términos generales, pero identifica la falta de información específica para contextos educativos. Reconoce la utilidad del producto para familiares que asisten a talleres sin conocimiento de señas y para voluntarios en proceso de aprendizaje. Sin embargo, critica el diseño por considerarlo básico, con falta de color y dinamismo, esperando algo más moderno y atractivo. Solicita información específica sobre compatibilidad con el lenguaje de señas peruano y funcionamiento en dispositivos móviles.
 
 **Aplicación web:**  
-[Escribe aquí el análisis del entrevistado sobre la aplicación web]
+Evalúa la interfaz como muy simple para uso educativo, señalando la necesidad de más elementos visuales e interactivos para mantener el interés de los participantes acostumbrados a aplicaciones dinámicas. Considera que será fácil para educadores mayores pero aburrida para jóvenes. Valora positivamente el historial de traducciones para práctica posterior, la función de aprendizaje de señas para talleres familiares, y la traducción de gestos para verificación. Enfatiza la necesidad de más colores, animaciones y funcionalidades adicionales.
 
 #### Resumen:  
-[Escribe aquí un resumen de los puntos más importantes mencionados por el entrevistado sobre la landing page y la aplicación web]
+Sofía ve gran potencial en SmartSign especialmente para talleres familiares y voluntarios aprendices, valorando el plan gratuito y siendo una solución peruana. Sus principales preocupaciones se centran en la mejora del diseño visual (más moderno, colorido y dinámico) y la confirmación de compatibilidad con señas peruanas y dispositivos móviles. Recomendaría el producto tras las mejoras de diseño y sugiere descuentos para estudiantes e instituciones sin fines de lucro.
+
+---
+
+## Entrevista 2
+
+**Entrevistador:** Huamán Cataño Miguel Ángel  
+**Entrevistado:** Sebastián Ríos  
+**Sexo:** Masculino  
+**Edad:** 20 años  
+**Distrito:** Santiago de Surco  
+**Rol:** Estudiante universitario y voluntario en fundación (talleres de apoyo psicológico y social a personas con discapacidad auditiva)  
+**Duración de la entrevista:** 08:22
+**Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EUmI5rFHNlBKqJswav8ibjwB2IAmrafLQFzJwrMLURTxDg?e=KWXYLn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Hallazgos
+
+**Landing page:**  
+El entrevistado encuentra clara la información pero sugiere mayor enfoque en aspectos emocionales y sociales. Considera que falta testimonios que hablen del impacto psicológico positivo de mejorar la comunicación. Reconoce la utilidad del producto para dar confianza a participantes que se sienten incomprendidos fuera de espacios seguros. Critica el diseño por falta de calidez y accesibilidad, considerando los colores muy neutros. Solicita información sobre personalización individual, compatibilidad con asistentes virtuales, y casos de éxito que muestren impacto emocional.
+
+**Aplicación web:**  
+Considera la interfaz funcional pero carente del elemento emocional necesario para trabajo con personas con discapacidad. Encuentra la aplicación intuitiva pero necesitada de gamificación para mantener motivación, especialmente en jóvenes. Valora altamente la traducción en tiempo real y el potencial de personalización. Propone agregar elementos de gamificación, sistema de logros para reforzar autoestima, y más colores y animaciones para una experiencia menos clínica.
+
+#### Resumen:  
+Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando el potencial impacto positivo en la confianza y autonomía comunicativa. Su principal contribución es la identificación de la necesidad de elementos emocionales y de bienestar en el diseño. Recomienda fuertemente el producto para profesionales de la salud mental e instituciones educativas, sugiriendo mejoras en personalización, compatibilidad con asistentes virtuales, y la incorporación de un modo de emergencia.
+
+---
+
+## Entrevista 3
+
+**Entrevistador:** Huamán Cataño Miguel Ángel
+**Entrevistado:** Luis Fernando Rivas  
+**Sexo:** Masculino  
+**Edad:** 25 años  
+**Distrito:** San Martín de Porres  
+**Rol:** Estudiante universitario y voluntario en fundación (talleres de capacitación laboral para personas con discapacidad auditiva)  
+**Duración de la entrevista:** 12:49
+**Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EbYzfjRLeKpFv1zcqek41hoBT5a0gSkGaL5h_MfaVOrmCg?e=VCBAqb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Hallazgos
+
+**Landing page:**  
+El entrevistado considera clara la propuesta pero enfatiza la necesidad de información sobre accesibilidad económica, dado que las personas con discapacidad auditiva frecuentemente enfrentan limitaciones económicas para acceder a tecnología. Reconoce alta utilidad para eliminar barreras comunicativas y crear oportunidades laborales. Critica el diseño básico, considerando que debería ser más profesional para contextos laborales y educativos. Solicita información sobre facilidad de uso para diferentes niveles educativos y funcionamiento en dispositivos móviles.
+
+**Aplicación web:**  
+Para capacitación laboral, identifica la necesidad de más herramientas didácticas específicas como ejercicios de práctica para diferentes oficios. Considera que educadores pueden usarla fácilmente, pero estudiantes con nivel educativo básico necesitarían más guías visuales y tutoriales detallados. Valora la traducción en tiempo real y el historial para revisión y práctica. Propone más opciones de personalización y mejor diseño con elementos interactivos.
+
+#### Resumen:  
+Luis enfoca su evaluación desde la perspectiva de inserción laboral, destacando el potencial del producto para mejorar oportunidades de empleo. Sus principales preocupaciones son la accesibilidad económica y la adaptación a diferentes niveles educativos. Condiciona su recomendación a mejoras en diseño y funcionamiento correcto del dispositivo. Sugiere reducción de costos, mejor funcionamiento en móviles, y contenido específico para capacitación laboral, identificando aplicaciones en universidades para mejor inclusión de estudiantes sordos.
 
 #### 6.3.3 Evaluaciones según Heurísticas
 Con el objetivo de evaluar la experiencia de usuario (UX) de la solución SmartSign, se aplicó una evaluación heurística basada en los principios de usabilidad de Jakob Nielsen, criterios de diseño inclusivo y fundamentos de arquitectura de información. Esta evaluación se realizó durante las entrevistas de validación con usuarios reales pertenecientes a los segmentos objetivo.
