@@ -2804,7 +2804,7 @@ Las tareas evaluadas incluyeron:
 • Acceso a funcionalidades clave
 La evaluación se enfocó en la versión actual del Landing Page y el prototipo funcional de la aplicación web.
 
-CUADRO
+
 | # | Problema detectado | Severidad | Heurística / Principio violado |
 |---------|-------|-------|----------------------------|
 | 1 | El botón de acceso a la aplicación desde el Landing Page no es visible de inmediato para usuarios nuevos. | 2 | Usabilidad: Visibilidad del estado del sistema |
@@ -2813,28 +2813,28 @@ CUADRO
 | 4 | El menú principal tiene elementos poco jerarquizados,  | 2 | Arquitectura de información: ¿Es encontrable? |
 
 
-Detalle de problemas significativos
-Problema #1: Botón de acceso poco visible
+**Detalle de problemas significativos**
+**Problema #1:** Botón de acceso poco visible
 • Descripción: Algunos entrevistados no identificaron rápidamente cómo acceder a la aplicación desde el Landing Page. El botón está presente pero no tiene suficiente contraste ni una llamada a la acción clara.
 • Recomendación: Utilizar un color contrastante, un texto más explícito (ej. “Ingresar a la aplicación”) y ubicarlo en la parte superior visible.
 
-Problema #2: Falta de navegación hacia atrás
+**Problema #2:** Falta de navegación hacia atrás
 • Descripción: En la aplicación web, al ingresar a ciertas secciones como "Configuración" o "Mi cuenta", no hay forma intuitiva de regresar a la pantalla principal. Esto generó confusión.
 • Recomendación: Añadir un botón de retroceso fijo o una barra de navegación inferior que esté presente en todo momento.
 
-Problema #3: Contraste insuficiente en móvil
+**Problema #3:** Contraste insuficiente en móvil
 • Descripción: En ciertos móviles, la combinación de colores (texto blanco sobre fondo celeste claro) dificultó la lectura para algunos entrevistados.
 • Recomendación: Seguir estándares de accesibilidad (WCAG) y utilizar herramientas como contrastchecker.com para validar.
 
-Problema #4: Menú desorganizado
+**Problema #4:** Menú desorganizado
 • Descripción: Los entrevistados manifestaron que les costó encontrar funciones como “Configuración” o “Ayuda”, debido a un menú poco jerárquico.
 • Recomendación: Aplicar diseño jerárquico y agrupar funciones similares.
 
-Problema #5: Texto no ajustable
+**Problema #5:** Texto no ajustable
 • Descripción: No existe opción para modificar el tamaño del texto, lo cual es importante para usuarios mayores o con discapacidad visual.
 • Recomendación: Implementar una opción de accesibilidad que permita cambiar el tamaño de fuente.
 
-Conclusión de la evaluación
+**Conclusión de la evaluación**
 Los hallazgos permiten identificar áreas clave de mejora antes del siguiente ciclo de iteración. Se concluye que el sistema es funcional y comprensible, pero requiere ajustes en accesibilidad, navegación y diseño visual para garantizar una experiencia más inclusiva y amigable. Las recomendaciones serán priorizadas en los próximos sprints.
 
 
