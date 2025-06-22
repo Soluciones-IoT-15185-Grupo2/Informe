@@ -43,6 +43,7 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
 
 **TB2:**
 
+![commitsReportTB2.png](Assets/commitsTB2.png)
 
 
 # Student Outcome
