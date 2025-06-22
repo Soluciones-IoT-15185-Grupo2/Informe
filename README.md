@@ -2819,6 +2819,15 @@ Considera la interfaz funcional pero carente del elemento emocional necesario pa
 Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando el potencial impacto positivo en la confianza y autonomía comunicativa. Su principal contribución es la identificación de la necesidad de elementos emocionales y de bienestar en el diseño. Recomienda fuertemente el producto para profesionales de la salud mental e instituciones educativas, sugiriendo mejoras en personalización, compatibilidad con asistentes virtuales, y la incorporación de un modo de emergencia.
 
 ---
+## Entrevista 1
+**Entrevistador:**  Jesús Godoy
+**Entrevistado:**  Jose Diaz
+**Sexo:**  masculino
+**Edad:**  23 años
+**Distrito:**  Ate
+**Rol:**  Estudiante de Arquitectura
+**Duración de la entrevista:**  6:07
+**Link:**  https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing
 
 ## Entrevista 3
 
