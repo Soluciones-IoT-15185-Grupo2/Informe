@@ -2602,8 +2602,6 @@ Se desplegó el frontend con Vercel
 #### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
 
-Cambiar lo que está aquí
-
 | Sprint # | Sprint 2 |
 |---------------------|-------------------------------------------|
 | Date                | 2025/06/02                                |
@@ -2635,8 +2633,6 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 
 
 #### 6.2.2.3. Sprint Backlog 2
-
-Actualizar Backlog
 
 | Sprint # | Sprint 2 | | | | | | |
 |----------|----------|---|------------------------|-------------------------------------------|--------------|-------------------|--------|
