@@ -2855,17 +2855,6 @@ Para capacitación laboral, identifica la necesidad de más herramientas didáct
 #### Resumen:  
 Luis enfoca su evaluación desde la perspectiva de inserción laboral, destacando el potencial del producto para mejorar oportunidades de empleo. Sus principales preocupaciones son la accesibilidad económica y la adaptación a diferentes niveles educativos. Condiciona su recomendación a mejoras en diseño y funcionamiento correcto del dispositivo. Sugiere reducción de costos, mejor funcionamiento en móviles, y contenido específico para capacitación laboral, identificando aplicaciones en universidades para mejor inclusión de estudiantes sordos.
 
-#### Hallazgos
-
-**Landing page:**  
-El entrevistado considera clara la propuesta pero enfatiza la necesidad de información sobre accesibilidad económica, dado que las personas con discapacidad auditiva frecuentemente enfrentan limitaciones económicas para acceder a tecnología. Reconoce alta utilidad para eliminar barreras comunicativas y crear oportunidades laborales. Critica el diseño básico, considerando que debería ser más profesional para contextos laborales y educativos. Solicita información sobre facilidad de uso para diferentes niveles educativos y funcionamiento en dispositivos móviles.
-
-**Aplicación web:**  
-Para capacitación laboral, identifica la necesidad de más herramientas didácticas específicas como ejercicios de práctica para diferentes oficios. Considera que educadores pueden usarla fácilmente, pero estudiantes con nivel educativo básico necesitarían más guías visuales y tutoriales detallados. Valora la traducción en tiempo real y el historial para revisión y práctica. Propone más opciones de personalización y mejor diseño con elementos interactivos.
-
-#### Resumen:  
-Luis enfoca su evaluación desde la perspectiva de inserción laboral, destacando el potencial del producto para mejorar oportunidades de empleo. Sus principales preocupaciones son la accesibilidad económica y la adaptación a diferentes niveles educativos. Condiciona su recomendación a mejoras en diseño y funcionamiento correcto del dispositivo. Sugiere reducción de costos, mejor funcionamiento en móviles, y contenido específico para capacitación laboral, identificando aplicaciones en universidades para mejor inclusión de estudiantes sordos.
-
 #### 6.3.3 Evaluaciones según Heurísticas
 Con el objetivo de evaluar la experiencia de usuario (UX) de la solución SmartSign, se aplicó una evaluación heurística basada en los principios de usabilidad de Jakob Nielsen, criterios de diseño inclusivo y fundamentos de arquitectura de información. Esta evaluación se realizó durante las entrevistas de validación con usuarios reales pertenecientes a los segmentos objetivo.
 Las tareas evaluadas incluyeron:
