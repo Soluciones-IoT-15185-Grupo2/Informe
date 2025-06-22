@@ -2805,7 +2805,12 @@ Las tareas evaluadas incluyeron:
 La evaluación se enfocó en la versión actual del Landing Page y el prototipo funcional de la aplicación web.
 
 CUADRO
-
+| # | Problema detectado | Severidad | Heurística / Principio violado |
+|---------|-------|-------|----------------------------|
+| 1 | El botón de acceso a la aplicación desde el Landing Page no es visible de inmediato para usuarios nuevos. | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | En la aplicación web, algunas vistas no cuentan con un botón de “volver” o navegación hacia atrás. | 3 | Usabilidad: Libertad y control del usuario |
+| 3 | El contraste de color entre texto y fondo es bajo en dispositivos móviles. | 3 | Diseño inclusivo: Perceptible para todos |
+| 4 | El menú principal tiene elementos poco jerarquizados,  | 2 | Arquitectura de información: ¿Es encontrable? |
 
 
 Detalle de problemas significativos
