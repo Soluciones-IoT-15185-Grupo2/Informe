@@ -27,7 +27,7 @@ Julio, 2025
 | 2.0 | 26/04/2025 | Grupo IoTech | Se terminó el desarrollo de la TB1 |
 | 3.0 | 15/05/2025 | Grupo IoTech | Se terminó el desarrollo del Trabajo Parcial |
 | 4.0 | 21/06/2025 | Grupo IoTech | Se terminó el desarrollo de la TB2 |
-| 5.0 | 06/06/2025 | Grupo IoTech | Se terminó el desarrollo de Trabajo Final |
+| 5.0 | 06/07/2025 | Grupo IoTech | Se terminó el desarrollo de Trabajo Final |
 
 
 # Project Report Collaboration Insights
