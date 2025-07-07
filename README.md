@@ -17,7 +17,7 @@
 | Miguel Angel Huaman Cataño       | u202120615 |
 | Frank Junior Salazar Saldarriaga | u20181h103 |
 
-Junio, 2025
+Julio, 2025
 
 # Registro de Versiones del Informe
 
@@ -27,6 +27,7 @@ Junio, 2025
 | 2.0 | 26/04/2025 | Grupo IoTech | Se terminó el desarrollo de la TB1 |
 | 3.0 | 15/05/2025 | Grupo IoTech | Se terminó el desarrollo del Trabajo Parcial |
 | 4.0 | 21/06/2025 | Grupo IoTech | Se terminó el desarrollo de la TB2 |
+| 5.0 | 06/06/2025 | Grupo IoTech | Se terminó el desarrollo de Trabajo Final |
 
 
 # Project Report Collaboration Insights
@@ -44,6 +45,8 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
 **TB2:**
 
 ![commitsReportTB2.png](Assets/commitsTB2.png)
+
+**TF:**
 
 
 # Student Outcome
@@ -182,15 +185,25 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
         - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment)
         - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collab)
     - [6.2.2. Sprint 2](#622-sprint-2) 
-        - [6.2.2.1. Sprint Planning 1](#6221-sprint-planning-2)
+        - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
         - [6.2.2.2. Aspect Leaders and Collaborators](#6222-leaders)
-        - [6.2.2.3. Sprint Backlog 1](#6223-sprint-backlog-2)
+        - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
         - [6.2.2.4. Development Evidence for Sprint Review](#6224-development)
         - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing)
         - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution)
         - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-doc)
         - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment)
         - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collab)
+    - [6.2.3. Sprint 3](#623-sprint-3) 
+        - [6.2.2.1. Sprint Planning 3](#6231-sprint-planning-3)
+        - [6.2.2.2. Aspect Leaders and Collaborators](#6232-leaders)
+        - [6.2.2.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+        - [6.2.2.4. Development Evidence for Sprint Review](#6234-development)
+        - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6235-testing)
+        - [6.2.2.6. Execution Evidence for Sprint Review](#6236-execution)
+        - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6237-services-doc)
+        - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment)
+        - [6.2.2.9. Team Collaboration Insights during Sprint](#6239-team-collab)
 - [6.3. Validation Interviews](#63-validation)
     - [6.3.1. Diseño de Entrevistas](#631-disenio) 
     - [6.3.2. Registro de Entrevistas](#632-registro) 
@@ -2733,6 +2746,140 @@ Se desplegó el frontend con Vercel
 | Miguel Huaman | Edición informe Capítulo 6.3 |
 | Jorge David Orrego Noriega | Desarrollo de la aplicación móvil |
 
+#### 6.2.3. Sprint 3 (Modificar)
+#### 6.2.3.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+|---------------------|-------------------------------------------|
+| Date                | 2025/06/30                                |
+| Time                | 10:00 PM                                  |
+| Location            | Videoconferencia Discord                  |
+| Prepared By         | Jorge David Orrego Noriega                |
+| Attendees (to planning meeting) | Alvaro Esteban Crispin Ccancce |
+|                      | Jesús Andres Godoy Santillan|
+|                      | Jorge David Orrego Noriega |
+|                      | Miguel Ángel Huaman Cataño  |
+|                      | Frank Junior Salazar Saldarriaga |
+| Sprint 2 Review Summary | Se completaron exitosamente las funcionalidades base de comunicación cotidiana (US01, US02, US06, US05). Se logró implementar el reconocimiento básico de señas, la conversión a texto/audio y las funciones de emergencia. El prototipo en Wokwi está operativo y tanto la landing page como el frontend fueron desplegados correctamente. |
+| Sprint 2 Retrospective Summary | **Fortalezas:** Buena coordinación del equipo y cumplimiento de plazos. **Áreas de mejora:** Necesidad de más pruebas de integración entre componentes. **Acciones:** Implementar más testing automatizado y mejorar la documentación técnica. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal        | Expandir las capacidades del sistema SmartSign hacia el ámbito educativo y de salud, implementando funcionalidades específicas para docentes y centros médicos. El objetivo es desarrollar el reconocimiento avanzado de señas académicas/médicas, herramientas de evaluación para docentes, y sistemas de comunicación crítica en centros de salud, mientras se desarrolla la aplicación móvil complementaria y se mejora el backend del sistema. |
+| Sprint 3 Velocity    | 15 Story Points                           |
+| Sum of Story Points  | 15 Story Points                           |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+En esta sección se detalla la elaboración del artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto.
+
+| Team Member | GitHub Username | Desarrollo Mobile App | Backend Development | Reconocimiento Avanzado | Integración Educativa/Salud |
+|-------------|----------------|------------------------|-------------------------|------------------------|-------------------------|
+| Orrego Noriega, Jorge David | JorgeOrrego1201 | L | C | C | - |
+| Crispin Ccancce, Alvaro Esteban | acrispin06 | C | C | L | C |
+| Godoy Santillan, Jesús Andres | JesusGodoyS | C | L | C | C |
+| Huaman Cataño, Miguel Ángel | Huaman-Miguel | - | C | C | L |
+| Salazar Saldarriaga, Frank Junior | Ank222001 | C | C | - | L |
+
+
+#### 6.2.3.3. Sprint Backlog 3
+
+| Sprint # | Sprint 3 | | | | | | |
+|----------|----------|---|------------------------|-------------------------------------------|--------------|-------------------|--------|
+| **User Story ID** | **Title** | **Work-Item / Task ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US01 | Comunicación en conversaciones cotidianas | T01 | Desarrollo del sensor de movimiento de dedos | Implementar la detección de posición y movimiento de los dedos mediante sensores flexibles | 8 horas | Alvaro Crispin | Done |
+| US01 | Comunicación en conversaciones cotidianas | T02 | Desarrollo del algoritmo de reconocimiento de señas básicas | Crear el algoritmo que identifique los patrones de las señas más comunes en conversaciones cotidianas | 12 horas | Jorge Orrego | Done |
+| US01 | Comunicación en conversaciones cotidianas | T03 | Implementación de convertidor de señas a texto | Desarrollar el módulo que traduce las señas reconocidas a texto legible | 10 horas | Miguel Huaman | Done |
+| US01 | Comunicación en conversaciones cotidianas | T04 | Desarrollo del módulo de salida de audio | Crear la funcionalidad que convierte el texto a voz para reproducir el mensaje | 6 horas | Frank Salazar | Done |
+| US02 | Expresión en entornos públicos | T05 | Optimización de los sensores para uso en espacios públicos | Ajustar la sensibilidad de los sensores para funcionar en entornos con mayor ruido y movimiento | 6 horas | Alvaro Crispin | Done |
+| US02 | Expresión en entornos públicos | T06 | Desarrollo de vocabulario extendido para entornos públicos | Ampliar la base de señas reconocidas para incluir expresiones comunes en tiendas, transporte, etc. | 8 horas | Jorge Orrego | Done |
+| US02 | Expresión en entornos públicos | T07 | Implementación de aumento de volumen adaptativo | Desarrollar funcionalidad que ajuste el volumen de salida según el ruido ambiental | 5 horas | Jesús Godoy | Done |
+| US06 | Comunicación en emergencias | T08 | Implementación de gestos de emergencia | Desarrollar reconocimiento de señas específicas para situaciones de emergencia | 8 horas | Miguel Huaman | Done |
+| US06 | Comunicación en emergencias | T09 | Desarrollo de notificaciones prioritarias | Crear sistema que priorice y amplifique mensajes identificados como emergencias | 6 horas | Frank Salazar | Done |
+| US06 | Comunicación en emergencias | T10 | Integración con sistema de alerta de emergencia | Implementar la funcionalidad que permite enviar alertas a contactos predefinidos | 10 horas | Jesús Godoy | Done |
+| US05 | Comprensión por parte del entorno | T11 | Desarrollo de interfaz visual auxiliar | Crear pantalla complementaria que muestre el texto traducido para reforzar la comunicación | 8 horas | Alvaro Crispin | Done |
+| US05 | Comprensión por parte del entorno | T12 | Implementación de feedback visual para el usuario | Desarrollar sistema de luces o vibraciones que indiquen al usuario si su mensaje fue procesado correctamente | 5 horas | Jorge Orrego | Done |
+| US05 | Comprensión por parte del entorno | T13 | Pruebas de usabilidad con usuarios sin conocimiento de señas | Realizar pruebas con personas sin experiencia en lengua de señas para validar la claridad de la comunicación | 4 horas |  Frank Salazar | Done |
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+En este sprint se siguió realizando avances en el desarrollo de la implementación del prototipo en simulador (Wokwi), el backend y la aplicación móvil. 
+
+**Enlace del repositorio de la aplicación Móvil:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
+
+**Enlace del repositorio Backend:** https://github.com/Soluciones-IoT-15185-Grupo2/Backend 
+
+**Enlace del repositorio Frontend:** https://github.com/Soluciones-IoT-15185-Grupo2/FrontEnd 
+
+**Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
+
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+**Vista de desarrollo de la Mobile App:**
+
+![image](/Assets/sprint2ExecMobile.png)
+
+**Vistas de las pantallas de la Aplicación Móvil:**
+
+![image](/Assets/mobileApp.png)
+
+
+**Vista del desarrollo del Backend:** 
+
+Se desarrolló el modelo de predicción para la traducción de gestos a lenguaje verbal.
+
+Entrenamiento del modelo: 
+
+![image](/Assets/modelTraining1.jpeg)
+
+![image](/Assets/modelTraining2.jpeg)
+
+![image](/Assets/modelTraining4.jpeg)
+
+![image](/Assets/modelTraining5.jpeg)
+
+
+Vista del Dataset en Excel: 
+
+![image](/Assets/modelTraining3.jpeg)
+
+
+**Vista del desarrollo del Frontend:** 
+
+![image](/Assets/frontendDev.png)
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+No aplica para esta entrega. 
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+Se desplegó la landing page con Google Firebase 
+
+![image](/Assets/landingDeployment.png)
+
+![image](/Assets/landingPageDeployed.png)
+
+**Enlace de la landing page:**  https://smartsignlanding.web.app/ 
+
+Se desplegó el frontend con Vercel 
+
+![image](/Assets/frontendDeployed.png)
+
+**Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+| Alumno | Actividad |
+|--------|-----------|
+| Alvaro Crispin | Desarrollo del backend  |
+| Frank Salazar | Desarrollo del backend |
+| Jesus Godoy | Edición informe Capítulo 6.2 y 6.4 |
+| Miguel Huaman | Edición informe Capítulo 6.3 |
+| Jorge David Orrego Noriega | Desarrollo de la aplicación móvil |
+
 ### 6.3 Validation Interviews
 
 #### 6.3.1 Diseño de Entrevistas
@@ -2783,27 +2930,43 @@ Se desplegó el frontend con Vercel
 - ¿Recomendarías esta solución a otras personas?  
 - ¿En qué situaciones crees que sería más útil?  
 - ¿Tienes alguna sugerencia de mejora?  
+
 #### 6.3.2 Registro de Entrevistas
-## Entrevista 1
+
+#### Entrevista 1
 **Entrevistador:**  Jesús Godoy
+
 **Entrevistado:**  Jose Diaz
-**Sexo:**  masculino
+
+**Sexo:**  Masculino
+
 **Edad:**  23 años
+
 **Distrito:**  Ate
+
 **Rol:**  Estudiante de Arquitectura
+
 **Duración de la entrevista:**  6:07
+
 **Link:**  https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing
 
-## Entrevista 1
+#### Entrevista 2
 ![Screenshot_1](https://github.com/user-attachments/assets/3f4fed55-c125-4be1-a907-b7bd3acc5d29)
 
 **Entrevistador:** Huamán Cataño Miguel Ángel 
+
 **Entrevistado:** Sofía Mendoza  
+
 **Sexo:** Femenino  
+
 **Edad:** 22 años  
+
 **Distrito:** Jesús María  
+
 **Rol:** Estudiante universitaria y voluntaria en ONG (talleres de lengua de señas para familiares y actividades recreativas con adolescentes y jóvenes adultos sordos)  
+
 **Duración de la entrevista:** 09:18
+
 **Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/ESsQMlWKTkRFgOp8febJDLMB5d7HbFd_oXUgIfvJFQ_v5A?e=L7w16c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Hallazgos
@@ -2819,16 +2982,23 @@ Sofía ve gran potencial en SmartSign especialmente para talleres familiares y v
 
 ---
 
-## Entrevista 2
+#### Entrevista 3
 ![image](https://github.com/user-attachments/assets/61e3ecc9-abfd-42c0-ab0b-58f96531b713)
 
 **Entrevistador:** Huamán Cataño Miguel Ángel  
+
 **Entrevistado:** Sebastián Ríos  
+
 **Sexo:** Masculino  
+
 **Edad:** 20 años  
+
 **Distrito:** Santiago de Surco  
+
 **Rol:** Estudiante universitario y voluntario en fundación (talleres de apoyo psicológico y social a personas con discapacidad auditiva)  
+
 **Duración de la entrevista:** 08:22
+
 **Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EUmI5rFHNlBKqJswav8ibjwB2IAmrafLQFzJwrMLURTxDg?e=KWXYLn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Hallazgos
@@ -2843,38 +3013,59 @@ Considera la interfaz funcional pero carente del elemento emocional necesario pa
 Sebastián enfoca su evaluación desde una perspectiva psicológica, valorando el potencial impacto positivo en la confianza y autonomía comunicativa. Su principal contribución es la identificación de la necesidad de elementos emocionales y de bienestar en el diseño. Recomienda fuertemente el producto para profesionales de la salud mental e instituciones educativas, sugiriendo mejoras en personalización, compatibilidad con asistentes virtuales, y la incorporación de un modo de emergencia.
 
 ---
-## Entrevista 4
+#### Entrevista 4
 
 **Entrevistador:** Jesus Godoy       
+
 **Entrevistado:** Jose Diaz     
+
 **Sexo:** Masculino      
+
 **Edad:** 23 años      
+
 **Distrito:** Ate     
+
 **Rol:** Estudiante universitario de arquitectura      
+
 **Duración de la entrevista:** 6:16      
+
 **Link:** https://drive.google.com/file/d/1Deh2_gzn1Iy9IffaTajxyN2ef9Qls2QS/view?usp=sharing        
 
-## Entrevista 5
+#### Entrevista 5
 
 **Entrevistador:** Jesus Godoy      
+
 **Entrevistado:** Fabricio Mendoza    
+
 **Sexo:** Masculino      
+
 **Edad:** 22 años      
+
 **Distrito:** Cusco    
+
 **Rol:** Estudiante universitario de ingenieria de sistema, trabajando en una constructora.    
+
 **Duración de la entrevista:** 6:04     
+
 **Link:** https://drive.google.com/file/d/1W8qRGS2Dnc-wrsU4j0YOdJYwzpF_U6b2/view?usp=sharing       
 
-## Entrevista 3
+#### Entrevista 6
 ![image](https://github.com/user-attachments/assets/6b370d1f-212f-4279-bc3d-36e016db7a0b)
 
 **Entrevistador:** Huamán Cataño Miguel Ángel
+
 **Entrevistado:** Luis Fernando Rivas  
+
 **Sexo:** Masculino  
+
 **Edad:** 25 años  
+
 **Distrito:** San Martín de Porres  
+
 **Rol:** Estudiante universitario y voluntario en fundación (talleres de capacitación laboral para personas con discapacidad auditiva)  
+
 **Duración de la entrevista:** 12:49
+
 **Link:** [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120615_upc_edu_pe/EbYzfjRLeKpFv1zcqek41hoBT5a0gSkGaL5h_MfaVOrmCg?e=VCBAqb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Hallazgos
@@ -2908,6 +3099,7 @@ La evaluación se enfocó en la versión actual del Landing Page y el prototipo 
 
 
 **Detalle de problemas significativos**
+
 **Problema #1:** Botón de acceso poco visible
 • Descripción: Algunos entrevistados no identificaron rápidamente cómo acceder a la aplicación desde el Landing Page. El botón está presente pero no tiene suficiente contraste ni una llamada a la acción clara.
 • Recomendación: Utilizar un color contrastante, un texto más explícito (ej. “Ingresar a la aplicación”) y ubicarlo en la parte superior visible.
@@ -2951,6 +3143,10 @@ La siguiente sección presenta el video introductorio de la solución SmartSign,
 ## Conclusiones TB2
 
 * La validación con usuarios reales confirmó que SmartSign responde a una necesidad concreta de comunicación para personas con discapacidad auditiva y del habla, siendo valorada como una solución útil, comprensible e inclusiva; además, la evaluación heurística permitió identificar mejoras clave en usabilidad y accesibilidad que serán implementadas en los siguientes sprints para fortalecer la experiencia del usuario y el impacto del producto.
+
+## Conclusiones TB3
+
+* Lorem ipsum
 
 # Bibliografía 
 
