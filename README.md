@@ -2803,7 +2803,7 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
-En este sprint se siguió realizando avances en el desarrollo de la implementación del prototipo en simulador (Wokwi), el backend y la aplicación móvil. 
+En este sprint se logró un avance significativo en la implementación del prototipo físico del guante SmartSign. Se completó la integración del hardware utilizando el ESP32-S3 como microcontrolador principal, junto con sensores flexibles, multiplexores, entre otros componentes, para crear un dispositivo funcional completo.
 
 **Enlace del repositorio de la aplicación Móvil:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
 
@@ -2815,8 +2815,7 @@ En este sprint se siguió realizando avances en el desarrollo de la implementaci
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
-Durante el Sprint 3 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
-
+Durante el Sprint 3 se han desarrollado pruebas exhaustivas para el hardware físico del guante SmartSign. Se implementaron pruebas de calibración de sensores, pruebas de conectividad inalámbrica, y pruebas de integración entre el hardware y el software. Las pruebas incluyen validación de precisión en el reconocimiento de señas, estabilidad de la comunicación ESP32-aplicación móvil, y pruebas de resistencia del dispositivo físico.
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
@@ -2875,13 +2874,13 @@ Se desplegó el frontend con Vercel
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
-| Alumno | Actividad |
+ Alumno | Actividad |
 |--------|-----------|
-| Alvaro Crispin | Desarrollo del backend  |
-| Frank Salazar | Desarrollo del backend |
-| Jesus Godoy | Edición informe Capítulo 6.2 y 6.4 |
-| Miguel Huaman | Edición informe Capítulo 6.3 |
-| Jorge David Orrego Noriega | Desarrollo de la aplicación móvil |
+| Alvaro Crispin | Implementación y calibración de sensores flexibles |
+| Frank Salazar | Desarrollo de sistema de comunicación inalámbrica y multiplexores |
+| Jesus Godoy | Diseño de circuitos y optimización energética |
+| Miguel Huaman | Integración de sistemas y desarrollo de interfaces de configuración |
+| Jorge David Orrego Noriega | Programación del ESP32 S3 y desarrollo de algoritmos de procesamiento |
 
 ### 6.3 Validation Interviews
 
@@ -3149,7 +3148,7 @@ La siguiente sección presenta el video introductorio de la solución SmartSign,
 
 ## Conclusiones TF
 
-* Lorem ipsum
+* La experiencia del desarrollo de SmartSign ha demostrado que la combinación de tecnologías IoT, procesamiento de señales en tiempo real y diseño centrado en el usuario puede generar soluciones innovadoras que respondan a problemáticas sociales complejas. El proyecto ha validado que es posible crear tecnología accesible y práctica que mejore significativamente la calidad de vida de las personas con discapacidad, estableciendo un precedente para futuras innovaciones en el campo de la tecnología.
 
 # Bibliografía 
 
