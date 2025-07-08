@@ -2856,7 +2856,12 @@ Vista del nuevo dataset en GitHub:
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
-No aplica para esta entrega. 
+Se ha documentado la funcionalidad de los endpoints expuestos desde el backend con Swagger y se muestra cómo se tendrían que consumir. 
+
+![image](/Assets/swaggerDoc1.jpeg)
+
+![image](/Assets/swaggerDoc2.jpeg)
+
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
