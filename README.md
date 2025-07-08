@@ -2834,7 +2834,15 @@ Durante el Sprint 3 se han desarrollado pruebas exhaustivas para el hardware fí
 
 Se desarrolló el modelo de predicción para la traducción de gestos a lenguaje verbal.
 
-Entrenamiento del modelo: 
+**Creación del dataset a partir de los sensores del guante:** 
+
+![image](/Assets/dataset_recomp.jpeg)
+
+**Vista del nuevo dataset en GitHub:** 
+
+![image](/Assets/dataset.png)
+
+**Entrenamiento del modelo:** 
 
 ![image](/Assets/modelTraining1.jpeg)
 
@@ -2843,12 +2851,6 @@ Entrenamiento del modelo:
 ![image](/Assets/modelTraining4.jpeg)
 
 ![image](/Assets/modelTraining5.jpeg)
-
-
-Vista del nuevo dataset en GitHub: 
-
-![image](/Assets/dataset.png)
-
 
 **Vista del desarrollo del Frontend:** 
 
