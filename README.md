@@ -48,6 +48,8 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
 
 **TF:**
 
+![commitsReportTF.png](Assets/commits_TF.png)
+
 
 # Student Outcome
 
@@ -209,6 +211,8 @@ Todos los integrantes del equipo apoyaron en el desarrollo del informe.
     - [6.3.2. Registro de Entrevistas](#632-registro) 
     - [6.3.3. Evaluaciones según Heurísticas](#633-evaluaciones) 
 - [6.4. Video About-the-Product](#64-product)
+- [6.5. Video About-the-Team](#65-team)
+
 
 
 ## Capítulo I: Introduccion
@@ -3140,6 +3144,10 @@ Los hallazgos permiten identificar áreas clave de mejora antes del siguiente ci
 La siguiente sección presenta el video introductorio de la solución SmartSign, desarrollado como parte del proyecto de innovación inclusiva en el curso de Desarrollo de Soluciones IoT. El objetivo del video es explicar de manera clara y concisa el propósito del producto, su funcionamiento principal, los beneficios que ofrece para los usuarios con discapacidad auditiva y del habla, y el impacto social que se busca generar con su implementación.
 
 **Enlace al video:** https://drive.google.com/file/d/1fi9FJ50o8nl_Y5rFbJb9caQHc5bOP5ql/view?usp=sharing
+
+### 6.5 Video About-the-Team
+
+
 
 # Conclusiones 
 
