@@ -2631,7 +2631,7 @@ Se desplegó el frontend con Vercel
 |                      | Miguel Ángel Huaman Cataño  |
 |                      | Frank Junior Salazar Saldarriaga |
 | Sprint 1 Review Summary | Se completaron exitosamente las funcionalidades base de comunicación cotidiana (US01, US02, US06, US05). Se logró implementar el reconocimiento básico de señas, la conversión a texto/audio y las funciones de emergencia. El prototipo en Wokwi está operativo y tanto la landing page como el frontend fueron desplegados correctamente. |
-| Sprint 1 Retrospective Summary | **Fortalezas:** Buena coordinación del equipo y cumplimiento de plazos. **Áreas de mejora:** Necesidad de más pruebas de integración entre componentes. **Acciones:** Implementar más testing automatizado y mejorar la documentación técnica. |
+| Sprint 1 Retrospective Summary | **Fortalezas:** Buena coordinación del equipo y cumplimiento de plazos. <br> **Áreas de mejora:** Necesidad de más pruebas de integración entre componentes. <br> **Acciones:** Implementar más testing automatizado y mejorar la documentación técnica. |
 | **Sprint Goal & User Stories** | |
 | Sprint 2 Goal        | Expandir las capacidades del sistema SmartSign hacia el ámbito educativo y de salud, implementando funcionalidades específicas para docentes y centros médicos. El objetivo es desarrollar el reconocimiento avanzado de señas académicas/médicas, herramientas de evaluación para docentes, y sistemas de comunicación crítica en centros de salud, mientras se desarrolla la aplicación móvil complementaria y se mejora el backend del sistema. |
 | Sprint 2 Velocity    | 15 Story Points                           |
@@ -2750,7 +2750,7 @@ Se desplegó el frontend con Vercel
 | Miguel Huaman | Edición informe Capítulo 6.3 |
 | Jorge David Orrego Noriega | Desarrollo de la aplicación móvil |
 
-#### 6.2.3. Sprint 3 (Modificar)
+#### 6.2.3. Sprint 3
 #### 6.2.3.1. Sprint Planning 3
 
 | Sprint # | Sprint 3 |
@@ -2765,7 +2765,7 @@ Se desplegó el frontend con Vercel
 |                      | Miguel Ángel Huaman Cataño  |
 |                      | Frank Junior Salazar Saldarriaga |
 | Sprint 2 Review Summary | Se completaron exitosamente las funcionalidades avanzadas del sistema SmartSign con enfoque en el ámbito educativo y de salud. Se logró implementar una primera verión del reconocimiento de señas. La aplicación móvil complementaria y el backend fueron desarrollados exitosamente. |
-| Sprint 2 Retrospective Summary | **Fortalezas:** Excelente progreso en la integración de componentes y desarrollo de la aplicación móvil. **Áreas de mejora:** Necesidad de implementar el hardware físico del guante para completar el prototipo funcional. **Acciones:** Enfocar esfuerzos en la implementación física del guante con ESP32 S3 y sensores reales. |
+| Sprint 2 Retrospective Summary | **Fortalezas:** Excelente progreso en la integración de componentes y desarrollo de la aplicación móvil. <br> **Áreas de mejora:** Necesidad de implementar el hardware físico del guante para completar el prototipo funcional. <br> **Acciones:** Enfocar esfuerzos en la implementación física del guante con ESP32 S3 y sensores reales. |
 | **Sprint Goal & User Stories** | |
 | Sprint 3 Goal        | Desarrollar e implementar el prototipo físico completo del guante SmartSign. El objetivo es crear el dispositivo hardware funcional que capture los movimientos de la mano y dedos, procese las señas en tiempo real y se integre completamente con el sistema de software desarrollado en sprints anteriores. |
 | Sprint 3 Velocity    | 18 Story Points                           |
