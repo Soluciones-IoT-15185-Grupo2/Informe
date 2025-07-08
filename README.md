@@ -3153,7 +3153,9 @@ La siguiente sección presenta el video introductorio de la solución SmartSign,
 
 ### 6.5 Video About-the-Team
 
+En el video About-the-Team cada integrante del equipo contó sus experiencias trabajando en el proyecto, así como sus aportes y lo que pudieron aprender durante el desarrollo de este. 
 
+**Enlace al video:** https://drive.google.com/file/d/1cTBir554rtrO_ajj8ziI9lPmZ83DPkzX/view?usp=sharing 
 
 # Conclusiones 
 
