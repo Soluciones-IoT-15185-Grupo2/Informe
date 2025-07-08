@@ -2774,9 +2774,9 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 | Team Member | GitHub Username | Hardware Integration | Sensor Calibration | ESP32 Programming | Circuit Design | System Integration |
 |-------------|----------------|----------------------|---------------------|-------------------|----------------|-------------------|
 | Orrego Noriega, Jorge David | JorgeOrrego1201 | C | C | L | C | C |
-| Crispin Ccancce, Alvaro Esteban | acrispin06 | L | L | C | C | C |
+| Crispin Ccancce, Alvaro Esteban | acrispin06 | L | L | C | C | L |
 | Godoy Santillan, Jesús Andres | JesusGodoyS | C | C | C | L | L |
-| Huaman Cataño, Miguel Ángel | Huaman-Miguel | C | C | C | C | L |
+| Huaman Cataño, Miguel Ángel | Huaman-Miguel | C | C | L | C | C |
 | Salazar Saldarriaga, Frank Junior | Ank222001 | C | L | C | L | C |
 
 
@@ -2797,7 +2797,7 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 | US13 | Prevención de frustraciones en clase | T23 | Integración con aplicación móvil | Conectar el guante físico con la aplicación móvil desarrollada en sprints anteriores | 8 horas | Miguel Huaman | Done |
 | US03 | Socialización con nuevas personas | T24 | Pruebas de resistencia y durabilidad | Realizar pruebas de resistencia del guante en diferentes condiciones de uso | 6 horas | Alvaro Crispin | Done |
 | US03 | Socialización con nuevas personas | T25 | Optimización de consumo energético | Optimizar el código y hardware para maximizar la duración de la batería | 8 horas | Jesús Godoy | Done |
-| US04 | Autonomía en trámites administrativos | T26 | Desarrollo de interfaz de configuración | Crear interfaz que permita al usuario configurar sensibilidad y parámetros del guante | 7 horas | Miguel Huaman | Done |
+| US04 | Autonomía en trámites administrativos | T26 | Desarrollo de interfaz de configuración | Crear interfaz que permita al usuario configurar sensibilidad y parámetros del guante | 7 horas | Jorge Orrego | Done |
 | US04 | Autonomía en trámites administrativos | T27 | Integración final y pruebas del sistema completo | Integrar todos los componentes y realizar pruebas completas del sistema | 12 horas | Todo el equipo | Done |
 
 
