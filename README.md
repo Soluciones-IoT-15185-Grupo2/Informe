@@ -2823,6 +2823,12 @@ En este sprint se logró un avance significativo en la implementación del proto
 
 Durante el Sprint 3 se han desarrollado pruebas exhaustivas para el hardware físico del guante SmartSign. Se implementaron pruebas de calibración de sensores, pruebas de conectividad inalámbrica, y pruebas de integración entre el hardware y el software. Las pruebas incluyen validación de precisión en el reconocimiento de señas, estabilidad de la comunicación ESP32-aplicación móvil, y pruebas de resistencia del dispositivo físico.
 
+**Pruebas de traducción a partir de datos de los sensores:**
+
+Se realizaron pruebas de traducción a partir de los datos capturados por los sensores (acelerómetro y giroscopio) para ver si es que el modelo lograba traducir los gestos de manera correcta. 
+
+![image](/Assets/testing_translation.jpeg)
+
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
 **Vista de desarrollo de la Mobile App:**
