@@ -2800,7 +2800,7 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
-En este sprint se siguió realizando avances en el desarrollo de la implementación del prototipo en simulador (Wokwi), el backend y la aplicación móvil. 
+En este sprint se siguió realizando avances en el desarrollo de la implementación del prototipo en simulador (Wokwi), el dataset utilizado para el modelo predictivo de los guantes, el backend y la aplicación móvil. 
 
 **Enlace del repositorio de la aplicación Móvil:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
 
@@ -2810,10 +2810,11 @@ En este sprint se siguió realizando avances en el desarrollo de la implementaci
 
 **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
 
+**Enlace del repositorio con el dataset:** https://github.com/Soluciones-IoT-15185-Grupo2/Dataset 
+
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
 Durante el Sprint 3 se han desarrollado pruebas unitarias para los componentes básicos del sistema de reconocimiento de señas y procesamiento de audio. Adicionalmente, se han creado pruebas de integración para validar el flujo completo de trabajo. Los tests unitarios se enfocan principalmente en verificar la precisión del algoritmo de reconocimiento de patrones y la correcta conversión de texto a voz.
-
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
@@ -2841,9 +2842,9 @@ Entrenamiento del modelo:
 ![image](/Assets/modelTraining5.jpeg)
 
 
-Vista del Dataset en Excel: 
+Vista del nuevo dataset en GitHub: 
 
-![image](/Assets/modelTraining3.jpeg)
+![image](/Assets/dataset.png)
 
 
 **Vista del desarrollo del Frontend:** 
@@ -3159,4 +3160,5 @@ La siguiente sección presenta el video introductorio de la solución SmartSign,
 * **Enlace del prototipo en Wokwi:** https://wokwi.com/projects/427995228736380929 
 * **Enlace del repositorio Mobile App:** https://github.com/Soluciones-IoT-15185-Grupo2/MoblieApp 
 * **Enlace del repositorio Backend:** https://github.com/Soluciones-IoT-15185-Grupo2/Backend 
+* **Enlace del repositorio con el dataset:** https://github.com/Soluciones-IoT-15185-Grupo2/Dataset
 
