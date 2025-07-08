@@ -2760,23 +2760,24 @@ Se desplegó el frontend con Vercel
 |                      | Jorge David Orrego Noriega |
 |                      | Miguel Ángel Huaman Cataño  |
 |                      | Frank Junior Salazar Saldarriaga |
-| Sprint 2 Review Summary | Se completaron exitosamente las funcionalidades base de comunicación cotidiana (US01, US02, US06, US05). Se logró implementar el reconocimiento básico de señas, la conversión a texto/audio y las funciones de emergencia. El prototipo en Wokwi está operativo y tanto la landing page como el frontend fueron desplegados correctamente. |
-| Sprint 2 Retrospective Summary | **Fortalezas:** Buena coordinación del equipo y cumplimiento de plazos. **Áreas de mejora:** Necesidad de más pruebas de integración entre componentes. **Acciones:** Implementar más testing automatizado y mejorar la documentación técnica. |
+| Sprint 2 Review Summary | Se completaron exitosamente las funcionalidades avanzadas del sistema SmartSign con enfoque en el ámbito educativo y de salud. Se logró implementar una primera verión del reconocimiento de señas. La aplicación móvil complementaria y el backend fueron desarrollados exitosamente. |
+| Sprint 2 Retrospective Summary | **Fortalezas:** Excelente progreso en la integración de componentes y desarrollo de la aplicación móvil. **Áreas de mejora:** Necesidad de implementar el hardware físico del guante para completar el prototipo funcional. **Acciones:** Enfocar esfuerzos en la implementación física del guante con ESP32 S3 y sensores reales. |
 | **Sprint Goal & User Stories** | |
-| Sprint 3 Goal        | Expandir las capacidades del sistema SmartSign hacia el ámbito educativo y de salud, implementando funcionalidades específicas para docentes y centros médicos. El objetivo es desarrollar el reconocimiento avanzado de señas académicas/médicas, herramientas de evaluación para docentes, y sistemas de comunicación crítica en centros de salud, mientras se desarrolla la aplicación móvil complementaria y se mejora el backend del sistema. |
-| Sprint 3 Velocity    | 15 Story Points                           |
-| Sum of Story Points  | 15 Story Points                           |
+| Sprint 3 Goal        | Desarrollar e implementar el prototipo físico completo del guante SmartSign. El objetivo es crear el dispositivo hardware funcional que capture los movimientos de la mano y dedos, procese las señas en tiempo real y se integre completamente con el sistema de software desarrollado en sprints anteriores. |
+| Sprint 3 Velocity    | 18 Story Points                           |
+| Sum of Story Points  | 18 Story Points                           |
+
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
 En esta sección se detalla la elaboración del artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto.
 
-| Team Member | GitHub Username | Desarrollo Mobile App | Backend Development | Reconocimiento Avanzado | Integración Educativa/Salud |
-|-------------|----------------|------------------------|-------------------------|------------------------|-------------------------|
-| Orrego Noriega, Jorge David | JorgeOrrego1201 | L | C | C | - |
-| Crispin Ccancce, Alvaro Esteban | acrispin06 | C | C | L | C |
-| Godoy Santillan, Jesús Andres | JesusGodoyS | C | L | C | C |
-| Huaman Cataño, Miguel Ángel | Huaman-Miguel | - | C | C | L |
-| Salazar Saldarriaga, Frank Junior | Ank222001 | C | C | - | L |
+| Team Member | GitHub Username | Hardware Integration | Sensor Calibration | ESP32 Programming | Circuit Design | System Integration |
+|-------------|----------------|----------------------|---------------------|-------------------|----------------|-------------------|
+| Orrego Noriega, Jorge David | JorgeOrrego1201 | C | C | L | C | C |
+| Crispin Ccancce, Alvaro Esteban | acrispin06 | L | L | C | C | C |
+| Godoy Santillan, Jesús Andres | JesusGodoyS | C | C | C | L | L |
+| Huaman Cataño, Miguel Ángel | Huaman-Miguel | C | C | C | C | L |
+| Salazar Saldarriaga, Frank Junior | Ank222001 | C | L | C | L | C |
 
 
 #### 6.2.3.3. Sprint Backlog 3
@@ -2784,19 +2785,21 @@ En esta sección se detalla la elaboración del artefacto Leadership-and-Collabo
 | Sprint # | Sprint 3 | | | | | | |
 |----------|----------|---|------------------------|-------------------------------------------|--------------|-------------------|--------|
 | **User Story ID** | **Title** | **Work-Item / Task ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| US01 | Comunicación en conversaciones cotidianas | T01 | Desarrollo del sensor de movimiento de dedos | Implementar la detección de posición y movimiento de los dedos mediante sensores flexibles | 8 horas | Alvaro Crispin | Done |
-| US01 | Comunicación en conversaciones cotidianas | T02 | Desarrollo del algoritmo de reconocimiento de señas básicas | Crear el algoritmo que identifique los patrones de las señas más comunes en conversaciones cotidianas | 12 horas | Jorge Orrego | Done |
-| US01 | Comunicación en conversaciones cotidianas | T03 | Implementación de convertidor de señas a texto | Desarrollar el módulo que traduce las señas reconocidas a texto legible | 10 horas | Miguel Huaman | Done |
-| US01 | Comunicación en conversaciones cotidianas | T04 | Desarrollo del módulo de salida de audio | Crear la funcionalidad que convierte el texto a voz para reproducir el mensaje | 6 horas | Frank Salazar | Done |
-| US02 | Expresión en entornos públicos | T05 | Optimización de los sensores para uso en espacios públicos | Ajustar la sensibilidad de los sensores para funcionar en entornos con mayor ruido y movimiento | 6 horas | Alvaro Crispin | Done |
-| US02 | Expresión en entornos públicos | T06 | Desarrollo de vocabulario extendido para entornos públicos | Ampliar la base de señas reconocidas para incluir expresiones comunes en tiendas, transporte, etc. | 8 horas | Jorge Orrego | Done |
-| US02 | Expresión en entornos públicos | T07 | Implementación de aumento de volumen adaptativo | Desarrollar funcionalidad que ajuste el volumen de salida según el ruido ambiental | 5 horas | Jesús Godoy | Done |
-| US06 | Comunicación en emergencias | T08 | Implementación de gestos de emergencia | Desarrollar reconocimiento de señas específicas para situaciones de emergencia | 8 horas | Miguel Huaman | Done |
-| US06 | Comunicación en emergencias | T09 | Desarrollo de notificaciones prioritarias | Crear sistema que priorice y amplifique mensajes identificados como emergencias | 6 horas | Frank Salazar | Done |
-| US06 | Comunicación en emergencias | T10 | Integración con sistema de alerta de emergencia | Implementar la funcionalidad que permite enviar alertas a contactos predefinidos | 10 horas | Jesús Godoy | Done |
-| US05 | Comprensión por parte del entorno | T11 | Desarrollo de interfaz visual auxiliar | Crear pantalla complementaria que muestre el texto traducido para reforzar la comunicación | 8 horas | Alvaro Crispin | Done |
-| US05 | Comprensión por parte del entorno | T12 | Implementación de feedback visual para el usuario | Desarrollar sistema de luces o vibraciones que indiquen al usuario si su mensaje fue procesado correctamente | 5 horas | Jorge Orrego | Done |
-| US05 | Comprensión por parte del entorno | T13 | Pruebas de usabilidad con usuarios sin conocimiento de señas | Realizar pruebas con personas sin experiencia en lengua de señas para validar la claridad de la comunicación | 4 horas |  Frank Salazar | Done |
+| US10 | Comprensión rápida de estudiantes | T14 | Diseño del circuito del guante con ESP32 S3 | Crear el diseño del circuito principal utilizando ESP32 S3 como microcontrolador principal | 10 horas | Jesús Godoy | Done |
+| US10 | Comprensión rápida de estudiantes | T15 | Implementación de sensores flexibles en dedos | Instalar y configurar sensores flexibles en cada dedo del guante para capturar movimientos | 8 horas | Alvaro Crispin | Done |
+| US10 | Comprensión rápida de estudiantes | T16 | Configuración del multiplexor para lectura de sensores | Implementar multiplexor para leer múltiples sensores con un solo microcontrolador | 6 horas | Frank Salazar | Done |
+| US11 | Participación en clases regulares | T17 | Desarrollo de tarjeta perforada para conexiones | Crear la tarjeta perforada que servirá como base para las conexiones del circuito | 8 horas | Jesús Godoy | Done |
+| US11 | Participación en clases regulares | T18 | Programación del ESP32 para procesamiento de señas | Desarrollar el código principal que procese las señales de los sensores y reconozca patrones | 12 horas | Jorge Orrego | Done |
+| US11 | Participación en clases regulares | T19 | Integración del sistema de alimentación | Implementar el sistema de batería y regulación de voltaje para el guante | 6 horas | Miguel Huaman | Done |
+| US14 | Identificación de dudas en clase | T20 | Calibración de sensores para precisión | Calibrar cada sensor flexible para obtener lecturas precisas de movimientos | 10 horas | Alvaro Crispin | Done |
+| US14 | Identificación de dudas en clase | T21 | Implementación de comunicación inalámbrica | Configurar WiFi/Bluetooth en ESP32 para comunicación con dispositivos externos | 8 horas | Frank Salazar | Done |
+| US13 | Prevención de frustraciones en clase | T22 | Desarrollo de algoritmo de filtrado de señales | Crear algoritmo que filtre ruido y mejore la precisión de reconocimiento | 10 horas | Jorge Orrego | Done |
+| US13 | Prevención de frustraciones en clase | T23 | Integración con aplicación móvil | Conectar el guante físico con la aplicación móvil desarrollada en sprints anteriores | 8 horas | Miguel Huaman | Done |
+| US03 | Socialización con nuevas personas | T24 | Pruebas de resistencia y durabilidad | Realizar pruebas de resistencia del guante en diferentes condiciones de uso | 6 horas | Alvaro Crispin | Done |
+| US03 | Socialización con nuevas personas | T25 | Optimización de consumo energético | Optimizar el código y hardware para maximizar la duración de la batería | 8 horas | Jesús Godoy | Done |
+| US04 | Autonomía en trámites administrativos | T26 | Desarrollo de interfaz de configuración | Crear interfaz que permita al usuario configurar sensibilidad y parámetros del guante | 7 horas | Miguel Huaman | Done |
+| US04 | Autonomía en trámites administrativos | T27 | Integración final y pruebas del sistema completo | Integrar todos los componentes y realizar pruebas completas del sistema | 12 horas | Todo el equipo | Done |
+
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
