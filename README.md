@@ -2829,6 +2829,9 @@ Se realizaron pruebas de traducción a partir de los datos capturados por los se
 
 ![image](/Assets/testing_translation.jpeg)
 
+![image](/Assets/swaggerTest.jpg)
+
+
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
 **Vista de desarrollo de la Mobile App:**
@@ -2890,6 +2893,10 @@ Se desplegó el frontend con Vercel
 ![image](/Assets/frontendDeployed.png)
 
 **Enlace del frontend:** https://front-end-phi-liart-90.vercel.app/
+
+Se desplegó el backend con Render 
+
+![image](/Assets/backendDeploy.jpg)
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
